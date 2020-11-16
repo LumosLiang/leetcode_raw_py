@@ -24,3 +24,4 @@
 |160|[ Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)|[Python3](./solutions/160.%20Intersection%20of%20Two%20Linked%20Lists.py)|172 ms|
 |167|[ Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)|[Python3](./solutions/167.%20Two%20Sum%20II%20-%20Input%20array%20is%20sorted.py)|52 ms|
 |169|[ Majority Element](https://leetcode.com/problems/majority-element/)|[Python3](./solutions/169.%20Majority%20Element.py)|248 ms|
+|189|[ Rotate Array](https://leetcode.com/problems/rotate-array/)|[Python3](./solutions/189.%20Rotate%20Array.py)|132 ms|
