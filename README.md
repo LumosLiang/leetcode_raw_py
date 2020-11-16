@@ -68,3 +68,4 @@
 |804|[ Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words/)|[Python3](./solutions/804.%20Unique%20Morse%20Code%20Words.py)|20 ms|
 |807|[ Max Increase to Keep City Skyline](https://leetcode.com/problems/max-increase-to-keep-city-skyline/)|[Python3](./solutions/807.%20Max%20Increase%20to%20Keep%20City%20Skyline.py)|68 ms|
 |817|[ Linked List Components](https://leetcode.com/problems/linked-list-components/)|[Python3](./solutions/817.%20Linked%20List%20Components.py)|104 ms|
+|832|[ Flipping an Image](https://leetcode.com/problems/flipping-an-image/)|[Python3](./solutions/832.%20Flipping%20an%20Image.py)|32 ms|
