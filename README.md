@@ -64,3 +64,4 @@
 |709|[ To Lower Case](https://leetcode.com/problems/to-lower-case/)|[Python3](./solutions/709.%20To%20Lower%20Case.py)|16 ms|
 |763|[ Partition Labels](https://leetcode.com/problems/partition-labels/)|[Python3](./solutions/763.%20Partition%20Labels.py)|36 ms|
 |771|[ Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/)|[Python3](./solutions/771.%20Jewels%20and%20Stones.py)|24 ms|
+|804|[ Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words/)|[Python3](./solutions/804.%20Unique%20Morse%20Code%20Words.py)|20 ms|
