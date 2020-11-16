@@ -41,3 +41,4 @@
 |404|[ Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves/)|[Python3](./solutions/404.%20Sum%20of%20Left%20Leaves.py)|32 ms|
 |409|[ Longest Palindrome](https://leetcode.com/problems/longest-palindrome/)|[Python3](./solutions/409.%20Longest%20Palindrome.py)|24 ms|
 |414|[ Third Maximum Number](https://leetcode.com/problems/third-maximum-number/)|[Python3](./solutions/414.%20Third%20Maximum%20Number.py)|80 ms|
+|429|[ N-ary Tree Level Order Traversal](https://leetcode.com/problems/n-ary-tree-level-order-traversal/)|[Python3](./solutions/429.%20N-ary%20Tree%20Level%20Order%20Traversal.py)|48 ms|
