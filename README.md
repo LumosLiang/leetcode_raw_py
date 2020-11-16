@@ -74,3 +74,4 @@
 |884|[ Uncommon Words from Two Sentences](https://leetcode.com/problems/uncommon-words-from-two-sentences/)|[Python3](./solutions/884.%20Uncommon%20Words%20from%20Two%20Sentences.py)|32 ms|
 |896|[ Monotonic Array](https://leetcode.com/problems/monotonic-array/)|[Python3](./solutions/896.%20Monotonic%20Array.py)|596 ms|
 |905|[ Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity/)|[Python3](./solutions/905.%20Sort%20Array%20By%20Parity.py)|56 ms|
+|922|[ Sort Array By Parity II](https://leetcode.com/problems/sort-array-by-parity-ii/)|[Python3](./solutions/922.%20Sort%20Array%20By%20Parity%20II.py)|212 ms|
