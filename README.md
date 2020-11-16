@@ -23,6 +23,7 @@
 |102|[ Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)|[Python3](./solutions/102.%20Binary%20Tree%20Level%20Order%20Traversal.py)|32 ms|
 |104|[ Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)|[Python3](./solutions/104.%20Maximum%20Depth%20of%20Binary%20Tree.py)|40 ms|
 |108|[ Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)|[Python3](./solutions/108.%20Convert%20Sorted%20Array%20to%20Binary%20Search%20Tree.py)|60 ms|
+|111|[ Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/)|[Python3](./solutions/111.%20Minimum%20Depth%20of%20Binary%20Tree.py)|32 ms|
 |112|[ Path Sum](https://leetcode.com/problems/path-sum/)|[Python3](./solutions/112.%20Path%20Sum.py)|44 ms|
 |113|[ Path Sum II](https://leetcode.com/problems/path-sum-ii/)|[Python3](./solutions/113.%20Path%20Sum%20II.py)|48 ms|
 |118|[ Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)|[Python3](./solutions/118.%20Pascal's%20Triangle.py)|32 ms|
