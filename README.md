@@ -60,3 +60,4 @@
 |657|[ Robot Return to Origin](https://leetcode.com/problems/robot-return-to-origin/)|[Python3](./solutions/657.%20Robot%20Return%20to%20Origin.py)|108 ms|
 |671|[ Second Minimum Node In a Binary Tree](https://leetcode.com/problems/second-minimum-node-in-a-binary-tree/)|[Python3](./solutions/671.%20Second%20Minimum%20Node%20In%20a%20Binary%20Tree.py)|28 ms|
 |690|[ Employee Importance](https://leetcode.com/problems/employee-importance/)|[Python3](./solutions/690.%20Employee%20Importance.py)|152 ms|
+|700|[ Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/)|[Python3](./solutions/700.%20Search%20in%20a%20Binary%20Search%20Tree.py)|76 ms|
