@@ -43,3 +43,4 @@
 |414|[ Third Maximum Number](https://leetcode.com/problems/third-maximum-number/)|[Python3](./solutions/414.%20Third%20Maximum%20Number.py)|80 ms|
 |429|[ N-ary Tree Level Order Traversal](https://leetcode.com/problems/n-ary-tree-level-order-traversal/)|[Python3](./solutions/429.%20N-ary%20Tree%20Level%20Order%20Traversal.py)|48 ms|
 |448|[ Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)|[Python3](./solutions/448.%20Find%20All%20Numbers%20Disappeared%20in%20an%20Array.py)|452 ms|
+|461|[ Hamming Distance](https://leetcode.com/problems/hamming-distance/)|[Python3](./solutions/461.%20Hamming%20Distance.py)|16 ms|
