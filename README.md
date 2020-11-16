@@ -82,3 +82,4 @@
 |1290|[ Convert Binary Number in a Linked List to Integer](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/)|[Python3](./solutions/1290.%20Convert%20Binary%20Number%20in%20a%20Linked%20List%20to%20Integer.py)|20 ms|
 |1302|[ Deepest Leaves Sum](https://leetcode.com/problems/deepest-leaves-sum/)|[Python3](./solutions/1302.%20Deepest%20Leaves%20Sum.py)|84 ms|
 |1337|[ The K Weakest Rows in a Matrix](https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix/)|[Python3](./solutions/1337.%20The%20K%20Weakest%20Rows%20in%20a%20Matrix.py)|172 ms|
+|1351|[ Count Negative Numbers in a Sorted Matrix](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/)|[Python3](./solutions/1351.%20Count%20Negative%20Numbers%20in%20a%20Sorted%20Matrix.py)|124 ms|
