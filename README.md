@@ -10,6 +10,7 @@
 |26|[ Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)|[Python3](./solutions/26.%20Remove%20Duplicates%20from%20Sorted%20Array.py)|140 ms|
 |27|[ Remove Element](https://leetcode.com/problems/remove-element/)|[Python3](./solutions/27.%20Remove%20Element.py)|36 ms|
 |35|[ Search Insert Position](https://leetcode.com/problems/search-insert-position/)|[Python3](./solutions/35.%20Search%20Insert%20Position.py)|52 ms|
+|46|[ Permutations](https://leetcode.com/problems/permutations/)|[Python3](./solutions/46.%20Permutations.py)|36 ms|
 |78|[ Subsets](https://leetcode.com/problems/subsets/)|[Python3](./solutions/78.%20Subsets.py)|36 ms|
 |83|[ Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)|[Python3](./solutions/83.%20Remove%20Duplicates%20from%20Sorted%20List.py)|40 ms|
 |112|[ Path Sum](https://leetcode.com/problems/path-sum/)|[Python3](./solutions/112.%20Path%20Sum.py)|44 ms|
