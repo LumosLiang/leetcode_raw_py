@@ -50,3 +50,4 @@
 |509|[ Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)|[Python3](./solutions/509.%20Fibonacci%20Number.py)|1220 ms|
 |538|[ Convert BST to Greater Tree](https://leetcode.com/problems/convert-bst-to-greater-tree/)|[Python3](./solutions/538.%20Convert%20BST%20to%20Greater%20Tree.py)|80 ms|
 |542|[ 01 Matrix](https://leetcode.com/problems/01-matrix/)|[Python3](./solutions/542.%2001%20Matrix.py)|812 ms|
+|559|[ Maximum Depth of N-ary Tree](https://leetcode.com/problems/maximum-depth-of-n-ary-tree/)|[Python3](./solutions/559.%20Maximum%20Depth%20of%20N-ary%20Tree.py)|44 ms|
