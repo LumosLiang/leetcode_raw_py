@@ -69,3 +69,4 @@
 |807|[ Max Increase to Keep City Skyline](https://leetcode.com/problems/max-increase-to-keep-city-skyline/)|[Python3](./solutions/807.%20Max%20Increase%20to%20Keep%20City%20Skyline.py)|68 ms|
 |817|[ Linked List Components](https://leetcode.com/problems/linked-list-components/)|[Python3](./solutions/817.%20Linked%20List%20Components.py)|104 ms|
 |832|[ Flipping an Image](https://leetcode.com/problems/flipping-an-image/)|[Python3](./solutions/832.%20Flipping%20an%20Image.py)|32 ms|
+|852|[ Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/)|[Python3](./solutions/852.%20Peak%20Index%20in%20a%20Mountain%20Array.py)|136 ms|
