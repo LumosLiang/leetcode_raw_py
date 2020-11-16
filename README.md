@@ -29,3 +29,4 @@
 |206|[ Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)|[Python3](./solutions/206.%20Reverse%20Linked%20List.py)|36 ms|
 |217|[ Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)|[Python3](./solutions/217.%20Contains%20Duplicate.py)|128 ms|
 |219|[ Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/)|[Python3](./solutions/219.%20Contains%20Duplicate%20II.py)|96 ms|
+|230|[ Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)|[Python3](./solutions/230.%20Kth%20Smallest%20Element%20in%20a%20BST.py)|52 ms|
