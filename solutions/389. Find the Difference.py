@@ -1,9 +1,10 @@
 class Solution:
     def findTheDifference(self, s: str, t: str) -> str:
         
-        # XOR
+        res = 0
+        for i in s+t:
+            res ^= ord(i)
         
-        ans = 0
-        for i in s + t:
-            ans ^= ord(i)
-        return chr(ans)
+        return chr(res)
+        
+        
