@@ -14,6 +14,7 @@
 |35|[ Search Insert Position](https://leetcode.com/problems/search-insert-position/)|[Python3](./solutions/35.%20Search%20Insert%20Position.py)|44 ms|
 |46|[ Permutations](https://leetcode.com/problems/permutations/)|[Python3](./solutions/46.%20Permutations.py)|36 ms|
 |47|[ Permutations II](https://leetcode.com/problems/permutations-ii/)|[Python3](./solutions/47.%20Permutations%20II.py)|60 ms|
+|50|[ Pow(x, n)](https://leetcode.com/problems/powx-n/)|[Python3](./solutions/50.%20Pow(x%2C%20n).py)|N/A|
 |53|[ Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|[Python3](./solutions/53.%20Maximum%20Subarray.py)|116 ms|
 |66|[ Plus One](https://leetcode.com/problems/plus-one/)|[Python3](./solutions/66.%20Plus%20One.py)|24 ms|
 |77|[ Combinations](https://leetcode.com/problems/combinations/)|[Python3](./solutions/77.%20Combinations.py)|728 ms|
