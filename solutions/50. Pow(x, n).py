@@ -4,10 +4,14 @@ class Solution:
         if n == 0: return 1
         if n == 1: return x
         if n == -1: return 1/x
-    
-        if n > 1:
-            return self.myPow(x, n // 2) * self.myPow(x, n - n // 2)
-        if n < -1:
-            return self.myPow(x, n // 2) * self.myPow(x, n - n // 2)
+        
+        base = 0
+        
+        if n % 2 == 0:
+            base = self.myPow(x, n / 2) 
+            return base * base
+        else:
+            base = self.myPow(x, (n - 1) / 2)
+            return x * base * base
         
         
