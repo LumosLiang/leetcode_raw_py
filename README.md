@@ -62,6 +62,7 @@
 |217|[ Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)|[Python3](./solutions/217.%20Contains%20Duplicate.py)|128 ms|
 |219|[ Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/)|[Python3](./solutions/219.%20Contains%20Duplicate%20II.py)|96 ms|
 |230|[ Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)|[Python3](./solutions/230.%20Kth%20Smallest%20Element%20in%20a%20BST.py)|52 ms|
+|231|[ Power of Two](https://leetcode.com/problems/power-of-two/)|[Python3](./solutions/231.%20Power%20of%20Two.py)|24 ms|
 |234|[ Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)|[Python3](./solutions/234.%20Palindrome%20Linked%20List.py)|72 ms|
 |237|[ Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/)|[Python3](./solutions/237.%20Delete%20Node%20in%20a%20Linked%20List.py)|64 ms|
 |257|[ Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/)|[Python3](./solutions/257.%20Binary%20Tree%20Paths.py)|28 ms|
