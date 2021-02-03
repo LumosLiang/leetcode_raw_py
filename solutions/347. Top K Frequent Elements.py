@@ -1,13 +1,14 @@
 from collections import Counter
-class Solution(object):
-    def topKFrequent(self, nums, k):
-        """
-        :type nums: List[int]
-        :type k: int
-        :rtype: List[int]
-        """
-        counter = Counter(nums)
-        key = []
-        for c,v in counter.most_common():
-            key.append(c)
-        return key[:k]
+import heapq
+​
+class Solution:
+    def topKFrequent(self, nums, k):
+        res = []
+        dict_nums = Counter(nums)
+        
+        maxheap = [(-val, key) for key, val in dict_nums.items()]
+        heapq.heapify(maxheap)
+​
+        for _ in range(k):
+            res.append(heapq.heappop(maxheap)[1])
+        return res
