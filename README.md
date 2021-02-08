@@ -119,7 +119,7 @@
 |690|[ Employee Importance](https://leetcode.com/problems/employee-importance/)|[Python3](./solutions/690.%20Employee%20Importance.py)|152 ms|
 |692|[ Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/)|[Python3](./solutions/692.%20Top%20K%20Frequent%20Words.py)|48 ms|
 |700|[ Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/)|[Python3](./solutions/700.%20Search%20in%20a%20Binary%20Search%20Tree.py)|72 ms|
-|701|[ Insert into a Binary Search Tree](https://leetcode.com/problems/insert-into-a-binary-search-tree/)|[Python3](./solutions/701.%20Insert%20into%20a%20Binary%20Search%20Tree.py)|140 ms|
+|701|[ Insert into a Binary Search Tree](https://leetcode.com/problems/insert-into-a-binary-search-tree/)|[Python3](./solutions/701.%20Insert%20into%20a%20Binary%20Search%20Tree.py)|128 ms|
 |704|[ Binary Search](https://leetcode.com/problems/binary-search/)|[Python3](./solutions/704.%20Binary%20Search.py)|228 ms|
 |709|[ To Lower Case](https://leetcode.com/problems/to-lower-case/)|[Python3](./solutions/709.%20To%20Lower%20Case.py)|16 ms|
 |739|[ Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)|[Python3](./solutions/739.%20Daily%20Temperatures.py)|528 ms|
