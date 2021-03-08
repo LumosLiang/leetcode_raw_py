@@ -20,6 +20,7 @@
 |47|[ Permutations II](https://leetcode.com/problems/permutations-ii/)|[Python3](./solutions/47.%20Permutations%20II.py)|60 ms|
 |50|[ Pow(x, n)](https://leetcode.com/problems/powx-n/)|[Python3](./solutions/50.%20Pow(x%2C%20n).py)|24 ms|
 |53|[ Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|[Python3](./solutions/53.%20Maximum%20Subarray.py)|116 ms|
+|56|[ Merge Intervals](https://leetcode.com/problems/merge-intervals/)|[Python3](./solutions/56.%20Merge%20Intervals.py)|72 ms|
 |66|[ Plus One](https://leetcode.com/problems/plus-one/)|[Python3](./solutions/66.%20Plus%20One.py)|24 ms|
 |76|[ Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)|[Python3](./solutions/76.%20Minimum%20Window%20Substring.py)|128 ms|
 |77|[ Combinations](https://leetcode.com/problems/combinations/)|[Python3](./solutions/77.%20Combinations.py)|728 ms|
