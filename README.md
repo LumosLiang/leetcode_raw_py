@@ -155,6 +155,7 @@
 |977|[ Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)|[Python3](./solutions/977.%20Squares%20of%20a%20Sorted%20Array.py)|184 ms|
 |993|[ Cousins in Binary Tree](https://leetcode.com/problems/cousins-in-binary-tree/)|[Python3](./solutions/993.%20Cousins%20in%20Binary%20Tree.py)|28 ms|
 |1008|[ Construct Binary Search Tree from Preorder Traversal](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/)|[Python3](./solutions/1008.%20Construct%20Binary%20Search%20Tree%20from%20Preorder%20Traversal.py)|40 ms|
+|1011|[ Capacity To Ship Packages Within D Days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/)|[Python3](./solutions/1011.%20Capacity%20To%20Ship%20Packages%20Within%20D%20Days.py)|560 ms|
 |1019|[ Next Greater Node In Linked List](https://leetcode.com/problems/next-greater-node-in-linked-list/)|[Python3](./solutions/1019.%20Next%20Greater%20Node%20In%20Linked%20List.py)|312 ms|
 |1038|[ Binary Search Tree to Greater Sum Tree](https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree/)|[Python3](./solutions/1038.%20Binary%20Search%20Tree%20to%20Greater%20Sum%20Tree.py)|32 ms|
 |1079|[ Letter Tile Possibilities](https://leetcode.com/problems/letter-tile-possibilities/)|[Python3](./solutions/1079.%20Letter%20Tile%20Possibilities.py)|120 ms|
