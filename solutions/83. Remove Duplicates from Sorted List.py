@@ -6,3 +6,15 @@
 class Solution:
     def deleteDuplicates(self, head: ListNode) -> ListNode:
         
+        if head is None:return None
+        
+        slow = fast = head
+        
+        while fast:
+            if fast.val != slow.val:
+                slow.next = fast
+                slow = slow.next
+            fast = fast.next
+        slow.next = None
+        return head
+        
