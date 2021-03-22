@@ -1,14 +1,17 @@
 class Solution:
     def nextLargerNodes(self, head):
-        pos = 0
-        stack, res = [],[]
-​
+        
+        lst = []
         while head:
-            while stack and stack[-1][1] < head.val:
-                res[stack.pop()[0]] = head.val
-            res.append(0)
-            stack.append([pos, head.val])
+            lst.append(head.val)
             head = head.next
-            pos += 1
             
+        s, res = [],[0] * len(lst)
+        
+        for i in range(len(lst) - 1, -1, -1):
+            while s and s[-1] <= lst[i]:
+                s.pop()
+            if s: res[i] = s[-1]
+            s.append(lst[i])
+        
         return res   
