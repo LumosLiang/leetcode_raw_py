@@ -104,6 +104,7 @@
 |449|[ Serialize and Deserialize BST](https://leetcode.com/problems/serialize-and-deserialize-bst/)|[Python3](./solutions/449.%20Serialize%20and%20Deserialize%20BST.py)|72 ms|
 |450|[ Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst/)|[Python3](./solutions/450.%20Delete%20Node%20in%20a%20BST.py)|88 ms|
 |451|[ Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/)|[Python3](./solutions/451.%20Sort%20Characters%20By%20Frequency.py)|60 ms|
+|456|[ 132 Pattern](https://leetcode.com/problems/132-pattern/)|[Python3](./solutions/456.%20132%20Pattern.py)|88 ms|
 |461|[ Hamming Distance](https://leetcode.com/problems/hamming-distance/)|[Python3](./solutions/461.%20Hamming%20Distance.py)|16 ms|
 |485|[ Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/)|[Python3](./solutions/485.%20Max%20Consecutive%20Ones.py)|440 ms|
 |496|[ Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/)|[Python3](./solutions/496.%20Next%20Greater%20Element%20I.py)|44 ms|
