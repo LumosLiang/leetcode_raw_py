@@ -2,7 +2,7 @@
 
 | # | Title | Solution | Runtime |
 |---| ----- | -------- | ------- |
-|1|[ Two Sum](https://leetcode.com/problems/two-sum/)|[Python3](./solutions/1.%20Two%20Sum.py)|48 ms|
+|1|[ Two Sum](https://leetcode.com/problems/two-sum/)|[Python3](./solutions/1.%20Two%20Sum.py)|N/A|
 |2|[ Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)|[Python3](./solutions/2.%20Add%20Two%20Numbers.py)|60 ms|
 |9|[ Palindrome Number](https://leetcode.com/problems/palindrome-number/)|[Python3](./solutions/9.%20Palindrome%20Number.py)|72 ms|
 |11|[ Container With Most Water](https://leetcode.com/problems/container-with-most-water/)|[Python3](./solutions/11.%20Container%20With%20Most%20Water.py)|N/A|
