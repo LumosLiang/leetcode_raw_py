@@ -1,14 +1,21 @@
-class Solution(object):
+import collections
+class Solution:
     def twoSum(self, nums, target):
-        if len(nums) <= 1:
-            return False
+        dit = {}
+        for k,v in enumerate(nums):
+            dit[v] = k
+        dit = collections.OrderedDict(sorted(dit.items()))
+        nums.sort()
         
-        buff_dict = {}
-        for i in range(len(nums)):
-            if nums[i] in buff_dict:
-                return [buff_dict[nums[i]], i]
+        l, r = 0, len(nums) - 1
+        while l < r:
+            s = nums[l] + nums[r]
+            if s == target:
+                return [dit[nums[l]], dit[nums[r]]]
+            elif s < target:
+                l += 1
             else:
-                buff_dict[target - nums[i]] = i
-                print(buff_dict)
-                
+                r -= 1
         
+        return None
+​
