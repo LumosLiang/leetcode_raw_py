@@ -1,9 +1,13 @@
 class Solution:
-    def nextGreaterElements(self, A):
-        stack, res = [], [-1] * len(A)
-        for i in range(len(A)) * 2:
-            while stack and (A[stack[-1]] < A[i]):
-                res[stack.pop()] = A[i]
-            stack.append(i)
+    def nextGreaterElements(self, nums):
+        s = []
+        size = len(nums)
+        res = [-1] * size
+​
+        for i in range(2 * size - 1, -1, -1):
+            while s and s[-1] <= nums[i % size]:
+                s.pop()
+            if s: res[i % size] = s[-1]
+            s.append(nums[i % size])
+​
         return res
-    
