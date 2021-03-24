@@ -110,6 +110,7 @@
 |373|[ Find K Pairs with Smallest Sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/)|[Python3](./solutions/373.%20Find%20K%20Pairs%20with%20Smallest%20Sums.py)|944 ms|
 |378|[ Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/)|[Python3](./solutions/378.%20Kth%20Smallest%20Element%20in%20a%20Sorted%20Matrix.py)|232 ms|
 |389|[ Find the Difference](https://leetcode.com/problems/find-the-difference/)|[Python3](./solutions/389.%20Find%20the%20Difference.py)|36 ms|
+|395|[ Longest Substring with At Least K Repeating Characters](https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/)|[Python3](./solutions/395.%20Longest%20Substring%20with%20At%20Least%20K%20Repeating%20Characters.py)|52 ms|
 |404|[ Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves/)|[Python3](./solutions/404.%20Sum%20of%20Left%20Leaves.py)|32 ms|
 |409|[ Longest Palindrome](https://leetcode.com/problems/longest-palindrome/)|[Python3](./solutions/409.%20Longest%20Palindrome.py)|24 ms|
 |412|[ Fizz Buzz](https://leetcode.com/problems/fizz-buzz/)|[Python3](./solutions/412.%20Fizz%20Buzz.py)|36 ms|
