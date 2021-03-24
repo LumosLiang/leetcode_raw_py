@@ -28,6 +28,7 @@
 |53|[ Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|[Python3](./solutions/53.%20Maximum%20Subarray.py)|116 ms|
 |56|[ Merge Intervals](https://leetcode.com/problems/merge-intervals/)|[Python3](./solutions/56.%20Merge%20Intervals.py)|72 ms|
 |66|[ Plus One](https://leetcode.com/problems/plus-one/)|[Python3](./solutions/66.%20Plus%20One.py)|24 ms|
+|74|[ Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)|[Python3](./solutions/74.%20Search%20a%202D%20Matrix.py)|40 ms|
 |75|[ Sort Colors](https://leetcode.com/problems/sort-colors/)|[Python3](./solutions/75.%20Sort%20Colors.py)|32 ms|
 |76|[ Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)|[Python3](./solutions/76.%20Minimum%20Window%20Substring.py)|128 ms|
 |77|[ Combinations](https://leetcode.com/problems/combinations/)|[Python3](./solutions/77.%20Combinations.py)|728 ms|
