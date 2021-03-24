@@ -93,6 +93,7 @@
 |236|[ Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)|[Python3](./solutions/236.%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree.py)|72 ms|
 |237|[ Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/)|[Python3](./solutions/237.%20Delete%20Node%20in%20a%20Linked%20List.py)|64 ms|
 |240|[ Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/)|[Python3](./solutions/240.%20Search%20a%202D%20Matrix%20II.py)|168 ms|
+|242|[ Valid Anagram](https://leetcode.com/problems/valid-anagram/)|[Python3](./solutions/242.%20Valid%20Anagram.py)|44 ms|
 |257|[ Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/)|[Python3](./solutions/257.%20Binary%20Tree%20Paths.py)|28 ms|
 |260|[ Single Number III](https://leetcode.com/problems/single-number-iii/)|[Python3](./solutions/260.%20Single%20Number%20III.py)|60 ms|
 |268|[ Missing Number](https://leetcode.com/problems/missing-number/)|[Python3](./solutions/268.%20Missing%20Number.py)|140 ms|
