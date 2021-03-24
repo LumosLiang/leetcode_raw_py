@@ -33,6 +33,7 @@
 |76|[ Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)|[Python3](./solutions/76.%20Minimum%20Window%20Substring.py)|128 ms|
 |77|[ Combinations](https://leetcode.com/problems/combinations/)|[Python3](./solutions/77.%20Combinations.py)|728 ms|
 |78|[ Subsets](https://leetcode.com/problems/subsets/)|[Python3](./solutions/78.%20Subsets.py)|36 ms|
+|79|[ Word Search](https://leetcode.com/problems/word-search/)|[Python3](./solutions/79.%20Word%20Search.py)|4280 ms|
 |81|[ Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/)|[Python3](./solutions/81.%20Search%20in%20Rotated%20Sorted%20Array%20II.py)|48 ms|
 |82|[ Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)|[Python3](./solutions/82.%20Remove%20Duplicates%20from%20Sorted%20List%20II.py)|44 ms|
 |83|[ Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)|[Python3](./solutions/83.%20Remove%20Duplicates%20from%20Sorted%20List.py)|44 ms|
