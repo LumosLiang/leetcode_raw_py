@@ -1,14 +1,17 @@
 class Solution:
     def maxOperations(self, nums: List[int], k: int) -> int:
-        count = 0
-        hash = {}
+        count, left, right = 0, 0, len(nums) - 1
+        nums.sort()
         
-        for n in nums:
-            if n in hash and hash[n] == 1: 
+        while left < right:
+            s = nums[left] + nums[right]
+            if s == k:
                 count += 1
-                hash[n] += 1
-            else: 
-                hash[k - n] = 1
-        
+                left += 1
+                right -= 1
+            elif s < k:
+                left += 1
+            else:
+                right -= 1
         return count
                 
