@@ -104,6 +104,7 @@
 |287|[ Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)|[Python3](./solutions/287.%20Find%20the%20Duplicate%20Number.py)|64 ms|
 |292|[ Nim Game](https://leetcode.com/problems/nim-game/)|[Java](./solutions/292.%20Nim%20Game.java)|0 ms|
 |297|[ Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)|[Python3](./solutions/297.%20Serialize%20and%20Deserialize%20Binary%20Tree.py)|292 ms|
+|326|[ Power of Three](https://leetcode.com/problems/power-of-three/)|[Python3](./solutions/326.%20Power%20of%20Three.py)|84 ms|
 |328|[ Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/)|[Python3](./solutions/328.%20Odd%20Even%20Linked%20List.py)|44 ms|
 |331|[ Verify Preorder Serialization of a Binary Tree](https://leetcode.com/problems/verify-preorder-serialization-of-a-binary-tree/)|[Python3](./solutions/331.%20Verify%20Preorder%20Serialization%20of%20a%20Binary%20Tree.py)|48 ms|
 |342|[ Power of Four](https://leetcode.com/problems/power-of-four/)|[Python3](./solutions/342.%20Power%20of%20Four.py)|32 ms|
