@@ -146,6 +146,7 @@
 |606|[ Construct String from Binary Tree](https://leetcode.com/problems/construct-string-from-binary-tree/)|[Python3](./solutions/606.%20Construct%20String%20from%20Binary%20Tree.py)|48 ms|
 |617|[ Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/)|[Python3](./solutions/617.%20Merge%20Two%20Binary%20Trees.py)|104 ms|
 |637|[ Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/)|[Python3](./solutions/637.%20Average%20of%20Levels%20in%20Binary%20Tree.py)|52 ms|
+|652|[ Find Duplicate Subtrees](https://leetcode.com/problems/find-duplicate-subtrees/)|[Python3](./solutions/652.%20Find%20Duplicate%20Subtrees.py)|68 ms|
 |653|[ Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/)|[Python3](./solutions/653.%20Two%20Sum%20IV%20-%20Input%20is%20a%20BST.py)|80 ms|
 |654|[ Maximum Binary Tree](https://leetcode.com/problems/maximum-binary-tree/)|[Python3](./solutions/654.%20Maximum%20Binary%20Tree.py)|200 ms|
 |657|[ Robot Return to Origin](https://leetcode.com/problems/robot-return-to-origin/)|[Python3](./solutions/657.%20Robot%20Return%20to%20Origin.py)|108 ms|
