@@ -200,6 +200,7 @@
 |1325|[ Delete Leaves With a Given Value](https://leetcode.com/problems/delete-leaves-with-a-given-value/)|[Python3](./solutions/1325.%20Delete%20Leaves%20With%20a%20Given%20Value.py)|72 ms|
 |1337|[ The K Weakest Rows in a Matrix](https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix/)|[Python3](./solutions/1337.%20The%20K%20Weakest%20Rows%20in%20a%20Matrix.py)|172 ms|
 |1351|[ Count Negative Numbers in a Sorted Matrix](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/)|[Python3](./solutions/1351.%20Count%20Negative%20Numbers%20in%20a%20Sorted%20Matrix.py)|124 ms|
+|1360|[ Number of Days Between Two Dates](https://leetcode.com/problems/number-of-days-between-two-dates/)|[Python3](./solutions/1360.%20Number%20of%20Days%20Between%20Two%20Dates.py)|N/A|
 |1365|[ How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/)|[Python3](./solutions/1365.%20How%20Many%20Numbers%20Are%20Smaller%20Than%20the%20Current%20Number.py)|476 ms|
 |1379|[ Find a Corresponding Node of a Binary Tree in a Clone of That Tree](https://leetcode.com/problems/find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree/)|[Python3](./solutions/1379.%20Find%20a%20Corresponding%20Node%20of%20a%20Binary%20Tree%20in%20a%20Clone%20of%20That%20Tree.py)|776 ms|
 |1448|[ Count Good Nodes in Binary Tree](https://leetcode.com/problems/count-good-nodes-in-binary-tree/)|[Python3](./solutions/1448.%20Count%20Good%20Nodes%20in%20Binary%20Tree.py)|256 ms|
