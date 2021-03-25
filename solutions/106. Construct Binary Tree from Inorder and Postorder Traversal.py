@@ -4,17 +4,24 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
-​
+  
 class Solution:
     def buildTree(self, inorder, postorder):
+        map_inorder = {}
+        for i, val in enumerate(inorder): map_inorder[val] = i
         
-        if postorder == []: return None
-        if len(postorder) == 1: return TreeNode(postorder[0])
-        
-        root_val = postorder[-1]
-        idx = inorder.index(root_val)
-        
-        root = TreeNode(root_val)
-        root.left = self.buildTree(inorder[:idx], postorder[:idx])
-        root.right = self.buildTree(inorder[idx + 1:], postorder[idx:-1])
-        return root
+        def buildT(low, high):    
+            if low > high: return None
+            root = TreeNode(postorder.pop())
+            idx = map_inorder[root.val]
+​
+            
+            root.right = buildT(idx + 1, high)
+            root.left = buildT(low, idx - 1)
+            return root
+            
+        return buildT(0, len(inorder) - 1)
+    
+​
+​
+​
