@@ -1,15 +1,13 @@
-class Solution:
+class Solution(object):
     def findDuplicates(self, nums):
-        
-        res = set()
-        
-        for i in range(len(nums)):
-            while nums[i] != i + 1:
-                temp = nums[i]
-                nums[i], nums[temp - 1] = nums[temp - 1], nums[i]
-                if nums[i] == nums[nums[i] - 1] and i != nums[i] - 1:
-                    res.add(nums[i])
-                    break
-        return list(res)
-​
-    
+        """
+        :type nums: List[int]
+        :rtype: List[int]
+        """
+        res = []
+        for x in nums:
+            if nums[abs(x)-1] < 0:
+                res.append(abs(x))
+            else:
+                nums[abs(x)-1] *= -1
+        return res
