@@ -220,3 +220,4 @@
 |1669|[ Merge In Between Linked Lists](https://leetcode.com/problems/merge-in-between-linked-lists/)|[Python3](./solutions/1669.%20Merge%20In%20Between%20Linked%20Lists.py)|440 ms|
 |1679|[ Max Number of K-Sum Pairs](https://leetcode.com/problems/max-number-of-k-sum-pairs/)|[Python3](./solutions/1679.%20Max%20Number%20of%20K-Sum%20Pairs.py)|644 ms|
 |1721|[ Swapping Nodes in a Linked List](https://leetcode.com/problems/swapping-nodes-in-a-linked-list/)|[Python3](./solutions/1721.%20Swapping%20Nodes%20in%20a%20Linked%20List.py)|1604 ms|
+|1800|[ Maximum Ascending Subarray Sum](https://leetcode.com/problems/maximum-ascending-subarray-sum/)|[Python3](./solutions/1800.%20Maximum%20Ascending%20Subarray%20Sum.py)|36 ms|
