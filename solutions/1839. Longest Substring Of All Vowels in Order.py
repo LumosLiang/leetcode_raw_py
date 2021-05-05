@@ -1,4 +1,4 @@
-zclass Solution:
+class Solution:
     def longestBeautifulSubstring(self, word: str) -> int:
 ​
         l = 0
