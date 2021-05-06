@@ -1,24 +1,32 @@
 class Solution:
-​
-    def nextGreaterElement(self, nums1, nums2):
-        if not nums2:
-            return None
-​
-        mapping = {}
-        result = []
-        stack = []
-        stack.append(nums2[0])
-​
-        for i in range(1, len(nums2)):
-            while stack and nums2[i] > stack[-1]:       # if stack is not empty, then compare it's last element with nums2[i]
-                mapping[stack[-1]] = nums2[i]           # if the new element is greater than stack's top element, then add this to dictionary 
-                stack.pop()                             # since we found a pair for the top element, remove it.
-            stack.append(nums2[i])                      # add the element nums2[i] to the stack because we need to find a number greater than this
-​
-        for element in stack:                           # if there are elements in the stack for which we didn't find a greater number, map them to -1
-            mapping[element] = -1
-​
-        for i in range(len(nums1)):
-            result.append(mapping[nums1[i]])
-        return result
+    def nextGreaterElement(self, nums1: List[int], nums2: List[int]) -> List[int]:
         
+        s = []
+        table = collections.defaultdict()
+        
+        for j in range(len(nums2)-1, -1, -1):
+            while s and s[-1] < nums2[j]:
+                s.pop()
+            if not s: table[nums2[j]] = -1
+            else: table[nums2[j]] = s[-1]
+            s.append(nums2[j])
+        
+        res = []
+        for n in nums1:
+            if n in table: res.append(table[n])
+        return res
+        
+        
+        # 
+        # right to left
+        # compare with lastseen biggest numbers with the curr one
+            # if lastseen > curr, then it is the last one, then put itself into stack.
+            # if lastseen < curr, pop lastseen till we saw a larger one
+            # if stack is empty or we pop the stack till empty, then no greater, set to -1, append it
+        # stack's function:
+            # store the closest(Next) larger number
+            # and store them in the small to large order(top to bottom)
+        
+            
+            
+            
