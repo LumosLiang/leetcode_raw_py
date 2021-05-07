@@ -215,6 +215,7 @@
 |1367|[ Linked List in Binary Tree](https://leetcode.com/problems/linked-list-in-binary-tree/)|[Python3](./solutions/1367.%20Linked%20List%20in%20Binary%20Tree.py)|120 ms|
 |1379|[ Find a Corresponding Node of a Binary Tree in a Clone of That Tree](https://leetcode.com/problems/find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree/)|[Python3](./solutions/1379.%20Find%20a%20Corresponding%20Node%20of%20a%20Binary%20Tree%20in%20a%20Clone%20of%20That%20Tree.py)|776 ms|
 |1448|[ Count Good Nodes in Binary Tree](https://leetcode.com/problems/count-good-nodes-in-binary-tree/)|[Python3](./solutions/1448.%20Count%20Good%20Nodes%20in%20Binary%20Tree.py)|256 ms|
+|1480|[ Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/)|[Python3](./solutions/1480.%20Running%20Sum%20of%201d%20Array.py)|308 ms|
 |1482|[ Minimum Number of Days to Make m Bouquets](https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/)|[Python3](./solutions/1482.%20Minimum%20Number%20of%20Days%20to%20Make%20m%20Bouquets.py)|1392 ms|
 |1512|[ Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs/)|[Python3](./solutions/1512.%20Number%20of%20Good%20Pairs.py)|32 ms|
 |1528|[ Shuffle String](https://leetcode.com/problems/shuffle-string/)|[Python3](./solutions/1528.%20Shuffle%20String.py)|48 ms|
