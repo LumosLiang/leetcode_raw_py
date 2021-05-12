@@ -208,6 +208,7 @@
 |1305|[ All Elements in Two Binary Search Trees](https://leetcode.com/problems/all-elements-in-two-binary-search-trees/)|[Python3](./solutions/1305.%20All%20Elements%20in%20Two%20Binary%20Search%20Trees.py)|332 ms|
 |1315|[ Sum of Nodes with Even-Valued Grandparent](https://leetcode.com/problems/sum-of-nodes-with-even-valued-grandparent/)|[Python3](./solutions/1315.%20Sum%20of%20Nodes%20with%20Even-Valued%20Grandparent.py)|108 ms|
 |1325|[ Delete Leaves With a Given Value](https://leetcode.com/problems/delete-leaves-with-a-given-value/)|[Python3](./solutions/1325.%20Delete%20Leaves%20With%20a%20Given%20Value.py)|72 ms|
+|1329|[ Sort the Matrix Diagonally](https://leetcode.com/problems/sort-the-matrix-diagonally/)|[Python3](./solutions/1329.%20Sort%20the%20Matrix%20Diagonally.py)|76 ms|
 |1337|[ The K Weakest Rows in a Matrix](https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix/)|[Python3](./solutions/1337.%20The%20K%20Weakest%20Rows%20in%20a%20Matrix.py)|172 ms|
 |1351|[ Count Negative Numbers in a Sorted Matrix](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/)|[Python3](./solutions/1351.%20Count%20Negative%20Numbers%20in%20a%20Sorted%20Matrix.py)|124 ms|
 |1360|[ Number of Days Between Two Dates](https://leetcode.com/problems/number-of-days-between-two-dates/)|[Python3](./solutions/1360.%20Number%20of%20Days%20Between%20Two%20Dates.py)|36 ms|
