@@ -180,6 +180,7 @@
 |817|[ Linked List Components](https://leetcode.com/problems/linked-list-components/)|[Python3](./solutions/817.%20Linked%20List%20Components.py)|104 ms|
 |832|[ Flipping an Image](https://leetcode.com/problems/flipping-an-image/)|[Python3](./solutions/832.%20Flipping%20an%20Image.py)|32 ms|
 |852|[ Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/)|[Python3](./solutions/852.%20Peak%20Index%20in%20a%20Mountain%20Array.py)|136 ms|
+|865|[ Smallest Subtree with all the Deepest Nodes](https://leetcode.com/problems/smallest-subtree-with-all-the-deepest-nodes/)|[Python3](./solutions/865.%20Smallest%20Subtree%20with%20all%20the%20Deepest%20Nodes.py)|36 ms|
 |875|[ Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/)|[Python3](./solutions/875.%20Koko%20Eating%20Bananas.py)|452 ms|
 |876|[ Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)|[Python3](./solutions/876.%20Middle%20of%20the%20Linked%20List.py)|16 ms|
 |884|[ Uncommon Words from Two Sentences](https://leetcode.com/problems/uncommon-words-from-two-sentences/)|[Python3](./solutions/884.%20Uncommon%20Words%20from%20Two%20Sentences.py)|32 ms|
