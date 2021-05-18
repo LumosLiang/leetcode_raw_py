@@ -1,12 +1,15 @@
 class Solution:
     def bstFromPreorder(self, preorder: List[int]) -> TreeNode:
         
-        if not preorder: return None
-​
-        root = TreeNode(preorder[0])
-        idx = bisect.bisect(preorder, preorder[0])
-​
-        root.left = self.bstFromPreorder(preorder[1:idx])
-        root.right = self.bstFromPreorder(preorder[idx:]) 
-        return root
-​
+        def helper(l, r):
+            if l == r: return None
+            root = TreeNode(preorder[l])
+            idx = bisect.bisect(preorder, preorder[l], l + 1, r)
+            root.left = helper(l + 1, idx)
+            root.right = helper(idx, r) 
+            return root
+        
+        return helper(0, len(preorder))
+    
+  
+   
