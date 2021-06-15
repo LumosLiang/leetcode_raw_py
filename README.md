@@ -144,6 +144,7 @@
 |513|[ Find Bottom Left Tree Value](https://leetcode.com/problems/find-bottom-left-tree-value/)|[Python3](./solutions/513.%20Find%20Bottom%20Left%20Tree%20Value.py)|40 ms|
 |530|[ Minimum Absolute Difference in BST](https://leetcode.com/problems/minimum-absolute-difference-in-bst/)|[Python3](./solutions/530.%20Minimum%20Absolute%20Difference%20in%20BST.py)|52 ms|
 |538|[ Convert BST to Greater Tree](https://leetcode.com/problems/convert-bst-to-greater-tree/)|[Python3](./solutions/538.%20Convert%20BST%20to%20Greater%20Tree.py)|80 ms|
+|540|[ Single Element in a Sorted Array](https://leetcode.com/problems/single-element-in-a-sorted-array/)|[Python3](./solutions/540.%20Single%20Element%20in%20a%20Sorted%20Array.py)|64 ms|
 |542|[ 01 Matrix](https://leetcode.com/problems/01-matrix/)|[Python3](./solutions/542.%2001%20Matrix.py)|812 ms|
 |559|[ Maximum Depth of N-ary Tree](https://leetcode.com/problems/maximum-depth-of-n-ary-tree/)|[Python3](./solutions/559.%20Maximum%20Depth%20of%20N-ary%20Tree.py)|44 ms|
 |560|[ Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)|[Python3](./solutions/560.%20Subarray%20Sum%20Equals%20K.py)|256 ms|
