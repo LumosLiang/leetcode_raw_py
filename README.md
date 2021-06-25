@@ -129,6 +129,7 @@
 |409|[ Longest Palindrome](https://leetcode.com/problems/longest-palindrome/)|[Python3](./solutions/409.%20Longest%20Palindrome.py)|24 ms|
 |412|[ Fizz Buzz](https://leetcode.com/problems/fizz-buzz/)|[Python3](./solutions/412.%20Fizz%20Buzz.py)|36 ms|
 |414|[ Third Maximum Number](https://leetcode.com/problems/third-maximum-number/)|[Python3](./solutions/414.%20Third%20Maximum%20Number.py)|52 ms|
+|424|[ Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)|[Python3](./solutions/424.%20Longest%20Repeating%20Character%20Replacement.py)|192 ms|
 |429|[ N-ary Tree Level Order Traversal](https://leetcode.com/problems/n-ary-tree-level-order-traversal/)|[Python3](./solutions/429.%20N-ary%20Tree%20Level%20Order%20Traversal.py)|48 ms|
 |437|[ Path Sum III](https://leetcode.com/problems/path-sum-iii/)|[Python3](./solutions/437.%20Path%20Sum%20III.py)|916 ms|
 |442|[ Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/)|[Python3](./solutions/442.%20Find%20All%20Duplicates%20in%20an%20Array.py)|360 ms|
