@@ -146,6 +146,7 @@
 |503|[ Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/)|[Python3](./solutions/503.%20Next%20Greater%20Element%20II.py)|3932 ms|
 |509|[ Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)|[Python3](./solutions/509.%20Fibonacci%20Number.py)|1220 ms|
 |513|[ Find Bottom Left Tree Value](https://leetcode.com/problems/find-bottom-left-tree-value/)|[Python3](./solutions/513.%20Find%20Bottom%20Left%20Tree%20Value.py)|40 ms|
+|515|[ Find Largest Value in Each Tree Row](https://leetcode.com/problems/find-largest-value-in-each-tree-row/)|[Python3](./solutions/515.%20Find%20Largest%20Value%20in%20Each%20Tree%20Row.py)|40 ms|
 |530|[ Minimum Absolute Difference in BST](https://leetcode.com/problems/minimum-absolute-difference-in-bst/)|[Python3](./solutions/530.%20Minimum%20Absolute%20Difference%20in%20BST.py)|52 ms|
 |538|[ Convert BST to Greater Tree](https://leetcode.com/problems/convert-bst-to-greater-tree/)|[Python3](./solutions/538.%20Convert%20BST%20to%20Greater%20Tree.py)|80 ms|
 |540|[ Single Element in a Sorted Array](https://leetcode.com/problems/single-element-in-a-sorted-array/)|[Python3](./solutions/540.%20Single%20Element%20in%20a%20Sorted%20Array.py)|64 ms|
