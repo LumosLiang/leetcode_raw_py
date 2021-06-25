@@ -120,6 +120,7 @@
 |345|[ Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/)|[Python3](./solutions/345.%20Reverse%20Vowels%20of%20a%20String.py)|48 ms|
 |347|[ Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)|[Python3](./solutions/347.%20Top%20K%20Frequent%20Elements.py)|144 ms|
 |349|[ Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/)|[Python3](./solutions/349.%20Intersection%20of%20Two%20Arrays.py)|40 ms|
+|350|[ Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/)|[Python3](./solutions/350.%20Intersection%20of%20Two%20Arrays%20II.py)|44 ms|
 |373|[ Find K Pairs with Smallest Sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/)|[Python3](./solutions/373.%20Find%20K%20Pairs%20with%20Smallest%20Sums.py)|944 ms|
 |378|[ Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/)|[Python3](./solutions/378.%20Kth%20Smallest%20Element%20in%20a%20Sorted%20Matrix.py)|232 ms|
 |389|[ Find the Difference](https://leetcode.com/problems/find-the-difference/)|[Python3](./solutions/389.%20Find%20the%20Difference.py)|36 ms|
