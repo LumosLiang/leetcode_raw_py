@@ -1,5 +1,5 @@
 class Solution:
-    def minWindow(self, s: str, t: str) -> str:
+    def minWindow(self, s: str, t: str) -> str:
         
         left = right = 0
         minlen = float('Inf')
