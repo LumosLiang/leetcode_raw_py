@@ -203,6 +203,7 @@
 |876|[ Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)|[Python3](./solutions/876.%20Middle%20of%20the%20Linked%20List.py)|16 ms|
 |884|[ Uncommon Words from Two Sentences](https://leetcode.com/problems/uncommon-words-from-two-sentences/)|[Python3](./solutions/884.%20Uncommon%20Words%20from%20Two%20Sentences.py)|32 ms|
 |889|[ Construct Binary Tree from Preorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/)|[Python3](./solutions/889.%20Construct%20Binary%20Tree%20from%20Preorder%20and%20Postorder%20Traversal.py)|56 ms|
+|894|[ All Possible Full Binary Trees](https://leetcode.com/problems/all-possible-full-binary-trees/)|[Python3](./solutions/894.%20All%20Possible%20Full%20Binary%20Trees.py)|172 ms|
 |896|[ Monotonic Array](https://leetcode.com/problems/monotonic-array/)|[Python3](./solutions/896.%20Monotonic%20Array.py)|596 ms|
 |905|[ Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity/)|[Python3](./solutions/905.%20Sort%20Array%20By%20Parity.py)|56 ms|
 |922|[ Sort Array By Parity II](https://leetcode.com/problems/sort-array-by-parity-ii/)|[Python3](./solutions/922.%20Sort%20Array%20By%20Parity%20II.py)|212 ms|
