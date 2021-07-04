@@ -207,6 +207,7 @@
 |896|[ Monotonic Array](https://leetcode.com/problems/monotonic-array/)|[Python3](./solutions/896.%20Monotonic%20Array.py)|596 ms|
 |905|[ Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity/)|[Python3](./solutions/905.%20Sort%20Array%20By%20Parity.py)|56 ms|
 |911|[ Online Election](https://leetcode.com/problems/online-election/)|[Python3](./solutions/911.%20Online%20Election.py)|936 ms|
+|912|[ Sort an Array](https://leetcode.com/problems/sort-an-array/)|[Python3](./solutions/912.%20Sort%20an%20Array.py)|272 ms|
 |922|[ Sort Array By Parity II](https://leetcode.com/problems/sort-array-by-parity-ii/)|[Python3](./solutions/922.%20Sort%20Array%20By%20Parity%20II.py)|212 ms|
 |929|[ Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses/)|[Python3](./solutions/929.%20Unique%20Email%20Addresses.py)|52 ms|
 |938|[ Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/)|[Python3](./solutions/938.%20Range%20Sum%20of%20BST.py)|1380 ms|
