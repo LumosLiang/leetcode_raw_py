@@ -43,6 +43,7 @@
 |81|[ Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/)|[Python3](./solutions/81.%20Search%20in%20Rotated%20Sorted%20Array%20II.py)|48 ms|
 |82|[ Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)|[Python3](./solutions/82.%20Remove%20Duplicates%20from%20Sorted%20List%20II.py)|44 ms|
 |83|[ Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)|[Python3](./solutions/83.%20Remove%20Duplicates%20from%20Sorted%20List.py)|44 ms|
+|86|[ Partition List](https://leetcode.com/problems/partition-list/)|[Python3](./solutions/86.%20Partition%20List.py)|44 ms|
 |88|[ Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)|[Python3](./solutions/88.%20Merge%20Sorted%20Array.py)|36 ms|
 |90|[ Subsets II](https://leetcode.com/problems/subsets-ii/)|[Python3](./solutions/90.%20Subsets%20II.py)|36 ms|
 |92|[ Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/)|[Python3](./solutions/92.%20Reverse%20Linked%20List%20II.py)|28 ms|
