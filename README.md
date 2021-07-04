@@ -260,6 +260,7 @@
 |1551|[ Minimum Operations to Make Array Equal](https://leetcode.com/problems/minimum-operations-to-make-array-equal/)|[Python3](./solutions/1551.%20Minimum%20Operations%20to%20Make%20Array%20Equal.py)|32 ms|
 |1603|[ Design Parking System](https://leetcode.com/problems/design-parking-system/)|[Python3](./solutions/1603.%20Design%20Parking%20System.py)|140 ms|
 |1609|[ Even Odd Tree](https://leetcode.com/problems/even-odd-tree/)|[Python3](./solutions/1609.%20Even%20Odd%20Tree.py)|524 ms|
+|1637|[ Widest Vertical Area Between Two Points Containing No Points](https://leetcode.com/problems/widest-vertical-area-between-two-points-containing-no-points/)|[Python3](./solutions/1637.%20Widest%20Vertical%20Area%20Between%20Two%20Points%20Containing%20No%20Points.py)|920 ms|
 |1642|[ Furthest Building You Can Reach](https://leetcode.com/problems/furthest-building-you-can-reach/)|[Python3](./solutions/1642.%20Furthest%20Building%20You%20Can%20Reach.py)|612 ms|
 |1669|[ Merge In Between Linked Lists](https://leetcode.com/problems/merge-in-between-linked-lists/)|[Python3](./solutions/1669.%20Merge%20In%20Between%20Linked%20Lists.py)|440 ms|
 |1679|[ Max Number of K-Sum Pairs](https://leetcode.com/problems/max-number-of-k-sum-pairs/)|[Python3](./solutions/1679.%20Max%20Number%20of%20K-Sum%20Pairs.py)|644 ms|
