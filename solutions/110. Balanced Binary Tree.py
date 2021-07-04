@@ -13,8 +13,12 @@ class Solution:
             
             isBL, LH = helper(root.left)
             isBR, RH = helper(root.right)
-​
-            if abs(LH - RH) <= 1: return [True, max(LH, RH) + 1]
-            else: return [False, max(LH, RH) + 1]
-    
+        
+            if isBL and isBR:
+                if abs(LH - RH) <= 1: return [True, max(LH, RH) + 1]
+                else: return [False, max(LH, RH) + 1]
+            else:
+                return [False, max(LH, RH) + 1]
+        
+        
         return helper(root)[0]
