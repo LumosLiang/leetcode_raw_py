@@ -271,5 +271,6 @@
 |1805|[ Number of Different Integers in a String](https://leetcode.com/problems/number-of-different-integers-in-a-string/)|[Python3](./solutions/1805.%20Number%20of%20Different%20Integers%20in%20a%20String.py)|32 ms|
 |1828|[ Queries on Number of Points Inside a Circle](https://leetcode.com/problems/queries-on-number-of-points-inside-a-circle/)|[Python3](./solutions/1828.%20Queries%20on%20Number%20of%20Points%20Inside%20a%20Circle.py)|2180 ms|
 |1833|[ Maximum Ice Cream Bars](https://leetcode.com/problems/maximum-ice-cream-bars/)|[Python3](./solutions/1833.%20Maximum%20Ice%20Cream%20Bars.py)|796 ms|
+|1837|[ Sum of Digits in Base K](https://leetcode.com/problems/sum-of-digits-in-base-k/)|[Python3](./solutions/1837.%20Sum%20of%20Digits%20in%20Base%20K.py)|28 ms|
 |1839|[ Longest Substring Of All Vowels in Order](https://leetcode.com/problems/longest-substring-of-all-vowels-in-order/)|[Python3](./solutions/1839.%20Longest%20Substring%20Of%20All%20Vowels%20in%20Order.py)|968 ms|
 |1845|[ Seat Reservation Manager](https://leetcode.com/problems/seat-reservation-manager/)|[Python3](./solutions/1845.%20Seat%20Reservation%20Manager.py)|592 ms|
