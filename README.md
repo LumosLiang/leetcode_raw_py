@@ -95,6 +95,7 @@
 |199|[ Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/)|[Python3](./solutions/199.%20Binary%20Tree%20Right%20Side%20View.py)|32 ms|
 |203|[ Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/)|[Python3](./solutions/203.%20Remove%20Linked%20List%20Elements.py)|128 ms|
 |206|[ Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)|[Python3](./solutions/206.%20Reverse%20Linked%20List.py)|48 ms|
+|207|[ Course Schedule](https://leetcode.com/problems/course-schedule/)|[Python3](./solutions/207.%20Course%20Schedule.py)|84 ms|
 |209|[ Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)|[Python3](./solutions/209.%20Minimum%20Size%20Subarray%20Sum.py)|72 ms|
 |215|[ Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)|[Python3](./solutions/215.%20Kth%20Largest%20Element%20in%20an%20Array.py)|68 ms|
 |216|[ Combination Sum III](https://leetcode.com/problems/combination-sum-iii/)|[Python3](./solutions/216.%20Combination%20Sum%20III.py)|32 ms|
