@@ -281,3 +281,4 @@
 |1837|[ Sum of Digits in Base K](https://leetcode.com/problems/sum-of-digits-in-base-k/)|[Python3](./solutions/1837.%20Sum%20of%20Digits%20in%20Base%20K.py)|28 ms|
 |1839|[ Longest Substring Of All Vowels in Order](https://leetcode.com/problems/longest-substring-of-all-vowels-in-order/)|[Python3](./solutions/1839.%20Longest%20Substring%20Of%20All%20Vowels%20in%20Order.py)|968 ms|
 |1845|[ Seat Reservation Manager](https://leetcode.com/problems/seat-reservation-manager/)|[Python3](./solutions/1845.%20Seat%20Reservation%20Manager.py)|592 ms|
+|1944|[ Number of Visible People in a Queue](https://leetcode.com/problems/number-of-visible-people-in-a-queue/)|[Python3](./solutions/1944.%20Number%20of%20Visible%20People%20in%20a%20Queue.py)|1180 ms|
