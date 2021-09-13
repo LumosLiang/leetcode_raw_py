@@ -4,10 +4,11 @@ class Solution:
         candidates.sort()
         
         def helper(choices, path, s):
-            if s <= 0:
-                if s == 0:
-                    res.append(path)
-                    return
+            if s == 0:
+                res.append(path)
+                return
+            elif s < 0:
+                return
             
             for i in range(len(choices)):
                 if i > 0 and choices[i] == choices[i - 1]: continue
