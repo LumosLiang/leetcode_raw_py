@@ -18,6 +18,7 @@
 |20|[ Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)|[Python3](./solutions/20.%20Valid%20Parentheses.py)|32 ms|
 |21|[ Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)|[Python3](./solutions/21.%20Merge%20Two%20Sorted%20Lists.py)|36 ms|
 |22|[ Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)|[Python3](./solutions/22.%20Generate%20Parentheses.py)|60 ms|
+|23|[ Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)|[Python3](./solutions/23.%20Merge%20k%20Sorted%20Lists.py)|124 ms|
 |24|[ Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)|[Python3](./solutions/24.%20Swap%20Nodes%20in%20Pairs.py)|24 ms|
 |25|[ Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/)|[Python3](./solutions/25.%20Reverse%20Nodes%20in%20k-Group.py)|48 ms|
 |26|[ Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)|[Python3](./solutions/26.%20Remove%20Duplicates%20from%20Sorted%20Array.py)|84 ms|
