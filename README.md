@@ -5,6 +5,7 @@
 |1|[ Two Sum](https://leetcode.com/problems/two-sum/)|[Python3](./solutions/1.%20Two%20Sum.py)|44 ms|
 |2|[ Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)|[Python3](./solutions/2.%20Add%20Two%20Numbers.py)|60 ms|
 |3|[ Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)|[Python3](./solutions/3.%20Longest%20Substring%20Without%20Repeating%20Characters.py)|244 ms|
+|5|[ Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)|[Python3](./solutions/5.%20Longest%20Palindromic%20Substring.py)|932 ms|
 |9|[ Palindrome Number](https://leetcode.com/problems/palindrome-number/)|[Python3](./solutions/9.%20Palindrome%20Number.py)|72 ms|
 |11|[ Container With Most Water](https://leetcode.com/problems/container-with-most-water/)|[Python3](./solutions/11.%20Container%20With%20Most%20Water.py)|644 ms|
 |13|[ Roman to Integer](https://leetcode.com/problems/roman-to-integer/)|[Python3](./solutions/13.%20Roman%20to%20Integer.py)|48 ms|
