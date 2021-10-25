@@ -3,21 +3,17 @@
 #     def __init__(self, val=0, next=None):
 #         self.val = val
 #         self.next = next
+​
 class Solution:
-    def removeElements(self, head: ListNode, val: int) -> ListNode:
-        pre = curr = head
+    def removeElements(self, head: Optional[ListNode], val: int) -> Optional[ListNode]:
         
-        while curr:
-            if curr.val != val:
-                pre = curr
-                curr = curr.next
-            else:
-                if curr == head:
-                    head = curr.next
-                    pre = curr = head
-                else:
-                    pre.next = curr.next
-                    curr = curr.next
+        pre = ListNode()
+        pre.next = head
+        curr = pre
         
-        return head
+        while curr.next:
+            if curr.next.val == val: curr.next = curr.next.next
+            else: curr = curr.next
+        
+        return pre.next
         
