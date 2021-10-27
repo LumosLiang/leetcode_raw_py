@@ -4,18 +4,20 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
+​
 class Solution:
-    def mergeTrees(self, t1: TreeNode, t2: TreeNode) -> TreeNode:
+    def mergeTrees(self, root1: TreeNode, root2: TreeNode) -> TreeNode:
         
-        # recursive
-     
-        if t1 is None and t2 is not None:
-            new_node = TreeNode(t2.val, t2.left, t2.right)
-            return new_node
-        elif t2 is None and t1 is not None:
-            new_node = TreeNode(t1.val, t1.left, t1.right)
-            return new_node
-        elif t1 and t2:
-            new_node = TreeNode(t1.val + t2.val, self.mergeTrees(t1.left, t2.left), self.mergeTrees(t1.right, t2.right))
-            return new_node
-     
+        
+        # base
+        if not root1 and not root2: return None
+        if not root1 or not root2: return root1 or root2
+        
+        # recur
+        
+        new_root = TreeNode(root1.val + root2.val)
+        new_root.left = self.mergeTrees(root1.left, root2.left)
+        new_root.right = self.mergeTrees(root1.right, root2.right)
+        
+        return new_root
+        
