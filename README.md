@@ -100,6 +100,7 @@
 |169|[ Majority Element](https://leetcode.com/problems/majority-element/)|[Python3](./solutions/169.%20Majority%20Element.py)|248 ms|
 |173|[ Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/)|[Python3](./solutions/173.%20Binary%20Search%20Tree%20Iterator.py)|72 ms|
 |189|[ Rotate Array](https://leetcode.com/problems/rotate-array/)|[Python3](./solutions/189.%20Rotate%20Array.py)|132 ms|
+|190|[ Reverse Bits](https://leetcode.com/problems/reverse-bits/)|[Python3](./solutions/190.%20Reverse%20Bits.py)|32 ms|
 |198|[ House Robber](https://leetcode.com/problems/house-robber/)|[Python3](./solutions/198.%20House%20Robber.py)|38 ms|
 |199|[ Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/)|[Python3](./solutions/199.%20Binary%20Tree%20Right%20Side%20View.py)|32 ms|
 |200|[ Number of Islands](https://leetcode.com/problems/number-of-islands/)|[Python3](./solutions/200.%20Number%20of%20Islands.py)|140 ms|
