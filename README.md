@@ -15,8 +15,8 @@
 |17|[ Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)|[Python3](./solutions/17.%20Letter%20Combinations%20of%20a%20Phone%20Number.py)|32 ms|
 |18|[ 4Sum](https://leetcode.com/problems/4sum/)|[Python3](./solutions/18.%204Sum.py)|808 ms|
 |19|[ Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)|[Python3](./solutions/19.%20Remove%20Nth%20Node%20From%20End%20of%20List.py)|36 ms|
-|20|[ Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)|[Python3](./solutions/20.%20Valid%20Parentheses.py)|32 ms|
-|21|[ Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)|[Python3](./solutions/21.%20Merge%20Two%20Sorted%20Lists.py)|36 ms|
+|20|[ Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)|[Python3](./solutions/20.%20Valid%20Parentheses.py)|36 ms|
+|21|[ Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)|[Python3](./solutions/21.%20Merge%20Two%20Sorted%20Lists.py)|32 ms|
 |22|[ Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)|[Python3](./solutions/22.%20Generate%20Parentheses.py)|60 ms|
 |23|[ Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)|[Python3](./solutions/23.%20Merge%20k%20Sorted%20Lists.py)|124 ms|
 |24|[ Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)|[Python3](./solutions/24.%20Swap%20Nodes%20in%20Pairs.py)|24 ms|
@@ -40,6 +40,7 @@
 |61|[ Rotate List](https://leetcode.com/problems/rotate-list/)|[Python3](./solutions/61.%20Rotate%20List.py)|40 ms|
 |66|[ Plus One](https://leetcode.com/problems/plus-one/)|[Python3](./solutions/66.%20Plus%20One.py)|24 ms|
 |69|[ Sqrt(x)](https://leetcode.com/problems/sqrtx/)|[Python3](./solutions/69.%20Sqrt(x).py)|44 ms|
+|70|[ Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)|[Python3](./solutions/70.%20Climbing%20Stairs.py)|53 ms|
 |74|[ Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)|[Python3](./solutions/74.%20Search%20a%202D%20Matrix.py)|40 ms|
 |75|[ Sort Colors](https://leetcode.com/problems/sort-colors/)|[Python3](./solutions/75.%20Sort%20Colors.py)|32 ms|
 |76|[ Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)|[Python3](./solutions/76.%20Minimum%20Window%20Substring.py)|128 ms|
@@ -99,17 +100,20 @@
 |169|[ Majority Element](https://leetcode.com/problems/majority-element/)|[Python3](./solutions/169.%20Majority%20Element.py)|248 ms|
 |173|[ Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/)|[Python3](./solutions/173.%20Binary%20Search%20Tree%20Iterator.py)|72 ms|
 |189|[ Rotate Array](https://leetcode.com/problems/rotate-array/)|[Python3](./solutions/189.%20Rotate%20Array.py)|132 ms|
+|190|[ Reverse Bits](https://leetcode.com/problems/reverse-bits/)|[Python3](./solutions/190.%20Reverse%20Bits.py)|32 ms|
+|198|[ House Robber](https://leetcode.com/problems/house-robber/)|[Python3](./solutions/198.%20House%20Robber.py)|38 ms|
 |199|[ Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/)|[Python3](./solutions/199.%20Binary%20Tree%20Right%20Side%20View.py)|32 ms|
-|203|[ Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/)|[Python3](./solutions/203.%20Remove%20Linked%20List%20Elements.py)|128 ms|
+|200|[ Number of Islands](https://leetcode.com/problems/number-of-islands/)|[Python3](./solutions/200.%20Number%20of%20Islands.py)|140 ms|
+|203|[ Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/)|[Python3](./solutions/203.%20Remove%20Linked%20List%20Elements.py)|64 ms|
 |206|[ Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)|[Python3](./solutions/206.%20Reverse%20Linked%20List.py)|48 ms|
 |207|[ Course Schedule](https://leetcode.com/problems/course-schedule/)|[Python3](./solutions/207.%20Course%20Schedule.py)|84 ms|
 |209|[ Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)|[Python3](./solutions/209.%20Minimum%20Size%20Subarray%20Sum.py)|72 ms|
 |215|[ Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)|[Python3](./solutions/215.%20Kth%20Largest%20Element%20in%20an%20Array.py)|68 ms|
 |216|[ Combination Sum III](https://leetcode.com/problems/combination-sum-iii/)|[Python3](./solutions/216.%20Combination%20Sum%20III.py)|32 ms|
-|217|[ Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)|[Python3](./solutions/217.%20Contains%20Duplicate.py)|128 ms|
+|217|[ Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)|[Python3](./solutions/217.%20Contains%20Duplicate.py)|174 ms|
 |219|[ Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/)|[Python3](./solutions/219.%20Contains%20Duplicate%20II.py)|96 ms|
 |225|[ Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/)|[Python3](./solutions/225.%20Implement%20Stack%20using%20Queues.py)|28 ms|
-|226|[ Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)|[Python3](./solutions/226.%20Invert%20Binary%20Tree.py)|24 ms|
+|226|[ Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)|[Python3](./solutions/226.%20Invert%20Binary%20Tree.py)|28 ms|
 |230|[ Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)|[Python3](./solutions/230.%20Kth%20Smallest%20Element%20in%20a%20BST.py)|52 ms|
 |231|[ Power of Two](https://leetcode.com/problems/power-of-two/)|[Python3](./solutions/231.%20Power%20of%20Two.py)|24 ms|
 |232|[ Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)|[Python3](./solutions/232.%20Implement%20Queue%20using%20Stacks.py)|24 ms|
@@ -181,7 +185,7 @@
 |590|[ N-ary Tree Postorder Traversal](https://leetcode.com/problems/n-ary-tree-postorder-traversal/)|[Python3](./solutions/590.%20N-ary%20Tree%20Postorder%20Traversal.py)|60 ms|
 |605|[ Can Place Flowers](https://leetcode.com/problems/can-place-flowers/)|[Python3](./solutions/605.%20Can%20Place%20Flowers.py)|400 ms|
 |606|[ Construct String from Binary Tree](https://leetcode.com/problems/construct-string-from-binary-tree/)|[Python3](./solutions/606.%20Construct%20String%20from%20Binary%20Tree.py)|48 ms|
-|617|[ Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/)|[Python3](./solutions/617.%20Merge%20Two%20Binary%20Trees.py)|104 ms|
+|617|[ Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/)|[Python3](./solutions/617.%20Merge%20Two%20Binary%20Trees.py)|88 ms|
 |637|[ Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/)|[Python3](./solutions/637.%20Average%20of%20Levels%20in%20Binary%20Tree.py)|52 ms|
 |652|[ Find Duplicate Subtrees](https://leetcode.com/problems/find-duplicate-subtrees/)|[Python3](./solutions/652.%20Find%20Duplicate%20Subtrees.py)|68 ms|
 |653|[ Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/)|[Python3](./solutions/653.%20Two%20Sum%20IV%20-%20Input%20is%20a%20BST.py)|80 ms|
@@ -192,6 +196,7 @@
 |671|[ Second Minimum Node In a Binary Tree](https://leetcode.com/problems/second-minimum-node-in-a-binary-tree/)|[Python3](./solutions/671.%20Second%20Minimum%20Node%20In%20a%20Binary%20Tree.py)|28 ms|
 |690|[ Employee Importance](https://leetcode.com/problems/employee-importance/)|[Python3](./solutions/690.%20Employee%20Importance.py)|152 ms|
 |692|[ Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/)|[Python3](./solutions/692.%20Top%20K%20Frequent%20Words.py)|48 ms|
+|695|[ Max Area of Island](https://leetcode.com/problems/max-area-of-island/)|[Python3](./solutions/695.%20Max%20Area%20of%20Island.py)|136 ms|
 |700|[ Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/)|[Python3](./solutions/700.%20Search%20in%20a%20Binary%20Search%20Tree.py)|72 ms|
 |701|[ Insert into a Binary Search Tree](https://leetcode.com/problems/insert-into-a-binary-search-tree/)|[Python3](./solutions/701.%20Insert%20into%20a%20Binary%20Search%20Tree.py)|128 ms|
 |704|[ Binary Search](https://leetcode.com/problems/binary-search/)|[Python3](./solutions/704.%20Binary%20Search.py)|228 ms|
@@ -201,7 +206,7 @@
 |763|[ Partition Labels](https://leetcode.com/problems/partition-labels/)|[Python3](./solutions/763.%20Partition%20Labels.py)|36 ms|
 |771|[ Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/)|[Python3](./solutions/771.%20Jewels%20and%20Stones.py)|24 ms|
 |783|[ Minimum Distance Between BST Nodes](https://leetcode.com/problems/minimum-distance-between-bst-nodes/)|[Python3](./solutions/783.%20Minimum%20Distance%20Between%20BST%20Nodes.py)|28 ms|
-|784|[ Letter Case Permutation](https://leetcode.com/problems/letter-case-permutation/)|[Python3](./solutions/784.%20Letter%20Case%20Permutation.py)|88 ms|
+|784|[ Letter Case Permutation](https://leetcode.com/problems/letter-case-permutation/)|[Python3](./solutions/784.%20Letter%20Case%20Permutation.py)|56 ms|
 |797|[ All Paths From Source to Target](https://leetcode.com/problems/all-paths-from-source-to-target/)|[Python3](./solutions/797.%20All%20Paths%20From%20Source%20to%20Target.py)|100 ms|
 |804|[ Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words/)|[Python3](./solutions/804.%20Unique%20Morse%20Code%20Words.py)|20 ms|
 |807|[ Max Increase to Keep City Skyline](https://leetcode.com/problems/max-increase-to-keep-city-skyline/)|[Python3](./solutions/807.%20Max%20Increase%20to%20Keep%20City%20Skyline.py)|68 ms|
