@@ -1,5 +1,5 @@
 class Solution:
-    def isValidSerialization(self, preorder: str) -> bool:
+    def isValidSerialization(self, preorder: str) -> bool:
         
         if preorder == '#': return True
         
@@ -28,8 +28,3 @@ class Solution:
         
         if stack[-1][1] == []: return True
         else: return False
-            
-            
-    
-        
-        
