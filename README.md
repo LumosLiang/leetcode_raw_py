@@ -291,6 +291,7 @@
 |1721|[ Swapping Nodes in a Linked List](https://leetcode.com/problems/swapping-nodes-in-a-linked-list/)|[Python3](./solutions/1721.%20Swapping%20Nodes%20in%20a%20Linked%20List.py)|1604 ms|
 |1800|[ Maximum Ascending Subarray Sum](https://leetcode.com/problems/maximum-ascending-subarray-sum/)|[Python3](./solutions/1800.%20Maximum%20Ascending%20Subarray%20Sum.py)|36 ms|
 |1805|[ Number of Different Integers in a String](https://leetcode.com/problems/number-of-different-integers-in-a-string/)|[Python3](./solutions/1805.%20Number%20of%20Different%20Integers%20in%20a%20String.py)|32 ms|
+|1806|[ Minimum Number of Operations to Reinitialize a Permutation](https://leetcode.com/problems/minimum-number-of-operations-to-reinitialize-a-permutation/)|[Python3](./solutions/1806.%20Minimum%20Number%20of%20Operations%20to%20Reinitialize%20a%20Permutation.py)|1040 ms|
 |1828|[ Queries on Number of Points Inside a Circle](https://leetcode.com/problems/queries-on-number-of-points-inside-a-circle/)|[Python3](./solutions/1828.%20Queries%20on%20Number%20of%20Points%20Inside%20a%20Circle.py)|2180 ms|
 |1833|[ Maximum Ice Cream Bars](https://leetcode.com/problems/maximum-ice-cream-bars/)|[Python3](./solutions/1833.%20Maximum%20Ice%20Cream%20Bars.py)|796 ms|
 |1837|[ Sum of Digits in Base K](https://leetcode.com/problems/sum-of-digits-in-base-k/)|[Python3](./solutions/1837.%20Sum%20of%20Digits%20in%20Base%20K.py)|28 ms|
