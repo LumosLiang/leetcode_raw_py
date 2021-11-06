@@ -199,6 +199,7 @@
 |658|[ Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/)|[Python3](./solutions/658.%20Find%20K%20Closest%20Elements.py)|N/A|
 |669|[ Trim a Binary Search Tree](https://leetcode.com/problems/trim-a-binary-search-tree/)|[Python3](./solutions/669.%20Trim%20a%20Binary%20Search%20Tree.py)|52 ms|
 |671|[ Second Minimum Node In a Binary Tree](https://leetcode.com/problems/second-minimum-node-in-a-binary-tree/)|[Python3](./solutions/671.%20Second%20Minimum%20Node%20In%20a%20Binary%20Tree.py)|28 ms|
+|687|[ Longest Univalue Path](https://leetcode.com/problems/longest-univalue-path/)|[Python3](./solutions/687.%20Longest%20Univalue%20Path.py)|404 ms|
 |690|[ Employee Importance](https://leetcode.com/problems/employee-importance/)|[Python3](./solutions/690.%20Employee%20Importance.py)|152 ms|
 |692|[ Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/)|[Python3](./solutions/692.%20Top%20K%20Frequent%20Words.py)|48 ms|
 |695|[ Max Area of Island](https://leetcode.com/problems/max-area-of-island/)|[Python3](./solutions/695.%20Max%20Area%20of%20Island.py)|136 ms|
