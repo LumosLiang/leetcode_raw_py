@@ -273,6 +273,7 @@
 |1415|[ The k-th Lexicographical String of All Happy Strings of Length n](https://leetcode.com/problems/the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/)|[Python3](./solutions/1415.%20The%20k-th%20Lexicographical%20String%20of%20All%20Happy%20Strings%20of%20Length%20n.py)|108 ms|
 |1431|[ Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/)|[Python3](./solutions/1431.%20Kids%20With%20the%20Greatest%20Number%20of%20Candies.py)|32 ms|
 |1448|[ Count Good Nodes in Binary Tree](https://leetcode.com/problems/count-good-nodes-in-binary-tree/)|[Python3](./solutions/1448.%20Count%20Good%20Nodes%20in%20Binary%20Tree.py)|256 ms|
+|1470|[ Shuffle the Array](https://leetcode.com/problems/shuffle-the-array/)|[Python3](./solutions/1470.%20Shuffle%20the%20Array.py)|56 ms|
 |1476|[ Subrectangle Queries](https://leetcode.com/problems/subrectangle-queries/)|[Python3](./solutions/1476.%20Subrectangle%20Queries.py)|176 ms|
 |1480|[ Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/)|[Python3](./solutions/1480.%20Running%20Sum%20of%201d%20Array.py)|308 ms|
 |1482|[ Minimum Number of Days to Make m Bouquets](https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/)|[Python3](./solutions/1482.%20Minimum%20Number%20of%20Days%20to%20Make%20m%20Bouquets.py)|1392 ms|
