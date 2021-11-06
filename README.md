@@ -91,6 +91,7 @@
 |143|[ Reorder List](https://leetcode.com/problems/reorder-list/)|[Python3](./solutions/143.%20Reorder%20List.py)|92 ms|
 |144|[ Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/)|[Python3](./solutions/144.%20Binary%20Tree%20Preorder%20Traversal.py)|32 ms|
 |145|[ Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/)|[Python3](./solutions/145.%20Binary%20Tree%20Postorder%20Traversal.py)|36 ms|
+|147|[ Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/)|[Python3](./solutions/147.%20Insertion%20Sort%20List.py)|1540 ms|
 |148|[ Sort List](https://leetcode.com/problems/sort-list/)|[Python3](./solutions/148.%20Sort%20List.py)|N/A|
 |153|[ Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)|[Python3](./solutions/153.%20Find%20Minimum%20in%20Rotated%20Sorted%20Array.py)|44 ms|
 |155|[ Min Stack](https://leetcode.com/problems/min-stack/)|[Python3](./solutions/155.%20Min%20Stack.py)|64 ms|
