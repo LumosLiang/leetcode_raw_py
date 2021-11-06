@@ -291,6 +291,7 @@
 |1679|[ Max Number of K-Sum Pairs](https://leetcode.com/problems/max-number-of-k-sum-pairs/)|[Python3](./solutions/1679.%20Max%20Number%20of%20K-Sum%20Pairs.py)|644 ms|
 |1689|[ Partitioning Into Minimum Number Of Deci-Binary Numbers](https://leetcode.com/problems/partitioning-into-minimum-number-of-deci-binary-numbers/)|[Python3](./solutions/1689.%20Partitioning%20Into%20Minimum%20Number%20Of%20Deci-Binary%20Numbers.py)|52 ms|
 |1721|[ Swapping Nodes in a Linked List](https://leetcode.com/problems/swapping-nodes-in-a-linked-list/)|[Python3](./solutions/1721.%20Swapping%20Nodes%20in%20a%20Linked%20List.py)|1604 ms|
+|1791|[ Find Center of Star Graph](https://leetcode.com/problems/find-center-of-star-graph/)|[Python3](./solutions/1791.%20Find%20Center%20of%20Star%20Graph.py)|776 ms|
 |1800|[ Maximum Ascending Subarray Sum](https://leetcode.com/problems/maximum-ascending-subarray-sum/)|[Python3](./solutions/1800.%20Maximum%20Ascending%20Subarray%20Sum.py)|36 ms|
 |1805|[ Number of Different Integers in a String](https://leetcode.com/problems/number-of-different-integers-in-a-string/)|[Python3](./solutions/1805.%20Number%20of%20Different%20Integers%20in%20a%20String.py)|32 ms|
 |1806|[ Minimum Number of Operations to Reinitialize a Permutation](https://leetcode.com/problems/minimum-number-of-operations-to-reinitialize-a-permutation/)|[Python3](./solutions/1806.%20Minimum%20Number%20of%20Operations%20to%20Reinitialize%20a%20Permutation.py)|1040 ms|
