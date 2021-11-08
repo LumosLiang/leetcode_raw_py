@@ -121,6 +121,7 @@
 |216|[ Combination Sum III](https://leetcode.com/problems/combination-sum-iii/)|[Python3](./solutions/216.%20Combination%20Sum%20III.py)|32 ms|
 |217|[ Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)|[Python3](./solutions/217.%20Contains%20Duplicate.py)|174 ms|
 |219|[ Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/)|[Python3](./solutions/219.%20Contains%20Duplicate%20II.py)|96 ms|
+|222|[ Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes/)|[Python3](./solutions/222.%20Count%20Complete%20Tree%20Nodes.py)|76 ms|
 |225|[ Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/)|[Python3](./solutions/225.%20Implement%20Stack%20using%20Queues.py)|28 ms|
 |226|[ Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)|[Python3](./solutions/226.%20Invert%20Binary%20Tree.py)|28 ms|
 |230|[ Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)|[Python3](./solutions/230.%20Kth%20Smallest%20Element%20in%20a%20BST.py)|52 ms|
