@@ -1,27 +1,21 @@
-import collections
 class Solution:
-    def lengthOfLongestSubstring(self, s):
+    def lengthOfLongestSubstring(self, s: str) -> int:
         
-        left, right = 0, 0
-        maxlen = 0
-        window = collections.Counter()
+        res, l = 0, 0
+        window = {}
         
-        while right < len(s):
-            temp1 = s[right]
-            window[temp1] += 1
-            lenw = len(window)
-            if lenw > maxlen:
-                maxlen = len(window)
-                
-            right += 1
-            while list(window.values()) != [1] * len(window):
-                temp2 = s[left]
-                
-                window[temp2] -= 1
-                if window[temp2] == 0:
-                    del window[temp2]
-                left += 1
+        # sliding window
+        # construct window: no repeat characters.
+        # criteria, need 
+        # when to update.
+        # improvement: like state compressing
+        
+        for r, val in enumerate(s):
             
-        return maxlen
-​
-​
+            if val in window and l <= window[val]:
+                l = window[val] + 1
+                
+            window[val] = r
+            res = max(res, r - l + 1)
+            
+        return res
