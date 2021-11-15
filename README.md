@@ -275,6 +275,7 @@
 |1171|[ Remove Zero Sum Consecutive Nodes from Linked List](https://leetcode.com/problems/remove-zero-sum-consecutive-nodes-from-linked-list/)|[Python3](./solutions/1171.%20Remove%20Zero%20Sum%20Consecutive%20Nodes%20from%20Linked%20List.py)|44 ms|
 |1201|[ Ugly Number III](https://leetcode.com/problems/ugly-number-iii/)|[Python3](./solutions/1201.%20Ugly%20Number%20III.py)|32 ms|
 |1209|[ Remove All Adjacent Duplicates in String II](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/)|[Python3](./solutions/1209.%20Remove%20All%20Adjacent%20Duplicates%20in%20String%20II.py)|108 ms|
+|1234|[ Replace the Substring for Balanced String](https://leetcode.com/problems/replace-the-substring-for-balanced-string/)|[Python3](./solutions/1234.%20Replace%20the%20Substring%20for%20Balanced%20String.py)|184 ms|
 |1248|[ Count Number of Nice Subarrays](https://leetcode.com/problems/count-number-of-nice-subarrays/)|[Python3](./solutions/1248.%20Count%20Number%20of%20Nice%20Subarrays.py)|964 ms|
 |1283|[ Find the Smallest Divisor Given a Threshold](https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold/)|[Python3](./solutions/1283.%20Find%20the%20Smallest%20Divisor%20Given%20a%20Threshold.py)|468 ms|
 |1288|[ Remove Covered Intervals](https://leetcode.com/problems/remove-covered-intervals/)|[Python3](./solutions/1288.%20Remove%20Covered%20Intervals.py)|96 ms|
