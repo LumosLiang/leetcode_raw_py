@@ -10,5 +10,5 @@ class Solution:
             for i in range(start, len(choices)):
                 helper(choices, path + [choices[i]], i + 1, s - choices[i], l + 1)        
         
-        helper([i for i in range(1,10)], [], 0, n, 0)
+        helper(range(1,10), [], 0, n, 0)
         return res
