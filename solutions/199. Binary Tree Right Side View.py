@@ -5,29 +5,16 @@
 #         self.left = left
 #         self.right = right
 ​
+​
 class Solution:
-    def rightSideView(self, root: TreeNode) -> List[int]:
-        if root is None: return None
-        
-        res = [root.val]
-        stack = [root]
-        
-        while stack:
-            temp = []
-            while stack:
-                node = stack.pop(0)
-                if node.right:
-                    temp.append(node.right)
-                if node.left:
-                    temp.append(node.left)
-            if temp:
-                res.append(temp[0].val)
-            stack = temp
-        
-        return res
-            
-                    
-                    
-                    
+    def rightSideView(self, root: Optional[TreeNode]) -> List[int]:
         
         
+        if not root: return []
+        
+    
+        left = self.rightSideView(root.left)
+        right = self.rightSideView(root.right)
+        
+        if len(right) >= len(left): return [root.val] + right
+        else: return [root.val] + right + left[len(right):]
