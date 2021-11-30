@@ -5,11 +5,33 @@
 #         self.left = left
 #         self.right = right
 ​
+# iterative
 class Solution:
-    def invertTree(self, root: Optional[TreeNode]) -> Optional[TreeNode]:
+    def invertTree(self, root: TreeNode) -> TreeNode:
+        if root is None: return
         
-        if not root: return None
+        q = collections.deque([root])
         
-        root.left, root.right = self.invertTree(root.right), self.invertTree(root.left)
-​
+        while q:
+            temp = q.pop()
+            if temp.left:
+                q.appendleft(temp.left)
+            if temp.right:
+                q.appendleft(temp.right)
+            temp.left, temp.right = temp.right, temp.left
         return root
+        
+    
+    def invertTreeRecur(self, root: TreeNode):
+        
+        if not root: return
+        
+        left = self.invertTreeRecur(root.left)
+        right = self.invertTreeRecur(root.right)
+        
+        root.right = left
+        root.left = right
+    
+        return root
+​
+    
