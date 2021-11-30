@@ -1,27 +1,29 @@
 class Solution:
     def findOrder(self, numCourses: int, prerequisites: List[List[int]]) -> List[int]:
         
+        indegree = [0 for _ in range(numCourses)]
+        point_to_nodes = [[] for _ in range(numCourses)]
         res = []
-        indegrees, neighbors = self.get_indegree_neighbor(numCourses, prerequisites)
-        q = collections.deque([k for k,v in indegrees.items() if v == 0])
+        
+        for pair in prerequisites:
+            pre = pair[1]
+            curr = pair[0]
+            indegree[curr] += 1
+            point_to_nodes[pre].append(curr)
+            
+        q = collections.deque([i for i in range(numCourses) if indegree[i] == 0])
         
         while q:
-            temp = q.popleft()
-            res.append(temp)
-            for n in neighbors[temp]:
-                indegrees[n] -= 1
-                if indegrees[n] == 0:
-                    q.append(n)
-              
+            node = q.popleft()
+            res.append(node)
+            for ptn in point_to_nodes[node]:
+                indegree[ptn] -= 1
+                if indegree[ptn] == 0:
+                    q.append(ptn)
+        
         return res if len(res) == numCourses else []
-    
-    def get_indegree_neighbor(self, n, graph):
-        count = {node: 0 for node in range(n)}
-        neighbor = {node: [] for node in range(n)}
-        for pair in graph:
-            neighbor[pair[1]].append(pair[0])
-            count[pair[0]] += 1
-        return count, neighbor
+            
+            
         
         
         
