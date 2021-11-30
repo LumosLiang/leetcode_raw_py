@@ -4,9 +4,23 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
-​
 class Solution:
-    def levelOrderBottom(self, root: TreeNode) -> List[List[int]]:
+    def levelOrderBottom(self, root: Optional[TreeNode]) -> List[List[int]]:
+        
+        self.res = []
+        
+        def helper(root, level):
+            if root:
+                if len(self.res) < level + 1:
+                    self.res.insert(0, [])
+                self.res[-(level + 1)].append(root.val)
+                helper(root.left, level + 1)
+                helper(root.right, level + 1)
+        
+        helper(root, 0)
+        return self.res
+    
+    def levelOrderBottom1(self, root: TreeNode) -> List[List[int]]:
         if not root: return []
         
         res = [[root.val]]
@@ -27,4 +41,3 @@ class Solution:
                 res.append(temp_val)
             q = temp
         return res[::-1]
-        
