@@ -12,7 +12,8 @@ class Solution:
         # self.solution1(root)
         # return self.res
     
-        return self.solution2(root, float('inf'), float('-inf'))
+        # return self.solution2(root, float('inf'), float('-inf'))
+        return self.solution3(root)
     
     def solution1(self, root):
         
@@ -30,6 +31,17 @@ class Solution:
         left = self.solution2(root.left, root.val, low)
         right = self.solution2(root.right, high, root.val)
         return min(left, right)
+    
+    def solution3(self, root):
+        lst = []
+        
+        def inorder(root):
+            if root.left: inorder(root.left)
+            lst.append(root.val)
+            if root.right: inorder(root.right)
+​
+        inorder(root)
+        return min(b - a for a, b in zip(lst, lst[1:]))      
 ​
         
         
