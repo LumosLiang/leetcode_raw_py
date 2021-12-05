@@ -42,6 +42,7 @@
 |51|[ N-Queens](https://leetcode.com/problems/n-queens/)|[Python3](./solutions/51.%20N-Queens.py)|1148 ms|
 |52|[ N-Queens II](https://leetcode.com/problems/n-queens-ii/)|[Python3](./solutions/52.%20N-Queens%20II.py)|1156 ms|
 |53|[ Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|[Python3](./solutions/53.%20Maximum%20Subarray.py)|116 ms|
+|55|[ Jump Game](https://leetcode.com/problems/jump-game/)|[Python3](./solutions/55.%20Jump%20Game.py)|516 ms|
 |56|[ Merge Intervals](https://leetcode.com/problems/merge-intervals/)|[Python3](./solutions/56.%20Merge%20Intervals.py)|72 ms|
 |61|[ Rotate List](https://leetcode.com/problems/rotate-list/)|[Python3](./solutions/61.%20Rotate%20List.py)|40 ms|
 |66|[ Plus One](https://leetcode.com/problems/plus-one/)|[Python3](./solutions/66.%20Plus%20One.py)|24 ms|
