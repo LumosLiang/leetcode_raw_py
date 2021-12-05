@@ -10,7 +10,42 @@
 ​
 class Solution:
     def deepestLeavesSum(self, root):
-        q = [root]
-        while q:
-            pre, q = q, [child for p in q for child in [p.left, p.right] if child]
-        return sum(node.val for node in pre)
+        return self.solution2(root)
+    
+    def solution1(self, root):
+        print(root)
+        self.res = []
+        
+        def helper(root, level):
+            if not root: return
+            
+            if len(self.res) < level + 1:
+                self.res.append([])
+                
+            self.res[level].append(root.val)
+                
+            helper(root.left, level + 1)
+            helper(root.right, level + 1)
+        
+        helper(root, 0)
+        return sum(self.res[-1])
+    
+    def solution2(self, root):
+        
+        res = []
+        stack = [(root, 0)]
+        
+        while stack:
+            node, level = stack.pop()
+            
+            if not node: continue
+            
+            if len(res) < level + 1:
+                res.append([])
+                
+            res[level].append(node.val)
+              
+            stack.append((node.right, level + 1))
+            stack.append((node.left, level + 1))
+        
+        return sum(res[-1])
