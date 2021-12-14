@@ -70,7 +70,7 @@
 |95|[ Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees-ii/)|[Python3](./solutions/95.%20Unique%20Binary%20Search%20Trees%20II.py)|52 ms|
 |96|[ Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/)|[Python3](./solutions/96.%20Unique%20Binary%20Search%20Trees.py)|44 ms|
 |98|[ Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)|[Python3](./solutions/98.%20Validate%20Binary%20Search%20Tree.py)|44 ms|
-|99|[ Recover Binary Search Tree](https://leetcode.com/problems/recover-binary-search-tree/)|[Python3](./solutions/99.%20Recover%20Binary%20Search%20Tree.py)|117 ms|
+|99|[ Recover Binary Search Tree](https://leetcode.com/problems/recover-binary-search-tree/)|[Python3](./solutions/99.%20Recover%20Binary%20Search%20Tree.py)|72 ms|
 |100|[ Same Tree](https://leetcode.com/problems/same-tree/)|[Python3](./solutions/100.%20Same%20Tree.py)|55 ms|
 |101|[ Symmetric Tree](https://leetcode.com/problems/symmetric-tree/)|[Python3](./solutions/101.%20Symmetric%20Tree.py)|36 ms|
 |102|[ Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)|[Python3](./solutions/102.%20Binary%20Tree%20Level%20Order%20Traversal.py)|32 ms|
