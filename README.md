@@ -38,6 +38,7 @@
 |39|[ Combination Sum](https://leetcode.com/problems/combination-sum/)|[Python3](./solutions/39.%20Combination%20Sum.py)|96 ms|
 |40|[ Combination Sum II](https://leetcode.com/problems/combination-sum-ii/)|[Python3](./solutions/40.%20Combination%20Sum%20II.py)|108 ms|
 |42|[ Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)|[Python3](./solutions/42.%20Trapping%20Rain%20Water.py)|68 ms|
+|43|[ Multiply Strings](https://leetcode.com/problems/multiply-strings/)|[Python3](./solutions/43.%20Multiply%20Strings.py)|36 ms|
 |45|[ Jump Game II](https://leetcode.com/problems/jump-game-ii/)|[Python3](./solutions/45.%20Jump%20Game%20II.py)|128 ms|
 |46|[ Permutations](https://leetcode.com/problems/permutations/)|[Python3](./solutions/46.%20Permutations.py)|36 ms|
 |47|[ Permutations II](https://leetcode.com/problems/permutations-ii/)|[Python3](./solutions/47.%20Permutations%20II.py)|60 ms|
