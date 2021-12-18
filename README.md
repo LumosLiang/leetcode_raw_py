@@ -34,6 +34,7 @@
 |34|[ Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)|[Python3](./solutions/34.%20Find%20First%20and%20Last%20Position%20of%20Element%20in%20Sorted%20Array.py)|236 ms|
 |35|[ Search Insert Position](https://leetcode.com/problems/search-insert-position/)|[Python3](./solutions/35.%20Search%20Insert%20Position.py)|44 ms|
 |36|[ Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)|[Python3](./solutions/36.%20Valid%20Sudoku.py)|100 ms|
+|37|[ Sudoku Solver](https://leetcode.com/problems/sudoku-solver/)|[Python3](./solutions/37.%20Sudoku%20Solver.py)|427 ms|
 |38|[ Count and Say](https://leetcode.com/problems/count-and-say/)|[Python3](./solutions/38.%20Count%20and%20Say.py)|36 ms|
 |39|[ Combination Sum](https://leetcode.com/problems/combination-sum/)|[Python3](./solutions/39.%20Combination%20Sum.py)|96 ms|
 |40|[ Combination Sum II](https://leetcode.com/problems/combination-sum-ii/)|[Python3](./solutions/40.%20Combination%20Sum%20II.py)|108 ms|
