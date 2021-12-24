@@ -55,3 +55,24 @@ class Solution:
 ​
     
     def shortestPathBinaryMatrix(self, grid: List[List[int]]) -> int:
+            
+        l = len(grid)
+        
+        if grid[0][0] == 1 or grid[l - 1][l - 1] == 1:
+            return -1
+        
+        q = collections.deque([[(0,0), 1]])
+        grid[0][0] = 1
+        
+        while q:
+            (x, y), step = q.popleft()
+            if x == l - 1 and y == l - 1:
+                return step
+            
+            for i, j in [x + 1, y],[x - 1, y],[x, y - 1],[x, y + 1],[x + 1, y + 1],[x - 1, y + 1],[x - 1, y - 1],[x + 1, y - 1]:
+                if 0 <= i < l and 0 <= j < l and grid[i][j] == 0:
+                    grid[i][j] = 1
+                    q.append([(i, j), step + 1])
+​
+        return -1
+​
