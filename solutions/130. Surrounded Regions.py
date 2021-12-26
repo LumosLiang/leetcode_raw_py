@@ -1,3 +1,18 @@
+## the key here is they are not using the visited.
+## visited increase time complexity and space complexity
+​
+class Solution:
+    def solveDFS(self, board: List[List[str]]) -> None:
+    
+        w, l = len(board), len(board[0])
+        
+        def dfs(board, i, j):
+            if 0 <= i < len(board) and 0 <= j < len(board[0]) and board[i][j] == 'O':
+                board[i][j] = 'H'
+                dfs(board, i+1, j)
+                dfs(board, i-1, j)
+                dfs(board, i, j+1)
+                dfs(board, i, j-1)
         
         for x in [0, w - 1]:
             for y in range(l):
@@ -15,7 +30,7 @@
                     board[x][y] = "O"
                     
     
-    def solveBFS(self, board: List[List[str]]) -> None:
+    def solve(self, board: List[List[str]]) -> None:
     
         w, l = len(board), len(board[0])
         
@@ -41,7 +56,7 @@
                 if board[x][y] == "H":
                     board[x][y] = "O"
         
-    def solve(self, board: List[List[str]]) -> None:
+    def solveBFSTLE(self, board: List[List[str]]) -> None:
     
         w, l = len(board), len(board[0])
         
@@ -74,15 +89,3 @@
     
     def solveTLE(self, board: List[List[str]]) -> None:
 ​
-        w, l = len(board), len(board[0])
-        visited = [[False for i in range(l)] for j in range(w)]
-        
-        for x in range(1, w - 1):
-            for y in range(1, l - 1):
-                
-                if not visited[x][y] and board[x][y] == "O":
-                    
-                    temp_coord, board_reached = [], False
-                    q = collections.deque([(x,y)])
-                    
-                    while q:
