@@ -1,5 +1,5 @@
 class Solution:
-    def updateMatrix(self, matrix: List[List[int]]) -> List[List[int]]:
+    def updateMatrixOld(self, matrix: List[List[int]]) -> List[List[int]]:
     
         # has a value map wiht None, each cell: coordinate
         width = len(matrix[0])
@@ -40,4 +40,59 @@ class Solution:
                     
               
         return distance_lst
+        
+        
+        
+    def updateMatrixBFS(self, matrix: List[List[int]]) -> List[List[int]]:
+    
+        
+        w, l = len(matrix), len(matrix[0])
+       
+        res = [[None for dummy_col in range(l)] for dummy_row in range(w)]
+        visited = set()
+        q = collections.deque()
+​
+        for i in range(w):
+            for j in range(l):
+                if matrix[i][j] == 0:
+                    q.append((i, j))
+                    res[i][j] = 0
+                    visited.add((i, j))
+        
+        while q:
+            x, y = q.popleft()
+            
+            for nx, ny in [x + 1, y],[x - 1, y],[x, y + 1],[x, y - 1]:
+                if 0 <= nx < w and 0 <= ny < l and  (nx, ny) not in visited:
+                    visited.add((nx, ny))
+                    res[nx][ny] = res[x][y] + 1
+                    q.append((nx, ny))
+              
+        return res
+    
+    
+    def updateMatrixDFSincorrect(self, matrix: List[List[int]]) -> List[List[int]]:
+    
+        
+        w, l = len(matrix), len(matrix[0])
+       
+        res = [[None for dummy_col in range(l)] for dummy_row in range(w)]
+        visited = set()
+​
+        def DFS(x, y):
+            
+            for nx, ny in [x + 1, y],[x - 1, y],[x, y + 1],[x, y - 1]:
+                if 0 <= nx < w and 0 <= ny < l and  (nx, ny) not in visited:
+                    visited.add((nx, ny))
+                    res[nx][ny] = res[x][y] + 1
+                    DFS(nx, ny)
+​
+        for i in range(w):
+            for j in range(l):
+                if matrix[i][j] == 0:
+                    res[i][j] = 0
+                    visited.add((i, j))
+                    DFS(i, j)
+​
+        return res
         
