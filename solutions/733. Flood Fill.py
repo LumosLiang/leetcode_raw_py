@@ -6,16 +6,17 @@ class Solution:
         
         visited = [[-1 for i in range(n)] for j in range(m)]
         
-        q = collections.deque()
-        q.append([sr, sc])
+        q = collections.deque([[sr, sc]])
+        image[sr][sc] = newColor
+        visited[sr][sc] = 0
         
         while q:
             i, j = q.popleft()
-            image[i][j] = newColor
-            visited[i][j] = 0
             
             for x, y in [i + 1, j],[i - 1, j],[i, j + 1],[i, j - 1]:
                 if 0 <= x <= m - 1 and 0 <= y <= n - 1 and visited[x][y] != 0 and image[x][y] == origin_color:
+                    image[x][y] = newColor
+                    visited[x][y] = 0
                     q.append([x, y])
         
         return image
