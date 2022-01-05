@@ -19,11 +19,14 @@ class WordDictionary:
 ​
     def search(self, word: str) -> bool:
         
-        curr = self.root
-        return self._search(word, curr)
+#         return self._search(word, self.root)
+        
+        self.res = False
+        self.DFS(word, 0, self.root)
+        return self.res
     
     def _search(self, word, start):
-        
+​
         curr = start
         for i in range(len(word)):
   
@@ -38,8 +41,17 @@ class WordDictionary:
         
         return curr.isEndChar
 ​
-​
-# Your WordDictionary object will be instantiated and called as such:
-# obj = WordDictionary()
-# obj.addWord(word)
-# param_2 = obj.search(word)
+    def DFS(self, word, idx, node):
+        
+        if idx == len(word):
+            if node.isEndChar:
+                self.res = True
+            return
+        
+        if word[idx] in node.dict:
+            self.DFS(word, idx + 1, node.dict[word[idx]])
+            
+        if word[idx] == ".":
+            for value in node.dict.values():
+                self.DFS(word, idx + 1, value)
+            
