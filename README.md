@@ -36,7 +36,7 @@
 |36|[ Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)|[Python3](./solutions/36.%20Valid%20Sudoku.py)|100 ms|
 |37|[ Sudoku Solver](https://leetcode.com/problems/sudoku-solver/)|[Python3](./solutions/37.%20Sudoku%20Solver.py)|427 ms|
 |38|[ Count and Say](https://leetcode.com/problems/count-and-say/)|[Python3](./solutions/38.%20Count%20and%20Say.py)|36 ms|
-|39|[ Combination Sum](https://leetcode.com/problems/combination-sum/)|[Python3](./solutions/39.%20Combination%20Sum.py)|96 ms|
+|39|[ Combination Sum](https://leetcode.com/problems/combination-sum/)|[Python3](./solutions/39.%20Combination%20Sum.py)|72 ms|
 |40|[ Combination Sum II](https://leetcode.com/problems/combination-sum-ii/)|[Python3](./solutions/40.%20Combination%20Sum%20II.py)|108 ms|
 |42|[ Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)|[Python3](./solutions/42.%20Trapping%20Rain%20Water.py)|68 ms|
 |43|[ Multiply Strings](https://leetcode.com/problems/multiply-strings/)|[Python3](./solutions/43.%20Multiply%20Strings.py)|36 ms|
