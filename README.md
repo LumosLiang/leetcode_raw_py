@@ -352,3 +352,4 @@
 |1839|[ Longest Substring Of All Vowels in Order](https://leetcode.com/problems/longest-substring-of-all-vowels-in-order/)|[Python3](./solutions/1839.%20Longest%20Substring%20Of%20All%20Vowels%20in%20Order.py)|968 ms|
 |1845|[ Seat Reservation Manager](https://leetcode.com/problems/seat-reservation-manager/)|[Python3](./solutions/1845.%20Seat%20Reservation%20Manager.py)|592 ms|
 |1944|[ Number of Visible People in a Queue](https://leetcode.com/problems/number-of-visible-people-in-a-queue/)|[Python3](./solutions/1944.%20Number%20of%20Visible%20People%20in%20a%20Queue.py)|1180 ms|
+|2133|[ Check if Every Row and Column Contains All Numbers](https://leetcode.com/problems/check-if-every-row-and-column-contains-all-numbers/)|[Python3](./solutions/2133.%20Check%20if%20Every%20Row%20and%20Column%20Contains%20All%20Numbers.py)|792 ms|
