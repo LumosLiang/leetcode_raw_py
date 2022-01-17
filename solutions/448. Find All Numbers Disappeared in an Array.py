@@ -1,5 +1,10 @@
 class Solution:
-    def findDisappearedNumbers(self, nums):
-        standard_lst = [i for i in range(1, len(nums) + 1)]
-        return list(set(standard_lst).difference(set(nums)))
-        
+    def findDisappearedNumbers(self, nums: List[int]) -> List[int]:
+        # o(n) -> two pointers, fix N loop, idx relevant relationship
+        
+        for i in range(len(nums)):
+            index = abs(nums[i]) - 1
+            nums[index] = - abs(nums[index])
+        
+        return [i + 1 for i in range(len(nums)) if nums[i] > 0]
+         
