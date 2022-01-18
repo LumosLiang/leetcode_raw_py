@@ -261,6 +261,7 @@
 |817|[ Linked List Components](https://leetcode.com/problems/linked-list-components/)|[Python3](./solutions/817.%20Linked%20List%20Components.py)|104 ms|
 |832|[ Flipping an Image](https://leetcode.com/problems/flipping-an-image/)|[Python3](./solutions/832.%20Flipping%20an%20Image.py)|32 ms|
 |844|[ Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/)|[Python3](./solutions/844.%20Backspace%20String%20Compare.py)|24 ms|
+|846|[ Hand of Straights](https://leetcode.com/problems/hand-of-straights/)|[Python3](./solutions/846.%20Hand%20of%20Straights.py)|220 ms|
 |852|[ Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/)|[Python3](./solutions/852.%20Peak%20Index%20in%20a%20Mountain%20Array.py)|136 ms|
 |862|[ Shortest Subarray with Sum at Least K](https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k/)|[Python3](./solutions/862.%20Shortest%20Subarray%20with%20Sum%20at%20Least%20K.py)|804 ms|
 |865|[ Smallest Subtree with all the Deepest Nodes](https://leetcode.com/problems/smallest-subtree-with-all-the-deepest-nodes/)|[Python3](./solutions/865.%20Smallest%20Subtree%20with%20all%20the%20Deepest%20Nodes.py)|36 ms|
