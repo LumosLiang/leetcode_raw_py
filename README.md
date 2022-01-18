@@ -355,3 +355,4 @@
 |2133|[ Check if Every Row and Column Contains All Numbers](https://leetcode.com/problems/check-if-every-row-and-column-contains-all-numbers/)|[Python3](./solutions/2133.%20Check%20if%20Every%20Row%20and%20Column%20Contains%20All%20Numbers.py)|792 ms|
 |2134|[ Minimum Swaps to Group All 1's Together II](https://leetcode.com/problems/minimum-swaps-to-group-all-1s-together-ii/)|[Python3](./solutions/2134.%20Minimum%20Swaps%20to%20Group%20All%201's%20Together%20II.py)|1324 ms|
 |2135|[ Count Words Obtained After Adding a Letter](https://leetcode.com/problems/count-words-obtained-after-adding-a-letter/)|[Python3](./solutions/2135.%20Count%20Words%20Obtained%20After%20Adding%20a%20Letter.py)|1551 ms|
+|2140|[ Solving Questions With Brainpower](https://leetcode.com/problems/solving-questions-with-brainpower/)|[Python3](./solutions/2140.%20Solving%20Questions%20With%20Brainpower.py)|2099 ms|
