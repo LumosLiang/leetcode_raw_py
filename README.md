@@ -352,6 +352,7 @@
 |1839|[ Longest Substring Of All Vowels in Order](https://leetcode.com/problems/longest-substring-of-all-vowels-in-order/)|[Python3](./solutions/1839.%20Longest%20Substring%20Of%20All%20Vowels%20in%20Order.py)|968 ms|
 |1845|[ Seat Reservation Manager](https://leetcode.com/problems/seat-reservation-manager/)|[Python3](./solutions/1845.%20Seat%20Reservation%20Manager.py)|592 ms|
 |1944|[ Number of Visible People in a Queue](https://leetcode.com/problems/number-of-visible-people-in-a-queue/)|[Python3](./solutions/1944.%20Number%20of%20Visible%20People%20in%20a%20Queue.py)|1180 ms|
+|1985|[ Find the Kth Largest Integer in the Array](https://leetcode.com/problems/find-the-kth-largest-integer-in-the-array/)|[Python3](./solutions/1985.%20Find%20the%20Kth%20Largest%20Integer%20in%20the%20Array.py)|293 ms|
 |2133|[ Check if Every Row and Column Contains All Numbers](https://leetcode.com/problems/check-if-every-row-and-column-contains-all-numbers/)|[Python3](./solutions/2133.%20Check%20if%20Every%20Row%20and%20Column%20Contains%20All%20Numbers.py)|792 ms|
 |2134|[ Minimum Swaps to Group All 1's Together II](https://leetcode.com/problems/minimum-swaps-to-group-all-1s-together-ii/)|[Python3](./solutions/2134.%20Minimum%20Swaps%20to%20Group%20All%201's%20Together%20II.py)|1324 ms|
 |2135|[ Count Words Obtained After Adding a Letter](https://leetcode.com/problems/count-words-obtained-after-adding-a-letter/)|[Python3](./solutions/2135.%20Count%20Words%20Obtained%20After%20Adding%20a%20Letter.py)|1551 ms|
