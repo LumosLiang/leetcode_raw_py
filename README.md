@@ -311,6 +311,7 @@
 |1296|[ Divide Array in Sets of K Consecutive Numbers](https://leetcode.com/problems/divide-array-in-sets-of-k-consecutive-numbers/)|[Python3](./solutions/1296.%20Divide%20Array%20in%20Sets%20of%20K%20Consecutive%20Numbers.py)|484 ms|
 |1302|[ Deepest Leaves Sum](https://leetcode.com/problems/deepest-leaves-sum/)|[Python3](./solutions/1302.%20Deepest%20Leaves%20Sum.py)|84 ms|
 |1305|[ All Elements in Two Binary Search Trees](https://leetcode.com/problems/all-elements-in-two-binary-search-trees/)|[Python3](./solutions/1305.%20All%20Elements%20in%20Two%20Binary%20Search%20Trees.py)|332 ms|
+|1314|[ Matrix Block Sum](https://leetcode.com/problems/matrix-block-sum/)|[Python3](./solutions/1314.%20Matrix%20Block%20Sum.py)|108 ms|
 |1315|[ Sum of Nodes with Even-Valued Grandparent](https://leetcode.com/problems/sum-of-nodes-with-even-valued-grandparent/)|[Python3](./solutions/1315.%20Sum%20of%20Nodes%20with%20Even-Valued%20Grandparent.py)|108 ms|
 |1325|[ Delete Leaves With a Given Value](https://leetcode.com/problems/delete-leaves-with-a-given-value/)|[Python3](./solutions/1325.%20Delete%20Leaves%20With%20a%20Given%20Value.py)|72 ms|
 |1329|[ Sort the Matrix Diagonally](https://leetcode.com/problems/sort-the-matrix-diagonally/)|[Python3](./solutions/1329.%20Sort%20the%20Matrix%20Diagonally.py)|76 ms|
