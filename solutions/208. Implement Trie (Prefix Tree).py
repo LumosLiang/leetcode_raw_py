@@ -1,3 +1,48 @@
+​
+class TrieNode:
+    def __init__(self):
+        self.list = [None] * 26
+        self.IsEndChar = False
+​
+class Trie:
+​
+    def __init__(self):
+        self.root = TrieNode()
+​
+    def insert(self, word: str) -> None:
+        curr = self.root
+        
+        for chr in word:
+            idx = ord(chr) - ord('a')
+            if not curr.list[idx]:
+                curr.list[idx] = TrieNode()
+            curr = curr.list[idx]
+        
+        curr.IsEndChar = True
+​
+    def search(self, word: str) -> bool:
+        
+        curr = self.root
+        for chr in word:
+            idx = ord(chr) - ord('a')
+            if not curr.list[idx]:
+                return False
+            curr = curr.list[idx]
+        
+        return curr.IsEndChar
+​
+    def startsWith(self, prefix: str) -> bool:
+​
+        curr = self.root
+        for chr in prefix:
+            idx = ord(chr) - ord('a')
+            if not curr.list[idx]:
+                return False
+            curr = curr.list[idx]
+        
+        return True
+​
+    # Dic Way
 class TrieNode:
     def __init__(self, isEndNode = False):
         self.dict = {}
@@ -21,27 +66,3 @@ class Trie:
                 curr.dict[w] = TrieNode()
             curr = curr.dict[w]
         curr.isEndNode = True
-​
-    def search(self, word: str) -> bool:
-        """
-        Returns if the word is in the trie.
-        """
-        curr = self.root
-        for i in range(len(word)):
-            if word[i] not in curr.dict:
-                return False
-            curr = curr.dict[word[i]]
-        return curr.isEndNode
-​
-    def startsWith(self, prefix: str) -> bool:
-        """
-        Returns if there is any word in the trie that starts with the given prefix.
-        """
-        curr = self.root
-        for i in range(len(prefix)):
-            if prefix[i] not in curr.dict:
-                return False
-            # if word[i] in curr.dict:
-            curr = curr.dict[prefix[i]]
-        
-        return True
