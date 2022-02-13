@@ -364,3 +364,4 @@
 |2138|[ Divide a String Into Groups of Size k](https://leetcode.com/problems/divide-a-string-into-groups-of-size-k/)|[Python3](./solutions/2138.%20Divide%20a%20String%20Into%20Groups%20of%20Size%20k.py)|41 ms|
 |2139|[ Minimum Moves to Reach Target Score](https://leetcode.com/problems/minimum-moves-to-reach-target-score/)|[Python3](./solutions/2139.%20Minimum%20Moves%20to%20Reach%20Target%20Score.py)|41 ms|
 |2140|[ Solving Questions With Brainpower](https://leetcode.com/problems/solving-questions-with-brainpower/)|[Python3](./solutions/2140.%20Solving%20Questions%20With%20Brainpower.py)|2099 ms|
+|2170|[ Minimum Operations to Make the Array Alternating](https://leetcode.com/problems/minimum-operations-to-make-the-array-alternating/)|[Python3](./solutions/2170.%20Minimum%20Operations%20to%20Make%20the%20Array%20Alternating.py)|1997 ms|
