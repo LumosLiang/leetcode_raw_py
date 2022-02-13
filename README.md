@@ -341,6 +341,7 @@
 |1609|[ Even Odd Tree](https://leetcode.com/problems/even-odd-tree/)|[Python3](./solutions/1609.%20Even%20Odd%20Tree.py)|524 ms|
 |1637|[ Widest Vertical Area Between Two Points Containing No Points](https://leetcode.com/problems/widest-vertical-area-between-two-points-containing-no-points/)|[Python3](./solutions/1637.%20Widest%20Vertical%20Area%20Between%20Two%20Points%20Containing%20No%20Points.py)|920 ms|
 |1642|[ Furthest Building You Can Reach](https://leetcode.com/problems/furthest-building-you-can-reach/)|[Python3](./solutions/1642.%20Furthest%20Building%20You%20Can%20Reach.py)|612 ms|
+|1658|[ Minimum Operations to Reduce X to Zero](https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/)|[Python3](./solutions/1658.%20Minimum%20Operations%20to%20Reduce%20X%20to%20Zero.py)|5076 ms|
 |1669|[ Merge In Between Linked Lists](https://leetcode.com/problems/merge-in-between-linked-lists/)|[Python3](./solutions/1669.%20Merge%20In%20Between%20Linked%20Lists.py)|440 ms|
 |1670|[ Design Front Middle Back Queue](https://leetcode.com/problems/design-front-middle-back-queue/)|[Python3](./solutions/1670.%20Design%20Front%20Middle%20Back%20Queue.py)|79 ms|
 |1672|[ Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth/)|[Python3](./solutions/1672.%20Richest%20Customer%20Wealth.py)|52 ms|
