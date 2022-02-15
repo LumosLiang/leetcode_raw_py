@@ -18,7 +18,7 @@
 |15|[ 3Sum](https://leetcode.com/problems/3sum/)|[Python3](./solutions/15.%203Sum.py)|740 ms|
 |16|[ 3Sum Closest](https://leetcode.com/problems/3sum-closest/)|[Python3](./solutions/16.%203Sum%20Closest.py)|224 ms|
 |17|[ Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)|[Python3](./solutions/17.%20Letter%20Combinations%20of%20a%20Phone%20Number.py)|32 ms|
-|18|[ 4Sum](https://leetcode.com/problems/4sum/)|[Python3](./solutions/18.%204Sum.py)|808 ms|
+|18|[ 4Sum](https://leetcode.com/problems/4sum/)|[Python3](./solutions/18.%204Sum.py)|1115 ms|
 |19|[ Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)|[Python3](./solutions/19.%20Remove%20Nth%20Node%20From%20End%20of%20List.py)|36 ms|
 |20|[ Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)|[Python3](./solutions/20.%20Valid%20Parentheses.py)|36 ms|
 |21|[ Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)|[Python3](./solutions/21.%20Merge%20Two%20Sorted%20Lists.py)|32 ms|
