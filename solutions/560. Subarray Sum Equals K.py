@@ -1,17 +1,27 @@
 class Solution:
     def subarraySum(self, nums, k):
         
-        s = res = 0
-        hash = {0:1}
-​
-        for n in nums:
-            s += n
-            if s - k in hash:
-                res += hash[s - k]
-            if s in hash:
-                hash[s] += 1
+        prefix_sum = [0]
+        
+        for i in range(len(nums)):
+            prefix_sum.append(nums[i] + prefix_sum[i])
+        
+        hash, res = {k:1}, 0
+        
+        # hashtable {key, val}
+        # key is the relative distance = k, val is the count of relative distance = k
+        
+        for i in range(1, len(prefix_sum)):
+            if prefix_sum[i] in hash:
+                res += hash[prefix_sum[i]]
+            
+            if prefix_sum[i] + k in hash:
+                hash[prefix_sum[i] + k] += 1
             else:
-                hash[s] = 1
-                
+                hash[prefix_sum[i] + k] = 1
+            
         return res
+        
+        
+        
                 
