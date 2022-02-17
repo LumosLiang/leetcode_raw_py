@@ -1,7 +1,9 @@
 class Solution:
     def orangesRotting(self, grid: List[List[int]]) -> int:
         
-        # decide BFS
+        # decide BFS because this requirement
+        
+            ## Return the minimum number of minutes that must elapse until no cell has a fresh orange. If this is impossible, return -1.
         
         ## compute count and add rotten orange to q
         
