@@ -1,54 +1,43 @@
-public class Solution {
-    public int OrangesRotting(int[][] grid)
-    {
-​
-        // first loop, to generate a q and count how many oranges totally.
-​
-        int m = grid.Length, n = grid[0].Length, res = 0, count = 0;
-        int[] DIR = new int[] { 0, 1, 0, -1, 0 };
-        Queue<int[]> q = new Queue<int[]>();
-​
-        for (int i = 0; i < m; i++)
-        {
-            for (int j = 0; j < n; j++)
-            {
-                if (grid[i][j] != 0)
-                {
-                    if (grid[i][j] == 2)
-                    {
-                        grid[i][j] = -1; // mark as processed
-                        q.Enqueue(new int[] { i, j });
-                    }
-                    else count += 1;
-​
-                }
-            }
-        }
+class Solution:
+    def orangesRotting(self, grid: List[List[int]]) -> int:
         
-        if (q.Count == 0 && count == 0) return 0;
+        # decide BFS
+        
+        ## compute count and add rotten orange to q
+        
+        o_cnt, q = 0, collections.deque()
+        
+        w, l = len(grid), len(grid[0])
+        
+        for i in range(w):
+            for j in range(l):
+                if grid[i][j] != 0:
+                    o_cnt += 1
+                    if grid[i][j] == 2:
+                        q.append([i, j])
+        
+        if len(q) == o_cnt: return 0
+        
+        ## start BFS to rotten every orange:
+        
+        res, rest, cnt = 0, o_cnt - len(q), 0
+        
+        while q:
 ​
-        // second, BFS, start from rotten one, make all fresh organge rotten.
-        while (q.Count != 0)
-        {
-            Queue<int[]> temp = new Queue<int[]>();
-            while (q.Count != 0)
-            {
-                var item = q.Dequeue();
-                int r = item[0], c = item[1];
-                for (int k = 0; k < 4; k++)
-                {
-                    int nr = r + DIR[k], nc = c + DIR[k + 1];
-                    if (nr < 0 || nr >= m || nc < 0 || nc >= n || grid[nr][nc] == 0 || grid[nr][nc] == -1) continue;
-                    grid[nr][nc] = -1;
-                    count -= 1;
-                    temp.Enqueue(new int[] { nr, nc });
-                }
-            }
-            q = temp;
-            res += 1;
-        }
-​
-        if (count == 0) return res - 1;
-        else return -1;
-    }
-}
+            tempq = collections.deque()
+            
+            while q:
+                curr = q.popleft()
+                i, j = curr[0], curr[1]
+                
+                for m, n in [i + 1, j],[i - 1, j],[i, j + 1],[i, j - 1]:
+                    if 0 <= m < w and 0 <= n < l and grid[m][n] == 1:
+                        grid[m][n] = 2
+                        cnt += 1
+                        tempq.append([m, n])
+                        
+            res += 1
+            q = tempq
+                    
+        
+        return -1 if cnt != rest else res - 1
