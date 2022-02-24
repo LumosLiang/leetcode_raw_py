@@ -201,7 +201,7 @@
 |456|[ 132 Pattern](https://leetcode.com/problems/132-pattern/)|[Python3](./solutions/456.%20132%20Pattern.py)|88 ms|
 |461|[ Hamming Distance](https://leetcode.com/problems/hamming-distance/)|[Python3](./solutions/461.%20Hamming%20Distance.py)|16 ms|
 |462|[ Minimum Moves to Equal Array Elements II](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii/)|[Python3](./solutions/462.%20Minimum%20Moves%20to%20Equal%20Array%20Elements%20II.py)|105 ms|
-|485|[ Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/)|[Python3](./solutions/485.%20Max%20Consecutive%20Ones.py)|440 ms|
+|485|[ Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/)|[Python3](./solutions/485.%20Max%20Consecutive%20Ones.py)|670 ms|
 |496|[ Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/)|[Python3](./solutions/496.%20Next%20Greater%20Element%20I.py)|48 ms|
 |498|[ Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/)|[Python3](./solutions/498.%20Diagonal%20Traverse.py)|184 ms|
 |501|[ Find Mode in Binary Search Tree](https://leetcode.com/problems/find-mode-in-binary-search-tree/)|[Python3](./solutions/501.%20Find%20Mode%20in%20Binary%20Search%20Tree.py)|68 ms|
