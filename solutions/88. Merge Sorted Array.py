@@ -1,25 +1,20 @@
 class Solution:
-    def merge(self, nums1, m, nums2, n):
+    def merge(self, nums1: List[int], m: int, nums2: List[int], n: int) -> None:
         """
-        m: The number of elements initialized in nums1
-        n: The number of elements initialized in nums2
         Do not return anything, modify nums1 in-place instead.
         """
+        n1, n2, end = m - 1, n - 1, len(nums1) - 1
         
-        pointer_2 = 0
-        pointer_1 = 0
+        while n1 >= 0 and n2 >= 0:
+            v1, v2 = nums1[n1], nums2[n2]
+            if v1 >= v2:
+                nums1[end] = v1
+                n1 -= 1
+            else:
+                nums1[end] = v2
+                n2 -= 1
+            end -= 1
+        
+        if n1 < 0:
+            nums1[:n2+1] = nums2[:n2 + 1]
 ​
-        while pointer_2 < n:
-            while pointer_1 < len(nums1):
-                if nums1[pointer_1] == 0:
-                    nums1.insert(pointer_1, nums2[pointer_2])
-                    nums1.pop(-1)
-                    break
-                elif nums2[pointer_2] > nums1[pointer_1]:
-                    pointer_1 += 1
-                elif nums2[pointer_2] <= nums1[pointer_1]:
-                    nums1.insert(pointer_1, nums2[pointer_2])
-                    nums1.pop(-1)
-                    break
-            pointer_2 += 1
-        nums1.sort()
