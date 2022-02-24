@@ -320,6 +320,7 @@
 |1325|[ Delete Leaves With a Given Value](https://leetcode.com/problems/delete-leaves-with-a-given-value/)|[Python3](./solutions/1325.%20Delete%20Leaves%20With%20a%20Given%20Value.py)|72 ms|
 |1329|[ Sort the Matrix Diagonally](https://leetcode.com/problems/sort-the-matrix-diagonally/)|[Python3](./solutions/1329.%20Sort%20the%20Matrix%20Diagonally.py)|76 ms|
 |1337|[ The K Weakest Rows in a Matrix](https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix/)|[Python3](./solutions/1337.%20The%20K%20Weakest%20Rows%20in%20a%20Matrix.py)|172 ms|
+|1346|[ Check If N and Its Double Exist](https://leetcode.com/problems/check-if-n-and-its-double-exist/)|[Python3](./solutions/1346.%20Check%20If%20N%20and%20Its%20Double%20Exist.py)|52 ms|
 |1351|[ Count Negative Numbers in a Sorted Matrix](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/)|[Python3](./solutions/1351.%20Count%20Negative%20Numbers%20in%20a%20Sorted%20Matrix.py)|124 ms|
 |1358|[ Number of Substrings Containing All Three Characters](https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/)|[Python3](./solutions/1358.%20Number%20of%20Substrings%20Containing%20All%20Three%20Characters.py)|372 ms|
 |1360|[ Number of Days Between Two Dates](https://leetcode.com/problems/number-of-days-between-two-dates/)|[Python3](./solutions/1360.%20Number%20of%20Days%20Between%20Two%20Dates.py)|36 ms|
