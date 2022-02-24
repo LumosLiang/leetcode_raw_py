@@ -281,6 +281,7 @@
 |930|[ Binary Subarrays With Sum](https://leetcode.com/problems/binary-subarrays-with-sum/)|[Python3](./solutions/930.%20Binary%20Subarrays%20With%20Sum.py)|316 ms|
 |931|[ Minimum Falling Path Sum](https://leetcode.com/problems/minimum-falling-path-sum/)|[Python3](./solutions/931.%20Minimum%20Falling%20Path%20Sum.py)|112 ms|
 |938|[ Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/)|[Python3](./solutions/938.%20Range%20Sum%20of%20BST.py)|1380 ms|
+|941|[ Valid Mountain Array](https://leetcode.com/problems/valid-mountain-array/)|[Python3](./solutions/941.%20Valid%20Mountain%20Array.py)|236 ms|
 |961|[ N-Repeated Element in Size 2N Array](https://leetcode.com/problems/n-repeated-element-in-size-2n-array/)|[Python3](./solutions/961.%20N-Repeated%20Element%20in%20Size%202N%20Array.py)|24 ms|
 |973|[ K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/)|[Python3](./solutions/973.%20K%20Closest%20Points%20to%20Origin.py)|780 ms|
 |977|[ Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)|[Python3](./solutions/977.%20Squares%20of%20a%20Sorted%20Array.py)|184 ms|
