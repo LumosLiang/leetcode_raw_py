@@ -374,3 +374,4 @@
 |2169|[ Count Operations to Obtain Zero](https://leetcode.com/problems/count-operations-to-obtain-zero/)|[Python3](./solutions/2169.%20Count%20Operations%20to%20Obtain%20Zero.py)|239 ms|
 |2170|[ Minimum Operations to Make the Array Alternating](https://leetcode.com/problems/minimum-operations-to-make-the-array-alternating/)|[Python3](./solutions/2170.%20Minimum%20Operations%20to%20Make%20the%20Array%20Alternating.py)|1997 ms|
 |2171|[ Removing Minimum Number of Magic Beans](https://leetcode.com/problems/removing-minimum-number-of-magic-beans/)|[Python3](./solutions/2171.%20Removing%20Minimum%20Number%20of%20Magic%20Beans.py)|1453 ms|
+|2185|[ Counting Words With a Given Prefix](https://leetcode.com/problems/counting-words-with-a-given-prefix/)|[Python3](./solutions/2185.%20Counting%20Words%20With%20a%20Given%20Prefix.py)||
