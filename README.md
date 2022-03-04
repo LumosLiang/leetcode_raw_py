@@ -107,7 +107,7 @@
 |137|[ Single Number II](https://leetcode.com/problems/single-number-ii/)|[Python3](./solutions/137.%20Single%20Number%20II.py)|56 ms|
 |139|[ Word Break](https://leetcode.com/problems/word-break/)|[Python3](./solutions/139.%20Word%20Break.py)|100 ms|
 |140|[ Word Break II](https://leetcode.com/problems/word-break-ii/)|[Python3](./solutions/140.%20Word%20Break%20II.py)|32 ms|
-|141|[ Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)|[Python3](./solutions/141.%20Linked%20List%20Cycle.py)|56 ms|
+|141|[ Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)|[Python3](./solutions/141.%20Linked%20List%20Cycle.py)|52 ms|
 |142|[ Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)|[Python3](./solutions/142.%20Linked%20List%20Cycle%20II.py)|48 ms|
 |143|[ Reorder List](https://leetcode.com/problems/reorder-list/)|[Python3](./solutions/143.%20Reorder%20List.py)|92 ms|
 |144|[ Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/)|[Python3](./solutions/144.%20Binary%20Tree%20Preorder%20Traversal.py)|32 ms|
