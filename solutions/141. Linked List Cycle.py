@@ -6,9 +6,10 @@
 ​
 class Solution:
     def hasCycle(self, head: Optional[ListNode]) -> bool:
-        
-        if not head: return False
-        
+        return self.sol2(head)
+​
+    # O(N), O(1)
+    def sol1(self, head):
         slow, fast = head, head
         
         while fast and fast.next:
@@ -17,4 +18,18 @@ class Solution:
             
             if fast == slow: return True
         
+        return False
+​
+    # O(N), O(N)
+    def sol2(self, head):
+        
+        h, curr = {}, head
+        
+        while curr:
+            if curr in h:
+                return True
+            else:
+                h[curr] = curr.val
+                curr = curr.next
+                
         return False
