@@ -1,15 +1,17 @@
 class Solution:
-    def searchInsert(self, nums, target):
+    # O(logN), O(1)
+    def searchInsert(self, nums: List[int], target: int) -> int:
         
-        low, high = 0, len(nums) - 1
-​
-        while (low <= high):
-            mid = low + (high - low) // 2
-            if nums[mid] > target:
-                high = mid - 1
-            elif nums[mid] < target:
-                low = mid + 1
+        l, r = 0, len(nums)
+        
+        while l < r:
+            mid = (l + r) // 2
+            val = nums[mid]
+            
+            if val < target:
+                l = mid + 1
             else:
-                return mid
+                r = mid
         
-        return low
+        return l 
+            
