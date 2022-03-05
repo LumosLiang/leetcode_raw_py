@@ -1,11 +1,10 @@
 class Solution:
     def canConstruct(self, ransomNote: str, magazine: str) -> bool:
         
-        rn_hash, maga_hash = collections.Counter(list(ransomNote)), collections.Counter(list(magazine))
+        r, m = collections.Counter(ransomNote), collections.Counter(magazine)
         
-        count = 0
-        for key, value in rn_hash.items():
-            if key in maga_hash and maga_hash[key] >= value:count+=1
-        
-        return count == len(rn_hash)
-                
+        for k, v in r.items():
+            if k not in m or m[k] < v:
+                return False
+            
+        return True
