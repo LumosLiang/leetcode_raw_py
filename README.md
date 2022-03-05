@@ -170,7 +170,7 @@
 |328|[ Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/)|[Python3](./solutions/328.%20Odd%20Even%20Linked%20List.py)|44 ms|
 |331|[ Verify Preorder Serialization of a Binary Tree](https://leetcode.com/problems/verify-preorder-serialization-of-a-binary-tree/)|[Python3](./solutions/331.%20Verify%20Preorder%20Serialization%20of%20a%20Binary%20Tree.py)|48 ms|
 |342|[ Power of Four](https://leetcode.com/problems/power-of-four/)|[Python3](./solutions/342.%20Power%20of%20Four.py)|32 ms|
-|344|[ Reverse String](https://leetcode.com/problems/reverse-string/)|[Python3](./solutions/344.%20Reverse%20String.py)|192 ms|
+|344|[ Reverse String](https://leetcode.com/problems/reverse-string/)|[Python3](./solutions/344.%20Reverse%20String.py)|241 ms|
 |345|[ Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/)|[Python3](./solutions/345.%20Reverse%20Vowels%20of%20a%20String.py)|48 ms|
 |347|[ Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)|[Python3](./solutions/347.%20Top%20K%20Frequent%20Elements.py)|144 ms|
 |349|[ Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/)|[Python3](./solutions/349.%20Intersection%20of%20Two%20Arrays.py)|40 ms|
