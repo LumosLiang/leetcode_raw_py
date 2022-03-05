@@ -178,7 +178,7 @@
 |367|[ Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/)|[Python3](./solutions/367.%20Valid%20Perfect%20Square.py)|32 ms|
 |373|[ Find K Pairs with Smallest Sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/)|[Python3](./solutions/373.%20Find%20K%20Pairs%20with%20Smallest%20Sums.py)|944 ms|
 |378|[ Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/)|[Python3](./solutions/378.%20Kth%20Smallest%20Element%20in%20a%20Sorted%20Matrix.py)|232 ms|
-|383|[ Ransom Note](https://leetcode.com/problems/ransom-note/)|[Python3](./solutions/383.%20Ransom%20Note.py)|52 ms|
+|383|[ Ransom Note](https://leetcode.com/problems/ransom-note/)|[Python3](./solutions/383.%20Ransom%20Note.py)|50 ms|
 |387|[ First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/)|[Python3](./solutions/387.%20First%20Unique%20Character%20in%20a%20String.py)|132 ms|
 |389|[ Find the Difference](https://leetcode.com/problems/find-the-difference/)|[Python3](./solutions/389.%20Find%20the%20Difference.py)|36 ms|
 |395|[ Longest Substring with At Least K Repeating Characters](https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/)|[Python3](./solutions/395.%20Longest%20Substring%20with%20At%20Least%20K%20Repeating%20Characters.py)|52 ms|
