@@ -27,4 +27,6 @@ class Solution:
         # basic BFS
         # remember to avoid duplicate: set the newcolor first before entering the q.
         # remember to add visited if some dumplicate cannot be avoid by only comparing val. 
+        
+        
                 
