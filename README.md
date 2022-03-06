@@ -214,7 +214,7 @@
 |535|[ Encode and Decode TinyURL](https://leetcode.com/problems/encode-and-decode-tinyurl/)|[Python3](./solutions/535.%20Encode%20and%20Decode%20TinyURL.py)|28 ms|
 |538|[ Convert BST to Greater Tree](https://leetcode.com/problems/convert-bst-to-greater-tree/)|[Python3](./solutions/538.%20Convert%20BST%20to%20Greater%20Tree.py)|80 ms|
 |540|[ Single Element in a Sorted Array](https://leetcode.com/problems/single-element-in-a-sorted-array/)|[Python3](./solutions/540.%20Single%20Element%20in%20a%20Sorted%20Array.py)|64 ms|
-|542|[ 01 Matrix](https://leetcode.com/problems/01-matrix/)|[Python3](./solutions/542.%2001%20Matrix.py)|720 ms|
+|542|[ 01 Matrix](https://leetcode.com/problems/01-matrix/)|[Python3](./solutions/542.%2001%20Matrix.py)|801 ms|
 |543|[ Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)|[Python3](./solutions/543.%20Diameter%20of%20Binary%20Tree.py)|48 ms|
 |547|[ Number of Provinces](https://leetcode.com/problems/number-of-provinces/)|[Python3](./solutions/547.%20Number%20of%20Provinces.py)|304 ms|
 |557|[ Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/)|[Python3](./solutions/557.%20Reverse%20Words%20in%20a%20String%20III.py)|44 ms|
