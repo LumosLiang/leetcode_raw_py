@@ -4,6 +4,8 @@ class Solution:
         # pure DP problem
         # dp[i][j] = min(dp[i - 1][j], dp[i][j]) + triangle[i][j]
         
+        # O(N^2), since visiting every node, O(N^2) space
+        
         init = triangle[0][0]
         
         l = len(triangle)
