@@ -7,6 +7,8 @@
 class Solution:
     def mergeTrees(self, t1: TreeNode, t2: TreeNode) -> TreeNode:
         
+        # O(min(nums(t1), nums(t2))), O(min(h1, h2))
+        
         if t1 and t2:
             t1.val += t2.val
             t1.left = self.mergeTrees(t1.left, t2.left)
