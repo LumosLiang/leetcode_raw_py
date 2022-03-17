@@ -378,6 +378,7 @@
 |2169|[ Count Operations to Obtain Zero](https://leetcode.com/problems/count-operations-to-obtain-zero/)|[Python3](./solutions/2169.%20Count%20Operations%20to%20Obtain%20Zero.py)|239 ms|
 |2170|[ Minimum Operations to Make the Array Alternating](https://leetcode.com/problems/minimum-operations-to-make-the-array-alternating/)|[Python3](./solutions/2170.%20Minimum%20Operations%20to%20Make%20the%20Array%20Alternating.py)|1997 ms|
 |2171|[ Removing Minimum Number of Magic Beans](https://leetcode.com/problems/removing-minimum-number-of-magic-beans/)|[Python3](./solutions/2171.%20Removing%20Minimum%20Number%20of%20Magic%20Beans.py)|1453 ms|
+|2180|[ Count Integers With Even Digit Sum](https://leetcode.com/problems/count-integers-with-even-digit-sum/)|[Python3](./solutions/2180.%20Count%20Integers%20With%20Even%20Digit%20Sum.py)|56 ms|
 |2185|[ Counting Words With a Given Prefix](https://leetcode.com/problems/counting-words-with-a-given-prefix/)|[Python3](./solutions/2185.%20Counting%20Words%20With%20a%20Given%20Prefix.py)||
 |2186|[ Minimum Number of Steps to Make Two Strings Anagram II](https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram-ii/)|[Python3](./solutions/2186.%20Minimum%20Number%20of%20Steps%20to%20Make%20Two%20Strings%20Anagram%20II.py)||
 |2187|[ Minimum Time to Complete Trips](https://leetcode.com/problems/minimum-time-to-complete-trips/)|[Python3](./solutions/2187.%20Minimum%20Time%20to%20Complete%20Trips.py)||
