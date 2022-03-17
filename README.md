@@ -394,6 +394,7 @@
 |2187|[ Minimum Time to Complete Trips](https://leetcode.com/problems/minimum-time-to-complete-trips/)|[Python3](./solutions/2187.%20Minimum%20Time%20to%20Complete%20Trips.py)|2836 ms|
 |2194|[ Cells in a Range on an Excel Sheet](https://leetcode.com/problems/cells-in-a-range-on-an-excel-sheet/)|[Python3](./solutions/2194.%20Cells%20in%20a%20Range%20on%20an%20Excel%20Sheet.py)|67 ms|
 |2195|[ Append K Integers With Minimal Sum](https://leetcode.com/problems/append-k-integers-with-minimal-sum/)|[Python3](./solutions/2195.%20Append%20K%20Integers%20With%20Minimal%20Sum.py)|1254 ms|
+|2196|[ Create Binary Tree From Descriptions](https://leetcode.com/problems/create-binary-tree-from-descriptions/)|[Python3](./solutions/2196.%20Create%20Binary%20Tree%20From%20Descriptions.py)|3144 ms|
 |2200|[ Find All K-Distant Indices in an Array](https://leetcode.com/problems/find-all-k-distant-indices-in-an-array/)|[Python3](./solutions/2200.%20Find%20All%20K-Distant%20Indices%20in%20an%20Array.py)|984 ms|
 |2201|[ Count Artifacts That Can Be Extracted](https://leetcode.com/problems/count-artifacts-that-can-be-extracted/)|[Python3](./solutions/2201.%20Count%20Artifacts%20That%20Can%20Be%20Extracted.py)|3732 ms|
 |2202|[ Maximize the Topmost Element After K Moves](https://leetcode.com/problems/maximize-the-topmost-element-after-k-moves/)|[Python3](./solutions/2202.%20Maximize%20the%20Topmost%20Element%20After%20K%20Moves.py)|711 ms|
