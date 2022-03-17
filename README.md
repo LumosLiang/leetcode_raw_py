@@ -392,6 +392,7 @@
 |2185|[ Counting Words With a Given Prefix](https://leetcode.com/problems/counting-words-with-a-given-prefix/)|[Python3](./solutions/2185.%20Counting%20Words%20With%20a%20Given%20Prefix.py)||
 |2186|[ Minimum Number of Steps to Make Two Strings Anagram II](https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram-ii/)|[Python3](./solutions/2186.%20Minimum%20Number%20of%20Steps%20to%20Make%20Two%20Strings%20Anagram%20II.py)||
 |2187|[ Minimum Time to Complete Trips](https://leetcode.com/problems/minimum-time-to-complete-trips/)|[Python3](./solutions/2187.%20Minimum%20Time%20to%20Complete%20Trips.py)||
+|2195|[ Append K Integers With Minimal Sum](https://leetcode.com/problems/append-k-integers-with-minimal-sum/)|[Python3](./solutions/2195.%20Append%20K%20Integers%20With%20Minimal%20Sum.py)|1254 ms|
 |2200|[ Find All K-Distant Indices in an Array](https://leetcode.com/problems/find-all-k-distant-indices-in-an-array/)|[Python3](./solutions/2200.%20Find%20All%20K-Distant%20Indices%20in%20an%20Array.py)|984 ms|
 |2201|[ Count Artifacts That Can Be Extracted](https://leetcode.com/problems/count-artifacts-that-can-be-extracted/)|[Python3](./solutions/2201.%20Count%20Artifacts%20That%20Can%20Be%20Extracted.py)|3732 ms|
 |2202|[ Maximize the Topmost Element After K Moves](https://leetcode.com/problems/maximize-the-topmost-element-after-k-moves/)|[Python3](./solutions/2202.%20Maximize%20the%20Topmost%20Element%20After%20K%20Moves.py)|711 ms|
