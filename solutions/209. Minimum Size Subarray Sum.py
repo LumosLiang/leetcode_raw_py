@@ -1,20 +1,19 @@
 # typical sliding window problem I think.
 class Solution:
     def minSubArrayLen(self, s: int, nums: List[int]) -> int:
+        # O(N), O(1)
         
-        total, left, right = 0, 0, 0
-        min_len = float('inf')
+        sum, l, res = 0, 0, len(nums) + 1
         
-        if sum(nums) < s: return 0
+        for r, val in enumerate(nums):
+            sum += val
+            while sum >= s:
+                res = min(res, r - l + 1)
+                sum -= nums[l]
+                l += 1
+      
+        return res if res != len(nums) + 1 else 0
+            
         
-        while right < len(nums):
-            total += nums[right]
-            while total >= s:
-                min_len = min(min_len, right - left + 1)
-                total -= nums[left]
-                left += 1
-            right += 1
-                
-        return min_len
                 
 ​
