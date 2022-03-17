@@ -39,6 +39,7 @@
 |38|[ Count and Say](https://leetcode.com/problems/count-and-say/)|[Python3](./solutions/38.%20Count%20and%20Say.py)|36 ms|
 |39|[ Combination Sum](https://leetcode.com/problems/combination-sum/)|[Python3](./solutions/39.%20Combination%20Sum.py)|72 ms|
 |40|[ Combination Sum II](https://leetcode.com/problems/combination-sum-ii/)|[Python3](./solutions/40.%20Combination%20Sum%20II.py)|108 ms|
+|41|[ First Missing Positive](https://leetcode.com/problems/first-missing-positive/)|[Python3](./solutions/41.%20First%20Missing%20Positive.py)|1498 ms|
 |42|[ Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)|[Python3](./solutions/42.%20Trapping%20Rain%20Water.py)|68 ms|
 |43|[ Multiply Strings](https://leetcode.com/problems/multiply-strings/)|[Python3](./solutions/43.%20Multiply%20Strings.py)|36 ms|
 |45|[ Jump Game II](https://leetcode.com/problems/jump-game-ii/)|[Python3](./solutions/45.%20Jump%20Game%20II.py)|128 ms|
