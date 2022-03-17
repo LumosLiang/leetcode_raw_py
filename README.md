@@ -121,6 +121,7 @@
 |146|[ LRU Cache](https://leetcode.com/problems/lru-cache/)|[Python3](./solutions/146.%20LRU%20Cache.py)|956 ms|
 |147|[ Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/)|[Python3](./solutions/147.%20Insertion%20Sort%20List.py)|1540 ms|
 |148|[ Sort List](https://leetcode.com/problems/sort-list/)|[Python3](./solutions/148.%20Sort%20List.py)|N/A|
+|150|[ Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/)|[Python3](./solutions/150.%20Evaluate%20Reverse%20Polish%20Notation.py)|116 ms|
 |153|[ Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)|[Python3](./solutions/153.%20Find%20Minimum%20in%20Rotated%20Sorted%20Array.py)|57 ms|
 |155|[ Min Stack](https://leetcode.com/problems/min-stack/)|[Python3](./solutions/155.%20Min%20Stack.py)|64 ms|
 |160|[ Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)|[Python3](./solutions/160.%20Intersection%20of%20Two%20Linked%20Lists.py)|N/A|
