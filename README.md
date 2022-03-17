@@ -377,6 +377,7 @@
 |2148|[ Count Elements With Strictly Smaller and Greater Elements](https://leetcode.com/problems/count-elements-with-strictly-smaller-and-greater-elements/)|[Python3](./solutions/2148.%20Count%20Elements%20With%20Strictly%20Smaller%20and%20Greater%20Elements.py)|61 ms|
 |2149|[ Rearrange Array Elements by Sign](https://leetcode.com/problems/rearrange-array-elements-by-sign/)|[Python3](./solutions/2149.%20Rearrange%20Array%20Elements%20by%20Sign.py)|2555 ms|
 |2150|[ Find All Lonely Numbers in the Array](https://leetcode.com/problems/find-all-lonely-numbers-in-the-array/)|[Python3](./solutions/2150.%20Find%20All%20Lonely%20Numbers%20in%20the%20Array.py)|2330 ms|
+|2154|[ Keep Multiplying Found Values by Two](https://leetcode.com/problems/keep-multiplying-found-values-by-two/)|[Python3](./solutions/2154.%20Keep%20Multiplying%20Found%20Values%20by%20Two.py)|117 ms|
 |2164|[ Sort Even and Odd Indices Independently](https://leetcode.com/problems/sort-even-and-odd-indices-independently/)|[Python3](./solutions/2164.%20Sort%20Even%20and%20Odd%20Indices%20Independently.py)|82 ms|
 |2169|[ Count Operations to Obtain Zero](https://leetcode.com/problems/count-operations-to-obtain-zero/)|[Python3](./solutions/2169.%20Count%20Operations%20to%20Obtain%20Zero.py)|239 ms|
 |2170|[ Minimum Operations to Make the Array Alternating](https://leetcode.com/problems/minimum-operations-to-make-the-array-alternating/)|[Python3](./solutions/2170.%20Minimum%20Operations%20to%20Make%20the%20Array%20Alternating.py)|1997 ms|
