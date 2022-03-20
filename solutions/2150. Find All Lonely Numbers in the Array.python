@@ -1,0 +1,45 @@
+class Solution(object):
+    def findLonely(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: List[int]
+        """
+    
+        return self.findLonely2(nums)
+    
+    # O(NlogN), O(1)
+    def findLonely1(self, nums):
+        
+        
+        if len(nums) == 1: return nums
+        
+        res = []
+        
+        nums.sort()
+        
+        for i in range(len(nums)):
+            if i == 0:
+                if nums[i] != nums[i + 1] and nums[i + 1] != nums[i] + 1:
+                    res.append(nums[i])                
+            elif i == len(nums) - 1:
+                if nums[i] != nums[i - 1] and nums[i - 1] != nums[i] - 1:
+                    res.append(nums[i]) 
+            else:
+                temp = [nums[i] - 1, nums[i] + 1, nums[i]]
+                if nums[i - 1] not in temp and nums[i + 1] not in temp:
+                    res.append(nums[i])
+        
+        return res
+    
+    
+    # O(N), O(N)
+    def findLonely2(self, nums):
+        
+        c = collections.Counter(nums)
+        res = []
+        
+        for k, v in c.items():
+            if v == 1 and k + 1 not in c and k - 1 not in c:
+                res.append(k)   
+    
+        return res
