@@ -381,7 +381,7 @@
 |2140|[ Solving Questions With Brainpower](https://leetcode.com/problems/solving-questions-with-brainpower/)|[Python3](./solutions/2140.%20Solving%20Questions%20With%20Brainpower.py)|2099 ms|
 |2148|[ Count Elements With Strictly Smaller and Greater Elements](https://leetcode.com/problems/count-elements-with-strictly-smaller-and-greater-elements/)|[Python3](./solutions/2148.%20Count%20Elements%20With%20Strictly%20Smaller%20and%20Greater%20Elements.py)|61 ms|
 |2149|[ Rearrange Array Elements by Sign](https://leetcode.com/problems/rearrange-array-elements-by-sign/)|[Python3](./solutions/2149.%20Rearrange%20Array%20Elements%20by%20Sign.py)|2555 ms|
-|2150|[ Find All Lonely Numbers in the Array](https://leetcode.com/problems/find-all-lonely-numbers-in-the-array/)|[Python3](./solutions/2150.%20Find%20All%20Lonely%20Numbers%20in%20the%20Array.py)|2330 ms|
+|2150|[ Find All Lonely Numbers in the Array](https://leetcode.com/problems/find-all-lonely-numbers-in-the-array/)|[Python](./solutions/2150.%20Find%20All%20Lonely%20Numbers%20in%20the%20Array.python)|2059 ms|
 |2154|[ Keep Multiplying Found Values by Two](https://leetcode.com/problems/keep-multiplying-found-values-by-two/)|[Python3](./solutions/2154.%20Keep%20Multiplying%20Found%20Values%20by%20Two.py)|117 ms|
 |2155|[ All Divisions With the Highest Score of a Binary Array](https://leetcode.com/problems/all-divisions-with-the-highest-score-of-a-binary-array/)|[Python3](./solutions/2155.%20All%20Divisions%20With%20the%20Highest%20Score%20of%20a%20Binary%20Array.py)|6299 ms|
 |2164|[ Sort Even and Odd Indices Independently](https://leetcode.com/problems/sort-even-and-odd-indices-independently/)|[Python3](./solutions/2164.%20Sort%20Even%20and%20Odd%20Indices%20Independently.py)|82 ms|
