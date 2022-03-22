@@ -1,0 +1,22 @@
+class Solution(object):
+    def setZeroes(self, matrix):
+        """
+        :type matrix: List[List[int]]
+        :rtype: None Do not return anything, modify matrix in-place instead.
+        """
+        
+        has_zero = {'x':[], 'y':[]}
+        
+        m, n = len(matrix), len(matrix[0])
+        
+        for i in range(m):
+            for j in range(n):
+                if not matrix[i][j]:
+                    has_zero['x'].append(i)
+                    has_zero['y'].append(j)
+        
+        for i in range(m):
+            for j in range(n):
+                if i in has_zero['x'] or j in has_zero['y'] and matrix[i][j] != 0:
+                    matrix[i][j] = 0
+                
