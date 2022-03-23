@@ -4,19 +4,60 @@ class Solution(object):
         :type matrix: List[List[int]]
         :rtype: None Do not return anything, modify matrix in-place instead.
         """
+        return self.sol2(matrix)
         
-        has_zero = {'x':[], 'y':[]}
+    # O(MN), O(M + N)
+    def sol1(self, matrix):
+        xset, yset = set(), set()
         
         m, n = len(matrix), len(matrix[0])
         
         for i in range(m):
             for j in range(n):
                 if not matrix[i][j]:
-                    has_zero['x'].append(i)
-                    has_zero['y'].append(j)
+                    xset.add(i)
+                    yset.add(j)
         
         for i in range(m):
             for j in range(n):
-                if i in has_zero['x'] or j in has_zero['y'] and matrix[i][j] != 0:
+                if i in xset or j in yset and matrix[i][j]:
                     matrix[i][j] = 0
+                    
+                    
+    # O(MN), O(1)
+    # you cannot do pure in-place update, since the original val on each zero column/row cannot be overlapped.
+    def sol2(self, matrix):
+        
+        m, n = len(matrix), len(matrix[0])
+        isColContainZero, isRowContainZero = False, False
+        
+        for i in range(m):
+            if matrix[i][0] == 0:
+                isColContainZero = True
+                break
+        
+        for j in range(n):
+            if matrix[0][j] == 0:
+                isRowContainZero = True
+                break
+        
+        for i in range(1, m):
+            for j in range(1, n):
+                if matrix[i][j] == 0:
+                    matrix[i][0] = 0
+                    matrix[0][j] = 0
+        
+        
+        for i in range(m - 1, 0, -1):
+            for j in range(n - 1, 0, -1):
+                if matrix[i][0] == 0 or matrix[0][j] == 0:
+                    matrix[i][j] = 0
+                    
+        if isColContainZero:      
+            for i in range(m):
+                matrix[i][0] = 0
+            
+        if isRowContainZero:      
+            for j in range(n):
+                matrix[0][j] = 0
                 
