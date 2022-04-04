@@ -29,10 +29,7 @@ class Solution:
             return
             
         while j <= length:
-            if j == length: 
-                nums[j - 1], nums[i] = nums[i], nums[j - 1]
-                break
-            if nums[j] <= nums[i]:
+            if j == length or nums[j] <= nums[i]:
                 nums[j - 1], nums[i] = nums[i], nums[j - 1]
                 break
             j += 1
