@@ -1,6 +1,8 @@
 class Solution:
     def reverseWords(self, s: str) -> str:
         
+        return self.sol2(s)
+    def sol1(self, s):
         # O(N), O(N)
         # Python cannot do reassign in string
         
@@ -50,6 +52,8 @@ class Solution:
             p4 += 1
         
         return "".join(s[start:p1])
-            
-        
+​
+    # pure python
+    def sol2(self, s):
+        return " ".join(reversed(s.split()))
         
