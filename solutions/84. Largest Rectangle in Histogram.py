@@ -1,16 +1,27 @@
 class Solution:
     def largestRectangleArea(self, heights: List[int]) -> int:
         
-        heights.append(0)
-        stack, res = [-1], 0
+        # this is a increase stack, which means that we are finding the next smaller element
+        # why next smaller? why increasing stack?
+        # 找最大的长方形，观察：
+        # 最大的长方形的高度肯定属于这其中一条bar。这里有n种可能的结果，其中一种就是最大的。
+        # 找最大的时候怎么找，自然而然的，在每一个bar自己的高度上,看看最远能延伸多远。
+        # 向右延伸，如果遇到比自己小的，那就没可能，所以当遇到比自己小的时候，这个bar向左最远的延伸的长度就可以算一下。
+        # 按照这样的想法，组成一个不断递增的栈。每次要弹出的时候，向左看（向栈底看）一定是递减的。
+        # 这样就可以向左扫，扫到比当前小的位置停止，这中间的所有的bar，都可以在自己的高度上上向两边延伸。
         
-        for i, height in enumerate(heights):
-            while heights[stack[-1]] > height:
+        
+        heights.append(-1)
+        stack = [-1]
+        res = -1
+        
+        for right, val in enumerate(heights):
+            while heights[stack[-1]] > val:
                 h = heights[stack.pop()]
-                w = i - stack[-1] - 1
+                left = stack[-1]
+                w = right - left - 1
                 res = max(res, h * w)
-            stack.append(i)
-        
+            
+            stack.append(right)
+            
         return res
-    
-​
