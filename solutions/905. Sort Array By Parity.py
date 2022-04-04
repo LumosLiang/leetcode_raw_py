@@ -1,7 +1,8 @@
 class Solution:
     def sortArrayByParity(self, nums: List[int]) -> List[int]:
-        return self.sol2(nums)
-        
+        return self.sol1(nums)
+    
+    # 与 remove element有异曲同工之处。
     def sol1(self, nums):
         p1, p2 = 0, 0
         
