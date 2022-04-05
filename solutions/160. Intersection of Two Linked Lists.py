@@ -45,7 +45,7 @@ class Solution:
     def sol2(self, headA: ListNode, headB: ListNode):
         
         # 1 length
-        def callen(head):
+        def cal_len(head):
             if not head: return 0
             curr, cnt = head, 0
             while curr:
@@ -54,3 +54,15 @@ class Solution:
             return cnt
         
         # 2 make the same length start O(M + N)
+        cntA, cntB = callen(headA), callen(headB)
+        
+        if cntA > cntB:
+            while cntA - cntB:
+                headA = headA.next
+                cntA -= 1
+        else:
+            while cntB - cntA:
+                headB = headB.next
+                cntB -= 1
+        
+        # 3 start
