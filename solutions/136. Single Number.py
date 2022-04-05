@@ -23,13 +23,13 @@ class Solution:
         
         return res
     
-    
-        res = 0
+        # another way
+#         res = 0
         
-        for i in range(1, len(nums)):
-            res ^= nums[i]
+#         for i in range(1, len(nums)):
+#             res ^= nums[i]
         
-        return res
+#         return res
         
         
         
