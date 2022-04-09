@@ -142,7 +142,7 @@
 |203|[ Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/)|[Python3](./solutions/203.%20Remove%20Linked%20List%20Elements.py)|87 ms|
 |204|[ Count Primes](https://leetcode.com/problems/count-primes/)|[Python3](./solutions/204.%20Count%20Primes.py)|6068 ms|
 |206|[ Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)|[Python3](./solutions/206.%20Reverse%20Linked%20List.py)|N/A|
-|207|[ Course Schedule](https://leetcode.com/problems/course-schedule/)|[Python3](./solutions/207.%20Course%20Schedule.py)|84 ms|
+|207|[ Course Schedule](https://leetcode.com/problems/course-schedule/)|[Python3](./solutions/207.%20Course%20Schedule.py)|100 ms|
 |208|[ Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)|[Python3](./solutions/208.%20Implement%20Trie%20(Prefix%20Tree).py)|252 ms|
 |209|[ Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)|[Python3](./solutions/209.%20Minimum%20Size%20Subarray%20Sum.py)|78 ms|
 |210|[ Course Schedule II](https://leetcode.com/problems/course-schedule-ii/)|[Python3](./solutions/210.%20Course%20Schedule%20II.py)|96 ms|
