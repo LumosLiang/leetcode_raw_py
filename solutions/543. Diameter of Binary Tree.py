@@ -4,20 +4,54 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
+​
+#double recursion
+​
 class Solution:
-    def diameterOfBinaryTree(self, root: TreeNode) -> int:
+          
+    def __init__(self):
+        self.res = 0
         
-        def helper(root):
-            
-            if not root: return (0, 0)
-            
-            lc, lstopsum = helper(root.left)
-            rc, rstopsum = helper(root.right)
-            
-            tempc = max(1, 1 + lc, 1 + rc)
-            tempstopsum = max(tempc, lstopsum, rstopsum, lc + rc + 1)
-            
-            return (tempc, tempstopsum)
+    def diameterOfBinaryTree(self, root: Optional[TreeNode]) -> int:
+        return self.sol1(root)
+    
+    def sol1(self, root):
         
-        return helper(root)[1] - 1
+        if not root: return 0
         
+        self.depth1(root)
+      
+        return self.res
+        
+    
+    # return longest path that pass through this root to one side
+    def depth1(self, root):
+        
+        if not root: return 0
+        
+        l = self.depth1(root.left) 
+        r = self.depth1(root.right)
+        
+        self.res = max(self.res, l + r)
+        
+        return max(1 + l, 1 + r)
+    
+​
+    def sol2(self, root):
+        
+        if not root: return 0
+        
+        self.res = max(self.res, self.depth(root.left) + self.depth(root.right))
+        
+        self.diameterOfBinaryTree(root.left)
+        self.diameterOfBinaryTree(root.right)
+                    
+        return self.res
+        
+    
+    # return longest path that pass through this root to one side
+    def depth(self, root):
+        
+        if not root: return 0
+        
+        return max(1 + self.depth(root.left), 1 + self.depth(root.right))
