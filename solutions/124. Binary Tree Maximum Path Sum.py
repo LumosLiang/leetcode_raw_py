@@ -6,17 +6,37 @@
 #         self.right = right
 ​
 class Solution:
-    def maxPathSum(self, root: TreeNode) -> int:
+    
+    @lru_cache(None)
+    def maxPathSum(self, root: Optional[TreeNode]) -> int:
         
-        # helper func return (pathsum that need to be continuly computed, existing largest path sum)
-        def helper(root):
-            
-            if not root: return (float('-inf'), float('-inf'))
-            
-            lc, lstopsum = helper(root.left)
-            rc, rstopsum = helper(root.right)
-            
-            return (max(root.val, root.val + lc, root.val + rc), max(root.val, root.val + lc, root.val + rc, lstopsum, rstopsum, lc + rc + root.val))
+        # think about how you compute maximum subarray in a array
         
-        return helper(root)[1]
+        # the key here is how you compute the maximum path sum through the root.
+​
+        # print(self.helper(root.left))
+        
+        if not root: return float('-inf')
+        
+        left_ps = self.maxPathSum(root.left)
+        right_ps = self.maxPathSum(root.right)
+        
+        lr_ps = self.helper(root.left)
+        rr_ps = self.helper(root.right)
+        
+        return max(root.val, root.val + lr_ps, root.val + rr_ps, root.val + lr_ps + rr_ps, left_ps, right_ps)
+    
+    # the maximum path sum through the root to one side
+    @lru_cache(None)
+    def helper(self, root):
+        
+        if not root: return float('-inf')
+        
+        left = self.helper(root.left)
+        right = self.helper(root.right)
+        
+        return max(root.val, root.val + left, root.val + right)
+        
+    
+    
 ​
