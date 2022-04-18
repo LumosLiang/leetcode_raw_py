@@ -112,6 +112,7 @@
 |130|[ Surrounded Regions](https://leetcode.com/problems/surrounded-regions/)|[Python3](./solutions/130.%20Surrounded%20Regions.py)|144 ms|
 |131|[ Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/)|[Python3](./solutions/131.%20Palindrome%20Partitioning.py)|740 ms|
 |134|[ Gas Station](https://leetcode.com/problems/gas-station/)|[Python3](./solutions/134.%20Gas%20Station.py)|787 ms|
+|135|[ Candy](https://leetcode.com/problems/candy/)|[Python3](./solutions/135.%20Candy.py)|166 ms|
 |136|[ Single Number](https://leetcode.com/problems/single-number/)|[Python3](./solutions/136.%20Single%20Number.py)|171 ms|
 |137|[ Single Number II](https://leetcode.com/problems/single-number-ii/)|[Python3](./solutions/137.%20Single%20Number%20II.py)|56 ms|
 |138|[ Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/)|[Python3](./solutions/138.%20Copy%20List%20with%20Random%20Pointer.py)|36 ms|
