@@ -5,50 +5,48 @@
 #         self.next = next
 ​
 ​
-# recursive
-​
-# iterative
 class Solution:
-    def sortList(self, head: ListNode) -> ListNode:
-        if head is None: return None
+    def sortList(self, head: Optional[ListNode]) -> Optional[ListNode]:
         
-        p1, p2 = head, head.next
-        smallest = head    
-        nxt = None
+        # merge sort -> 
+​
+            # preorder traversal
+            # first locate mid
+            # then DC
+            # then merge
+​
+        # iterative merge sort
+            # set a k, and increase k at the appro time
+            # merge first k, then next k
+            # merge those k
         
-        while p2:
-            nxt = p2.next
-            if p1.val <= p2.val:
-                p1.next = p2
-                p1 = p2
-                p2 = nxt
+        # O(NlogN), O(logN)
+        # quick sort
+        # pick the first as one as pivot
+​
+        if not head or head.next == None: return head
+​
+        dummy, small, large = ListNode(), ListNode(), ListNode()
+        pivot = head.val
+        d, s, l, curr = dummy, small, large, head.next
+​
+        while curr:
+            if curr.val < pivot:
+                s.next = curr
+                s = s.next
             else:
-                p1.next = None
-                if p2.val >= smallest.val:
-                    temp = smallest.next
-                    temp_pre = smallest
-                    while temp:
-                        if p2.val < temp.val:
-                            break
-                        else:
-                            temp_pre = temp
-                            temp = temp.next
-                    p2.next = temp
-                    temp_pre.next = p2
-                else:
-                    p2.next = smallest
-                    smallest = p2
-                p2 = nxt
-                
-        return smallest
-                
-                
-        
-        
-            
-            
-        
-        
-        
-        
-        
+                l.next = curr
+                l = l.next
+            curr = curr.next
+​
+        s.next = None
+        l.next = None
+​
+        left = self.sortList(small.next)
+        right = self.sortList(large.next)
+​
+        if left:
+            currl = left
+            while currl.next: currl = currl.next
+            currl.next = head
+            head.next = right
