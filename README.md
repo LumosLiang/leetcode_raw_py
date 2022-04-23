@@ -179,6 +179,7 @@
 |292|[ Nim Game](https://leetcode.com/problems/nim-game/)|[Java](./solutions/292.%20Nim%20Game.java)|0 ms|
 |295|[ Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)|[Python3](./solutions/295.%20Find%20Median%20from%20Data%20Stream.py)|528 ms|
 |297|[ Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)|[Python3](./solutions/297.%20Serialize%20and%20Deserialize%20Binary%20Tree.py)|292 ms|
+|300|[ Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)|[Python3](./solutions/300.%20Longest%20Increasing%20Subsequence.py)|6821 ms|
 |322|[ Coin Change](https://leetcode.com/problems/coin-change/)|[Python3](./solutions/322.%20Coin%20Change.py)|1428 ms|
 |326|[ Power of Three](https://leetcode.com/problems/power-of-three/)|[Python3](./solutions/326.%20Power%20of%20Three.py)|84 ms|
 |328|[ Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/)|[Python3](./solutions/328.%20Odd%20Even%20Linked%20List.py)|44 ms|
