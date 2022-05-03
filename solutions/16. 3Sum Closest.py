@@ -1,47 +1,54 @@
 class Solution:
     def threeSumClosest(self, nums: List[int], target: int) -> int:
-         
+        return self.sol2(nums, target)
+    def sol1(self, nums: List[int], target: int):
         nums.sort()
-        n = len(nums)
-        res = {}
+        res = float('inf')
         
-        for i in range(n - 2):
-            if i > 0 and nums[i] == nums[i - 1]:
-                continue
+        for i in range(len(nums) - 2):
+            if i > 0 and nums[i] == nums[i - 1]: continue
+           
+            l, r = i + 1, len(nums) - 1
             
-            new_targ = target - nums[i]
-            
-            l, r = i + 1, n - 1
-            min_diff = float('inf')
-            temp = [0] * 2
+            while l < r:
+                s = nums[i] + nums[l] + nums[r]
+                if abs(s - target) < abs(res - target):
+                    res = s
+                if s > target:
+                    r -= 1
+                elif s < target:
+                    l += 1
+                else:
+                    return res
+        
+        return res
+    
+​
+    def sol2(self, nums: List[int], target: int):
+        nums.sort()
+        diff = float('inf')
+        res = float('inf')
+        
+        for i in range(len(nums) - 2):
+            if i > 0 and nums[i] == nums[i - 1]: continue
+            l, r = i + 1, len(nums) - 1
+            new_target = target - nums[i]
+            curr = nums[l] + nums[r]
             
             while l < r:
                 s = nums[l] + nums[r]
-                d = abs(s - new_targ)
                 
-                if s < new_targ:
-                    if d < min_diff:
-                        min_diff = d
-                        temp[0] = nums[l]
-                        temp[1] = nums[r]
-                    l += 1
-                elif s > new_targ:
-                    if d < min_diff:
-                        min_diff = d
-                        temp[0] = nums[l]
-                        temp[1] = nums[r]
+                if abs(s - new_target) < abs(curr - target):
+                    curr = s
+                if s > target:
                     r -= 1
+                elif s < target:
+                    l += 1
                 else:
-                    temp[0] = nums[l]
-                    temp[1] = nums[r]
                     break
-                
-            s = nums[i] + sum(temp)
-            res[abs(target - s)] = s
+            
+            temp = abs(curr + nums[i] - target)
+            if temp < diff:
+                res = 
         
-        return res[min(res)]
-                
-                
-                
-                
-        
+        return res
