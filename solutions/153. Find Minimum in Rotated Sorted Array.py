@@ -1,49 +1,23 @@
-# shrink boundary
-​
 class Solution:
-    
-    # clearer
-    def findMin1(self, nums: List[int]) -> int:
-        
-        if len(nums) == 1 or nums[0] < nums[-1]:
-            return nums[0]
-        
-        l, r = 0, len(nums) - 1
-        
-        while l <= r:
-            mid = (l + r) // 2
-            
-            if mid > 0 and nums[mid] < nums[mid - 1]:
-                return nums[mid]
-            
-            elif nums[mid] < nums[0]:
-                r = mid - 1
-            elif nums[mid] > nums[-1]:
-                l = mid + 1
-    
-    # Best one
     def findMin(self, nums: List[int]) -> int:
         
+        # binary search
         
         l, r = 0, len(nums) - 1
         
+        # 这里还是归区间的逻辑
+        # 但是答案逐渐收敛到不断的进行归区间之中
+        
         while l < r:
-            
-            mid = (l + r) // 2 
-            
+            mid = (l + r) // 2
+    
             if nums[mid] > nums[r]:
                 l = mid + 1
             else:
-                r = mid
+                r = mid    
+            
         return nums[l]
-                
-                
-            
-            
-                    
-             
-            
-            
-            
-            
-            
+    
+​
+    
+    
