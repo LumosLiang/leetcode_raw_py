@@ -1,18 +1,47 @@
 class Solution:
-   
-    def wordBreak(self, s: str, wordDict):
+    def wordBreak(self, s: str, wordDict: List[str]) -> List[str]:
         
-        l = len(s)
-        dp = [[""]]
+        return self.DP(s, wordDict)
         
-        for i in range(len(s) - 1, -1, -1):
-            temp = []
-            for j in range(i + 1, len(s) + 1):
-                if s[i:j] in wordDict and dp[l - j]:
-                    for item in dp[l - j]:
-                        if item == "":
-                            temp.append(s[i:j])
-                        else:
-                            temp.append(s[i:j] + " " + item)
-            dp.append(temp)
-        return dp[-1]
+    def sol1(self, s, wordDict):
+        # backtracking       
+        #     start
+        #     / | 
+        # cat  cats     
+​
+        res = []
+        
+        @lru_cache(None)
+        def backtrack(idx, path):
+            if idx == len(s):
+                res.append(path.strip())
+                return
+        
+            for end in range(idx + 1, len(s) + 1):
+                if s[idx:end] in wordDict:
+                    backtrack(end, path + s[idx:end] + " ")
+        
+        backtrack(0, "")
+        return res
+    
+    # DP
+    def DP(self, s, wordDict):
+        
+        # dp[i] -> s[:i] word break set
+        # dp[i] = for item in dp[j] + " " + s[j: i + 1] 
+        # dp[0] = [""]
+        
+        dp = [[]] * (len(s) + 1)
+        dp[0] = [""]
+        
+        for i in range(1, len(s) + 1):
+            dp[i] = []
+            for j in range(i):
+                if s[j:i] in wordDict:
+                    for item in dp[j]:
+                        dp[i].append(item + s[j:i] + " ")
+        
+        return [item.rstrip() for item in dp[-1]]
+        
+        
+        
