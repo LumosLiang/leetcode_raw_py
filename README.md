@@ -154,6 +154,7 @@
 |209|[ Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)|[Python3](./solutions/209.%20Minimum%20Size%20Subarray%20Sum.py)|78 ms|
 |210|[ Course Schedule II](https://leetcode.com/problems/course-schedule-ii/)|[Python3](./solutions/210.%20Course%20Schedule%20II.py)|96 ms|
 |211|[ Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/)|[Python3](./solutions/211.%20Design%20Add%20and%20Search%20Words%20Data%20Structure.py)|336 ms|
+|212|[ Word Search II](https://leetcode.com/problems/word-search-ii/)|[Python3](./solutions/212.%20Word%20Search%20II.py)|N/A|
 |213|[ House Robber II](https://leetcode.com/problems/house-robber-ii/)|[Python3](./solutions/213.%20House%20Robber%20II.py)|32 ms|
 |215|[ Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)|[Python3](./solutions/215.%20Kth%20Largest%20Element%20in%20an%20Array.py)|68 ms|
 |216|[ Combination Sum III](https://leetcode.com/problems/combination-sum-iii/)|[Python3](./solutions/216.%20Combination%20Sum%20III.py)|28 ms|
