@@ -203,7 +203,7 @@
 |383|[ Ransom Note](https://leetcode.com/problems/ransom-note/)|[Python3](./solutions/383.%20Ransom%20Note.py)|50 ms|
 |387|[ First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/)|[Python3](./solutions/387.%20First%20Unique%20Character%20in%20a%20String.py)|132 ms|
 |389|[ Find the Difference](https://leetcode.com/problems/find-the-difference/)|[Python3](./solutions/389.%20Find%20the%20Difference.py)|36 ms|
-|395|[ Longest Substring with At Least K Repeating Characters](https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/)|[Python3](./solutions/395.%20Longest%20Substring%20with%20At%20Least%20K%20Repeating%20Characters.py)|52 ms|
+|395|[ Longest Substring with At Least K Repeating Characters](https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/)|[Python3](./solutions/395.%20Longest%20Substring%20with%20At%20Least%20K%20Repeating%20Characters.py)|168 ms|
 |404|[ Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves/)|[Python3](./solutions/404.%20Sum%20of%20Left%20Leaves.py)|32 ms|
 |409|[ Longest Palindrome](https://leetcode.com/problems/longest-palindrome/)|[Python3](./solutions/409.%20Longest%20Palindrome.py)|24 ms|
 |410|[ Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum/)|[Python3](./solutions/410.%20Split%20Array%20Largest%20Sum.py)|36 ms|
