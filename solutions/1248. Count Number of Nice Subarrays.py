@@ -27,7 +27,7 @@ class Solution:
                 
                 for i in range(l, r + 1):
                     res.append(nums[i:r + 1])
-                    
+                # res += r - l + 1
             return res
     
         print(helper(nums, k))
