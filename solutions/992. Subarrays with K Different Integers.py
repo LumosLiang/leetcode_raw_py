@@ -1,17 +1,30 @@
 class Solution:
     def subarraysWithKDistinct(self, nums: List[int], k: int) -> int:
         
-        def atMost(k):
-            start, res = 0, 0
-            window = collections.Counter()
+        # sliding window
+        # +
+        # 不符合单调性，你不能随便的shrink window
+        # +
+        # 加constraint
+        # +
+        # <= k -> an array where the number of different integers in that array is <= k
+        
+        # get the number of subarray where the number of different integers in that array is <= k
+        def helper(nums, k):
+            l = 0
+            res = 0
+            window = collections.defaultdict(int)
             
-            for end, val in enumerate(nums):
+            for r, val in enumerate(nums):
                 window[val] += 1
-                while len(window.keys()) > k:
-                    window[nums[start]] -= 1
-                    if window[nums[start]] == 0: del window[nums[start]]
-                    start += 1
-                res += end - start + 1
+                while len(window) > k:
+                    window[nums[l]] -= 1
+                    if not window[nums[l]]:
+                        del window[nums[l]]
+                    l += 1
+                
+                res += r - l + 1
+            
             return res
             
-        return atMost(k) - atMost(k - 1)
+        return helper(nums, k) - helper(nums, k - 1)
