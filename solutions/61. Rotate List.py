@@ -3,36 +3,40 @@
 #     def __init__(self, val=0, next=None):
 #         self.val = val
 #         self.next = next
+​
 class Solution:
-    def rotateRight(self, head: ListNode, k: int) -> ListNode:
-        
+    def rotateRight(self, head: Optional[ListNode], k: int) -> Optional[ListNode]:
+​
+        return self.sol1(head, k)
+    
+    def sol1(self, head, k):
         if not head: return None
-        
-        length = 0 
+​
+        l = 1
         curr = head
-        while curr:
-            length += 1
+        
+        while curr.next:
             curr = curr.next
+            l += 1
         
-        k = k % length
+        if k == l: return head
         
-        if k == 0:
-            return head
-        else:
-            slow_pre, slow, fast = None, head, head
-            temp = 1
-            while temp < k:
-                fast = fast.next
-                temp += 1
-​
-            while fast.next:
-                slow_pre= slow
-                slow = slow.next
-                fast = fast.next
-​
-            fast.next = head
-            slow_pre.next = None
-​
-            return slow
+        tail = curr
+        k = k % l
         
-​
+        if not k: return head
+        
+        cnt = 0
+        curr = head
+        
+        while cnt < l - k - 1:
+            curr = curr.next
+            cnt += 1
+    
+        nh = curr.next
+        curr.next = None
+        tail.next = head
+        
+        return nh
+        
+        
