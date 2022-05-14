@@ -349,7 +349,7 @@
 |1337|[ The K Weakest Rows in a Matrix](https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix/)|[Python3](./solutions/1337.%20The%20K%20Weakest%20Rows%20in%20a%20Matrix.py)|172 ms|
 |1346|[ Check If N and Its Double Exist](https://leetcode.com/problems/check-if-n-and-its-double-exist/)|[Python3](./solutions/1346.%20Check%20If%20N%20and%20Its%20Double%20Exist.py)|52 ms|
 |1351|[ Count Negative Numbers in a Sorted Matrix](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/)|[Python3](./solutions/1351.%20Count%20Negative%20Numbers%20in%20a%20Sorted%20Matrix.py)|124 ms|
-|1358|[ Number of Substrings Containing All Three Characters](https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/)|[Python3](./solutions/1358.%20Number%20of%20Substrings%20Containing%20All%20Three%20Characters.py)|372 ms|
+|1358|[ Number of Substrings Containing All Three Characters](https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/)|[Python3](./solutions/1358.%20Number%20of%20Substrings%20Containing%20All%20Three%20Characters.py)|478 ms|
 |1360|[ Number of Days Between Two Dates](https://leetcode.com/problems/number-of-days-between-two-dates/)|[Python3](./solutions/1360.%20Number%20of%20Days%20Between%20Two%20Dates.py)|36 ms|
 |1365|[ How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/)|[Python3](./solutions/1365.%20How%20Many%20Numbers%20Are%20Smaller%20Than%20the%20Current%20Number.py)|476 ms|
 |1367|[ Linked List in Binary Tree](https://leetcode.com/problems/linked-list-in-binary-tree/)|[Python3](./solutions/1367.%20Linked%20List%20in%20Binary%20Tree.py)|120 ms|
