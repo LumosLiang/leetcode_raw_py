@@ -1,58 +1,62 @@
+# Definition for singly-linked list.
+# class ListNode:
+#     def __init__(self, val=0, next=None):
+#         self.val = val
+#         self.next = next
+​
 class Solution:
-    def addTwoNumbers(self, l1, l2):
+    def addTwoNumbers(self, l1: Optional[ListNode], l2: Optional[ListNode]) -> Optional[ListNode]:
+        
+        # O(N), O(N)
+        
+        # get length
+        def compute_len(head):
+            cnt = 0
+            while head:
+                head = head.next
+                cnt += 1
+            return cnt
+        
+        # swap based on length
+        len1, len2 = compute_len(l1), compute_len(l2)
+        
+        len_diff = abs(len1 - len2)
+        
+        if len1 < len2: l1, l2 = l2, l1
+        
+        # take a stack to do the backward plus
+        cnt, stack = 0, []
         curr1, curr2 = l1, l2
-        len1, len2 = 0, 0
         
-        while curr1:
-            len1 += 1
+        # keep the two pointer start at the same pos
+        while cnt < len_diff:
+            stack.append(curr1.val)
             curr1 = curr1.next
-        
-        while curr2:
-            len2 += 1
+            cnt += 1
+            
+        # start compute
+        while curr1:
+            s = curr1.val + curr2.val
+            if s < 10:
+                stack.append(s)
+            else:
+                temp = [s % 10]
+                while stack and stack[-1] + 1 >= 10:
+                    last = stack.pop()
+                    temp.append((last + 1) % 10)
+                
+                if not stack: stack = [1]
+                else: stack[-1] += 1
+                stack += temp[::-1]
+                
+            curr1 = curr1.next
             curr2 = curr2.next
-        
-        def add(l1, l2, len1, len2):
-        
-            curr1, curr2 = l1, l2
-            temp = 0
-            stack = []
-​
-            while temp < len1 - len2:
-                stack.append(curr1)
-                curr1 = curr1.next
-                temp += 1
-            
-            while curr1:
-                if curr1.val + curr2.val < 10:
-                    curr1.val = curr1.val + curr2.val
-                    stack.append(curr1)
-                    curr1 = curr1.next
-                    curr2 = curr2.next
-                else:
-                    curr1.val = curr1.val + curr2.val - 10
-                    last, temp = 0, [curr1]
-                    while stack and stack[-1].val + 1 >= 10:
-                        last = stack.pop()
-                        last.val += 1 - 10
-                        temp.append(last)
-                    
-                    if stack:
-                        stack[-1].val += 1
-                    else:
-                        l1 = ListNode(1, temp[-1])
-                    stack += temp[::-1]
-                    
-                    curr1 = curr1.next
-                    curr2 = curr2.next
-            
-            return l1
-​
-        if len1 >= len2:       
-            return add(l1, l2, len1, len2)
-        else:
-            return add(l2, l1, len2, len1)
-                      
-            
-            
-            
+    
+        # build the linked list
+        dummy = ListNode(-1)
+        curr = dummy
+        for s in stack:
+            curr.next = ListNode(s)
+            curr = curr.next
+        return dummy.next
         
