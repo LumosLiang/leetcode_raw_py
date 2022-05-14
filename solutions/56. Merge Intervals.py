@@ -1,20 +1,18 @@
 class Solution:
     def merge(self, intervals: List[List[int]]) -> List[List[int]]:
         
-        # Just simple simulation, draw this on the paper, and you will get it
+        # max min的概念
         # O(NlogN)
         
-        intervals.sort()
-        res = [intervals[0]]
         
+        intervals.sort()
+        merge = [intervals[0]]
         for i in range(1, len(intervals)):
             nxt = intervals[i]
-            if nxt[0] <= res[-1][1]:
-                res[-1][1] = max(res[-1][1], nxt[1])
+            if merge[-1][1] >= nxt[0]:
+                merge[-1][1] = max(merge[-1][1], nxt[1])
             else:
-                res.append(nxt)
-        
-        return res
-        
+                merge.append(nxt)
+        return merge
         
         
