@@ -4,33 +4,62 @@
 #         self.val = val
 #         self.next = next
 class Solution:
-    def oddEvenList(self, head: ListNode) -> ListNode:
-        if head is None: return None
-        len1 = 0
-        curr1,curr2 = head, head.next
-        curr3,curr4 = head.next, head
+    def oddEvenList(self, head: Optional[ListNode]) -> Optional[ListNode]:
         
-        while curr4:
-            curr4 = curr4.next
-            len1 += 1
+        # O(N), O(N) -> easy
         
-        if len1%2 == 0:
-            while curr2.next:
-                curr1.next = curr2.next
-                curr1 = curr1.next
-                curr1, curr2 = curr2, curr1
+    
+        # O(N), O(1)
+        
+        # 1. use k loop
+        # 2. connect all the odd node, and even nodes in this k loop
+        # 3. and must do it together
+    
+        # 1 -> 3  -> 5
+        # 2 -> 3
+        # 4 -> 5
+        
+        return self.sol2(head)
+    
+    # single pointer
+    def sol1(self, head):
+        if not head or not head.next: return head
 ​
-            curr1.next = curr3
-            return head
+        odd_head = head
+        even_head = head.next
+            
+        pre, curr, nxt = head, head.next, None
+        flag = False
+        
+        while curr.next:
+            nxt = curr.next
+            pre.next = nxt
+            pre = curr
+            curr = nxt
+            flag = not flag
+            
+        if flag:
+            pre.next = None
+            curr.next = even_head
         else:
-            while curr1.next:
-                curr1.next = curr2.next
-                curr1 = curr1.next
-                curr1, curr2 = curr2, curr1
+            pre.next = even_head
 ​
-            curr1.next = curr3
-            return head
-            
-            
+        return odd_head
+​
+    
+    # double pointer
+    def sol2(self, head):
+        if not head: return head
         
-​
+        even_head = head.next
+        odd, even = head, even_head
+        
+        while even and even.next:
+            odd.next = odd.next.next
+            even.next = even.next.next
+            odd = odd.next
+            even = even.next
+        
+        odd.next = even_head
+        return head
+            
