@@ -1,27 +1,28 @@
 class Solution:
-    def partitionLabels(self, S):
-​
-        hash = {}
-        for k,v in enumerate(S):
-            if v not in hash:
-                hash[v] = [k]
-            else:
-                hash[v].append(k)
+    def partitionLabels(self, s: str) -> List[int]:
+        "ababcbaacdefegdehijhklij"
+        # Greedy: at most 1 part, as mamy parts as possible\
         
-        interval_list = list(hash.values())
-        # pointer
-        pointer = 0
-        while pointer != len(interval_list) - 1:
-            # check adjacent two list and see if they overlap
-            # or have intersection
-            # if yes, expand them, and change the nested list
-            # if not, pointer 1 move to next
-​
-            if interval_list[pointer + 1][0] > interval_list[pointer][-1]:
-                pointer += 1
-            else:
-                interval_list[pointer] += interval_list[pointer + 1]
-                interval_list.pop(pointer + 1)
-                interval_list[pointer].sort()
-        return [len(item) for item in interval_list]
+        # 1. O(N) -> hash{letter:last_appear_pos}
+        # 2. loop, two-pointers
+        # O(N), O(N)
+        
+        latest_seen = {}
+        for idx, val in enumerate(s):
+            latest_seen[val] = idx
+        
+        l = 0
+        res = []
+        right_bound = latest_seen[s[l]]
+        
+        for r, val in enumerate(s):
+            if r < right_bound:
+                right_bound = max(right_bound, latest_seen[val])
+            elif r == right_bound:
+                res.append(r - l + 1)
+                l = r + 1
+                if l < len(s):
+                    right_bound = latest_seen[s[l]]
+                
+        return res                                                  
         
