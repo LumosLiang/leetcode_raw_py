@@ -40,17 +40,23 @@ class Solution:
     
     def sol3(self, nums):
                 
-        # O(N), O(1)
-    
-        s, l = float('inf'), float('inf')
-        
-        for i in range(len(nums)):
-            if nums[i] > l: return True
-            if nums[i] < s: s = nums[i]
-            else: l = nums[i]
-        
-        return False
-    
+        # [2, 4, 1, 6]
+        
+        # 如果纯从 Greedy的角度，以下方法好在哪里
+        # 1. 三个参数不止存储了历史信息，还能不断更新最优的candidate，来保证后面信息的计算
+        # 2. Greedy就体现在：不断更新最优的candidate
+        
+        smallest, largest = float('inf'), float('inf')
+        
+        for num in nums:
+            if num > largest: return True
+            
+            if num < smallest:
+                smallest = num
+            else:
+                largest = num
+        
+        return False
                 
         
         
