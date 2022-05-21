@@ -53,10 +53,9 @@ class Solution:
             
             if num < smallest:
                 smallest = num
-            else:
+            elif num > smallest:
                 largest = num
         
         return False
-                
         
         
