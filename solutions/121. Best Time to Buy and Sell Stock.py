@@ -1,47 +1,47 @@
 class Solution:
-    def maxProfit(self, prices):
-
-        # my algorithm:
-        # Find all the local valley point and local peak point
-        # for every local valley point, compute the max with every local peak point
-        # Then return the largest one
-
-        if prices == []:
-            return 0
-        
-        if len(prices) == 1:
-            return 0
-
-        local_valley_points = []
-        local_peak_points = []
-
-        for i in range(len(prices)):
-            if i == 0:
-                if prices[i + 1] - prices[i] > 0:
-                    local_valley_points.append(i)
-                else:
-                    local_peak_points.append(i)
-            elif i == len(prices) - 1:
-                if prices[i] - prices[i - 1] > 0:
-                    local_peak_points.append(i)
-                else:
-                    local_valley_points.append(i)
-            elif prices[i] - prices[i - 1] > 0 and prices[i + 1] - prices[i] <= 0:
-                local_peak_points.append(i)
-            elif prices[i] - prices[i - 1] <= 0 and prices[i + 1] - prices[i] > 0:
-                local_valley_points.append(i)
-
-        if len(local_valley_points) == 1 and len(local_peak_points) == 1:
-            if local_valley_points == [len(prices) - 1]:
-                return 0
-            elif local_valley_points == [0]:
-                return prices[-1] - prices[0]
-        
-        max_profit = 0
-        for local_valley in local_valley_points:
-            for local_peak in local_peak_points:
-                if not local_peak < local_valley:
-                    if prices[local_peak] - prices[local_valley] > max_profit:
-                        max_profit = prices[local_peak] - prices[local_valley]
-
-        return max_profit
+    def maxProfit(self, prices: List[int]) -> int:
+        
+        # DP 答案要什么，我在i点的状态就是什么
+        
+        # i - 1  持有 卖出
+        # i      持有 卖出
+        
+        return self.sol3(prices)
+        
+    # 二维
+    def sol1(self, prices):
+        dp = [[0 for _ in range(2)] for _ in range(len(prices))]
+        dp[0][0], dp[0][1] = -prices[0], 0
+        
+        for i in range(1, len(prices)):
+            dp[i][0] = max(dp[i - 1][0], -prices[i])
+            dp[i][1] = dp[i - 1][0] + prices[i]
+        
+        res = float('-inf')
+        for state in dp:
+            res = max(res, state[-1])
+        
+        return res if res > 0 else 0
+    
+    # 一维
+    def sol2(self, prices):
+        dp = [0] * len(prices)
+        min_hold = prices[0]
+        
+        for i in range(1, len(prices)):
+            min_hold = min(min_hold, prices[i])
+            dp[i] = prices[i] - min_hold
+        
+        return max(dp)
+        
+    # O(1)
+    def sol3(self, prices):
+        
+        min_hold = prices[0]
+        max_profit = 0
+        
+        for i in range(1, len(prices)):
+            min_hold = min(min_hold, prices[i])
+            max_profit = max(max_profit, prices[i] - min_hold)
+        
+        return max_profit
