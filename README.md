@@ -276,6 +276,7 @@
 |706|[ Design HashMap](https://leetcode.com/problems/design-hashmap/)|[Python3](./solutions/706.%20Design%20HashMap.py)|236 ms|
 |709|[ To Lower Case](https://leetcode.com/problems/to-lower-case/)|[Python3](./solutions/709.%20To%20Lower%20Case.py)|28 ms|
 |713|[ Subarray Product Less Than K](https://leetcode.com/problems/subarray-product-less-than-k/)|[Python3](./solutions/713.%20Subarray%20Product%20Less%20Than%20K.py)|704 ms|
+|714|[ Best Time to Buy and Sell Stock with Transaction Fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/)|[Python3](./solutions/714.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20with%20Transaction%20Fee.py)|1799 ms|
 |725|[ Split Linked List in Parts](https://leetcode.com/problems/split-linked-list-in-parts/)|[Python3](./solutions/725.%20Split%20Linked%20List%20in%20Parts.py)|76 ms|
 |733|[ Flood Fill](https://leetcode.com/problems/flood-fill/)|[Python3](./solutions/733.%20Flood%20Fill.py)|140 ms|
 |739|[ Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)|[Python3](./solutions/739.%20Daily%20Temperatures.py)|528 ms|
