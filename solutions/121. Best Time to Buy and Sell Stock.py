@@ -6,7 +6,7 @@ class Solution:
         # i - 1  持有 卖出
         # i      持有 卖出
         
-        return self.sol3(prices)
+        return self.sol1(prices)
         
     # 二维
     def sol1(self, prices):
@@ -15,13 +15,9 @@ class Solution:
         
         for i in range(1, len(prices)):
             dp[i][0] = max(dp[i - 1][0], -prices[i])
-            dp[i][1] = dp[i - 1][0] + prices[i]
+            dp[i][1] = max(dp[i - 1][1], dp[i - 1][0] + prices[i])
         
-        res = float('-inf')
-        for state in dp:
-            res = max(res, state[-1])
-        
-        return res if res > 0 else 0
+        return max(dp[-1])
     
     # 一维
     def sol2(self, prices):
