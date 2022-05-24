@@ -53,7 +53,7 @@ class Solution:
         
         return "".join(s[start:p1])
 ​
-    # pure python
+    # pure python API
     def sol2(self, s):
         return " ".join(reversed(s.split()))
         
