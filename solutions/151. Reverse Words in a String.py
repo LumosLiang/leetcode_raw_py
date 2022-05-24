@@ -17,7 +17,7 @@ class Solution:
                 
         reverse(0, len(s) - 1)
         
-        # two pointers to trim left, seems no need to trim right
+        # two pointers to trim left
         start, end = 0, len(s) - 1
         while s[start] == " ":
             start += 1
