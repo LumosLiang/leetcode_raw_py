@@ -217,7 +217,7 @@
 |429|[ N-ary Tree Level Order Traversal](https://leetcode.com/problems/n-ary-tree-level-order-traversal/)|[Python3](./solutions/429.%20N-ary%20Tree%20Level%20Order%20Traversal.py)|48 ms|
 |430|[ Flatten a Multilevel Doubly Linked List](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/)|[Python3](./solutions/430.%20Flatten%20a%20Multilevel%20Doubly%20Linked%20List.py)|32 ms|
 |437|[ Path Sum III](https://leetcode.com/problems/path-sum-iii/)|[Python3](./solutions/437.%20Path%20Sum%20III.py)|916 ms|
-|438|[ Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/)|[Python3](./solutions/438.%20Find%20All%20Anagrams%20in%20a%20String.py)|152 ms|
+|438|[ Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/)|[Python3](./solutions/438.%20Find%20All%20Anagrams%20in%20a%20String.py)|198 ms|
 |442|[ Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/)|[Python3](./solutions/442.%20Find%20All%20Duplicates%20in%20an%20Array.py)|360 ms|
 |445|[ Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii/)|[Python3](./solutions/445.%20Add%20Two%20Numbers%20II.py)|83 ms|
 |448|[ Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)|[Python3](./solutions/448.%20Find%20All%20Numbers%20Disappeared%20in%20an%20Array.py)|530 ms|
