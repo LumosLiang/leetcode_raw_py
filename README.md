@@ -194,6 +194,7 @@
 |324|[ Wiggle Sort II](https://leetcode.com/problems/wiggle-sort-ii/)|[Python3](./solutions/324.%20Wiggle%20Sort%20II.py)|N/A|
 |326|[ Power of Three](https://leetcode.com/problems/power-of-three/)|[Python3](./solutions/326.%20Power%20of%20Three.py)|84 ms|
 |328|[ Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/)|[Python3](./solutions/328.%20Odd%20Even%20Linked%20List.py)|51 ms|
+|329|[ Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/)|[Python3](./solutions/329.%20Longest%20Increasing%20Path%20in%20a%20Matrix.py)|764 ms|
 |331|[ Verify Preorder Serialization of a Binary Tree](https://leetcode.com/problems/verify-preorder-serialization-of-a-binary-tree/)|[Python3](./solutions/331.%20Verify%20Preorder%20Serialization%20of%20a%20Binary%20Tree.py)|48 ms|
 |334|[ Increasing Triplet Subsequence](https://leetcode.com/problems/increasing-triplet-subsequence/)|[Python3](./solutions/334.%20Increasing%20Triplet%20Subsequence.py)|1313 ms|
 |342|[ Power of Four](https://leetcode.com/problems/power-of-four/)|[Python3](./solutions/342.%20Power%20of%20Four.py)|32 ms|
