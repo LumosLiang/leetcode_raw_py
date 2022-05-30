@@ -10,6 +10,7 @@ class Solution:
             if cnt == len(word):
                 return True
             
+            # deal with all the revisit, over-boundary cases and not-eqaul case
             if not (0 <= x < m and 0 <= y < n and board[x][y] == word[cnt]): 
                 return False
             
