@@ -1,43 +1,37 @@
 class Solution:
-    def exist(self, board: List[List[str]], word: str) -> bool:
+    def exist(self, board: List[List[str]], word: str) -> bool:
+        
+        m, n = len(board), len(board[0])
+        
+        # return if we can find the word since (x, y)
+        def backtrack(x, y, word, cnt):
+            nonlocal board
+            
+            if cnt == len(word):
+                return True
+            
+            if not (0 <= x < m and 0 <= y < n and board[x][y] == word[cnt]): 
+                return False
+            
+            val = word[cnt]
+            board[x][y] = 0
+            
+            for i, j in [x + 1, y],[x - 1, y],[x, y + 1],[x, y - 1]:
+                temp = backtrack(i, j, word, cnt + 1)
+                if temp: return True
+                    
+            board[x][y] = val
+            return False
+            
+        for i in range(m):
+            for j in range(n):
+                
+                temp = backtrack(i, j, word, 0)
+                
+                if temp: return True
+        
+        return False
         
-        m, n = len(board), len(board[0])
-        
-        # return
-        def backtrack(x, y, word, cnt):
-            nonlocal board
-            
-            if cnt == len(word):
-                return True
-            
-            if board[x][y] != word[cnt]: 
-                return False
-            
-            
-            val = word[cnt]
-            board[x][y] = 0
-            
-            for i, j in [x + 1, y],[x - 1, y],[x, y + 1],[x, y - 1]:
-                if 0 <= i < m and 0 <= j < n and board[i][j]:
-                    temp = backtrack(i, j, word, cnt + 1)
-                    if temp: return True
-​
-            board[x][y] = val
-            
-            if cnt + 1 == len(word): return True
-            return False
-        
-        
-        for i in range(m):
-            for j in range(n):
-                
-                temp = backtrack(i, j, word, 0)
-                
-                if temp: return True
-        
-        return False
-        
-​
 class Solution:
     def exist(self, board, word):
         if not board:
@@ -47,7 +41,7 @@ class Solution:
                 if self.dfs(board, i, j, word):
                     return True
         return False
-•
+
     # check whether can find word, start at (i,j) position    
     def dfs(self, board, i, j, word):
         if len(word) == 0: # all the characters are checked
