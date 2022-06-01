@@ -1,12 +1,22 @@
 class Solution:
     def missingNumber(self, nums: List[int]) -> int:
         
-        res = 0
-        for i in nums:
-            res ^= i
-​
-        for i in [j for j in range(len(nums)+1)]:
-            res ^= i
-            
-        return res
-            
+#         hash
+#         brute force
+#         sort
+#         XOR
+#         Math
+#         Swap sort.
+        
+        
+        l = len(nums)
+        for i in range(l):
+            while nums[i] != i and nums[i] < l:
+                temp = nums[i]
+                nums[i], nums[temp] = nums[temp], nums[i]
+        
+        for i in range(l):
+            if i != nums[i]:
+                return i
+        
+        return i + 1
