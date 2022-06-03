@@ -1,65 +1,129 @@
 # Definition for singly-linked list.
-# class ListNode(object):
-#     def __init__(self, val=0, next=None):
-#         self.val = val
-#         self.next = next
-class Solution(object):
-    def reverseBetween(self, head, left, right):
-        """
-        :type head: ListNode
-        :type left: int
-        :type right: int
-        :rtype: ListNode
-        """
-        
-        # note that left, right is position. not the node, or node val
-        
-        # successor = new_head.next
-        # pre.next = head
-        
-        # reverse(head) -> start:new_head, end:head
-        
-        # pre.next = new_head
-        # head.next = successor
-        
-        # need to know: pre, successor, head, new_head
-        
-        # O(N), O(1)
-        dummy = ListNode(-501)
-        dummy.next = head
-        
-        cnt, pre, curr = 1, dummy, head
-        
-        while cnt < left:
-            pre = curr
-            curr = curr.next
-            cnt += 1
-        
-        start = curr
-        
-        while cnt < right:
-            curr = curr.next
-            cnt += 1
-        
-        end = curr
-        successor = end.next
-        end.next = None
-        
-        new_head = self.reverse(start)
-        pre.next = new_head
-        start.next = successor
-        
-        return dummy.next
-    
-    def reverse(self, start):
-        
-        pre, nxt, curr = None, None, start
-        
-        while curr:
-            nxt = curr.next
-            curr.next = pre
-            pre = curr
-            curr = nxt
-        
-        return pre
-        
+# class ListNode:
+#     def __init__(self, val=0, next=None):
+#         self.val = val
+#         self.next = next
+class Solution:
+    def reverseBetween(self, head: Optional[ListNode], left: int, right: int) -> Optional[ListNode]:
+        return self.sol4(head, left, right)
+    
+    # iterative
+    def sol1(self, head, left, right):
+        
+        def reverse(self, start):
+            pre, nxt, curr = None, None, start
+
+            while curr:
+                nxt = curr.next
+                curr.next = pre
+                pre = curr
+                curr = nxt
+
+            return pre
+       
+        # 找节点
+        dummy = ListNode(-501)
+        dummy.next = head
+        cnt, pre, curr = 1, dummy, head
+        
+        while cnt < left:
+            pre = curr
+            curr = curr.next
+            cnt += 1
+        
+        # 找到开头
+        start = curr
+        
+        while cnt < right:
+            curr = curr.next
+            cnt += 1
+        
+        # 找到结尾，截断
+        end = curr
+        successor = end.next
+        end.next = None
+        
+        # 反转
+        new_head = self.reverse(start)
+        
+        # connect
+        pre.next = new_head
+        start.next = successor
+        
+        return dummy.next
+    
+    # iterative 2
+    def sol2(self, head, left, right):
+        
+        if not head or left == right: return head
+        dummy = ListNode()
+        dummy.next = head
+        p, cnt = dummy, 0
+        
+        while cnt < left - 1:
+            p = p.next
+            cnt += 1
+        
+        curr, nxt, pre = p.next, None, None
+        cnt = 0
+        
+        while cnt < right - left + 1:
+            nxt = curr.next
+            curr.next = pre
+            pre = curr
+            curr = nxt
+            cnt += 1
+        
+        p.next.next = curr
+        p.next = pre
+        
+        return dummy.next
+    
+    # iterative 3
+    def sol3(self, head, left, right):
+       
+        if not head or left == right: return head
+        dummy = ListNode()
+        dummy.next = head
+        p, cnt = dummy, 0
+        
+        while cnt < left - 1:
+            p = p.next
+            cnt += 1
+        
+        tail, cnt = p.next, 0
+        # 每次都把tail后面的element拉到我这里一下
+        while cnt < right - left:
+            temp = p.next
+            p.next = tail.next
+            tail.next = tail.next.next
+            p.next.next = temp
+            cnt += 1
+        
+        return dummy.next
+    
+    # recursive
+    def sol4(self, head, left, right):
+           
+        if left == 1:
+            self.pre = None
+            return self.helper(head, right)
+        
+        nh = self.sol4(head.next, left - 1, right - 1)
+        head.next = nh
+        return head
+            
+    # reverse first "right" element
+    # 2,3,4,5
+    2,  4,3,5
+    def helper(self, head, right):
+        if not head or right == 1: 
+            self.pre = head
+            return head
+        
+        nh = self.helper(head.next, right - 1)
+        nxt = self.pre.next
+        self.pre.next = head
+        head.next = nxt
+        self.pre = head
+        return nh
