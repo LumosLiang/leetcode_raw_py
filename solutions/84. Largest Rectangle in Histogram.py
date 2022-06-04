@@ -12,17 +12,33 @@ class Solution:
                 # 向左扫，扫到比当前小的位置停止，弹出位置和此时的位置就是这个bar向两边延伸的最长的位置。
         
         
-        heights.append(-1)
+#         heights.append(-1)
+#         stack = [-1]
+#         res = -1
+        
+#         for right, val in enumerate(heights):
+#             while heights[stack[-1]] > val:
+#                 h = heights[stack.pop()]
+#                 left = stack[-1]
+#                 w = right - left - 1
+#                 res = max(res, h * w)
+            
+#             stack.append(right)
+            
+#         return res
+​
+        # 穷举 + 单调（排序）
+        # 单调递增栈
+        
         stack = [-1]
-        res = -1
+        heights.append(-1)
+        res = 0
         
         for right, val in enumerate(heights):
             while heights[stack[-1]] > val:
                 h = heights[stack.pop()]
                 left = stack[-1]
-                w = right - left - 1
-                res = max(res, h * w)
-            
+                res = max(res, (right - left - 1) * h)
             stack.append(right)
-            
+        
         return res
