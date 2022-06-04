@@ -12,7 +12,7 @@ class Solution:
         # wordList = ["hot","hig","dig","dot","dog","lot","log","cog"]
         
         # -> {hit:[hot, hig], hot:[dot,lot], hig:[dig], dig:[dog], dot:[dog,lot], dog:[log, cog], lot:[log], log:[cog], cog:[]}
-​
+
 # TLE
         # O(beginWord.length)
 #         def differ_equal_one(str1, str2):
@@ -47,7 +47,7 @@ class Solution:
         while q:
             temp = collections.deque()
             while q:
-​
+
                 curr = q.popleft()
                 for i in range(len(curr)):
                     for c in "abcdefghijklmnopqrstuvwxyz":
@@ -61,4 +61,4 @@ class Solution:
             res += 1
         
         return 0
-​
+
