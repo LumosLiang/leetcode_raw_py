@@ -4,8 +4,8 @@ class ListNode:
         self.next = next
     
 class MyHashSet:
-​
-    def __init__(self):
+ 
+    def __init__(self):
         """
         Initialize your data structure here.
         """
@@ -15,7 +15,7 @@ class MyHashSet:
         
     def hash(self, key):
         return key * self.prime % self.cap
-​
+
     def add(self, key: int) -> None:
         
         hkey = self.hash(key)
@@ -29,7 +29,7 @@ class MyHashSet:
                 pre = curr
                 curr = curr.next
             pre.next = ListNode(key)
-​
+
     def remove(self, key: int) -> None:
         hkey = self.hash(key)
         
@@ -46,7 +46,7 @@ class MyHashSet:
                 pre = curr
                 curr = nxt
             self.list[hkey] = dummyN.next
-​
+
     def contains(self, key: int) -> bool:
         """
         Returns true if this set contains the specified element
