@@ -1,31 +1,32 @@
 class Solution:
     def reverseWords(self, s: str) -> str:
         
-        return self.sol2(s)
-    def sol1(self, s):
-        # O(N), O(N)
-        # Python cannot do reassign in string
+        # 1. 前后remove 0， 重新定义start, end
         
-        # reverse
-        s = list(s)
+        # 2， 反转
+        
+        # 3. 从新的start开始扫 到end结束，in-place的trim中间的0。最终可以得到一个 start, p2
+        
+        # 4, 然后依次reverse
+        
+        # return s[start, p2] 就好了
         
         def reverse(l, r):
             while l <= r:
                 s[l], s[r] = s[r], s[l]
                 l += 1
                 r -= 1
-                
-        reverse(0, len(s) - 1)
         
+        s = list(s)
+          
         # two pointers to trim left
         start, end = 0, len(s) - 1
-        while s[start] == " ":
-            start += 1
-        
-        while s[end] == " ":
-            end -= 1
+        while s[start] == " ":start += 1
+        while s[end] == " ": end -= 1
             
         # then get start, end, which is the real start and end of the string
+        reverse(start, end)
+        
         # then use two pointer to trim middle
         
         p1, p2 = start, start
@@ -39,21 +40,15 @@ class Solution:
                 s[p1] = s[p2]
                 p1 += 1
                 p2 += 1
+        end = p1
         
-        # then use two pointer to reverse
-        p3, p4 = start, start
+        p1, p2 = start, start
+        while p2 < end:
+            if s[p2] == " ":
+                reverse(p1, p2 - 1)
+                p1 = p2 + 1
+            elif p2 == end - 1:
+                reverse(p1, p2)
+            p2 += 1
         
-        while p4 < p1:
-            if s[p4] == " ":
-                reverse(p3, p4 - 1)
-                p3 = p4 + 1
-            elif p4 == p1 - 1:
-                reverse(p3, p4)
-            p4 += 1
-        
-        return "".join(s[start:p1])
-​
-    # pure python API
-    def sol2(self, s):
-        return " ".join(reversed(s.split()))
-        
+        return "".join(s[start:p2])
