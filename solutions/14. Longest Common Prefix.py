@@ -4,6 +4,7 @@ class Solution:
         return self.sol1(strs)
     
     # one by one
+    # 先放进去的技巧，merge interval学的
     def sol1(self, strs):
         
         def get_common(s1, s2):
