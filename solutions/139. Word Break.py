@@ -1,105 +1,88 @@
-            if w not in curr.dict:
-                curr.dict[w] = TrieNode()
-            curr = curr.dict[w]
-        curr.isEndNode = True
-​
-    def search(self, word: str) -> bool:
-        """
-        Returns if the word is in the trie.
-        """
-        curr = self.root
-        for i in range(len(word)):
-            if word[i] not in curr.dict:
-                return False
-            curr = curr.dict[word[i]]
-        return curr.isEndNode
-​
-​
 class Solution:
-    
-    # DP + Trie
-    def wordBreak(self, s: str, wordDict) -> bool:
-        
-        l = len(s)
-        dp = [None] * (l + 1)
-        dp[-1] = True
-        
-        trie = Trie()
-        for word in wordDict:
-            trie.insert(word)
-        
-        for i in range(len(s) - 1, -1, -1):
-            temp = False
-            for j in range(i + 1, len(s) + 1):
-                if trie.search(s[i:j]) and dp[j]:
-                    temp = True
-                    break
-            dp[i] = temp
- 
-        return dp[0]
-    
-    #  backtrack 
-    def wordBreakBT(self, s: str, wordDict) -> bool:
-        
-        self.dict = {}
-        wordDict = set(wordDict)
-        
-        def backtrack(word, idx):
-            
-            if idx == len(word):
-                return True
-            
-            if idx in self.dict:
-                return self.dict[idx]
-            
-            for i in range(idx + 1, len(word) + 1):
-                if word[idx:i] in wordDict:
-                    res = backtrack(word, i)
-                    
-                    if res:
-                        return True
-                    else:
-                        self.dict[i] = False
-            return False
-​
-        return backtrack(s, 0)
-        
-    # BFS, think about it as a Graph, there are vertices and edges
-​
-    def wordBreakBFS(self, s: str, wordDict) -> bool:
-        
-        visited = set()
-        q = collections.deque([0])
-        visited.add(0)
-        wordDict = set(wordDict)
-        
-        while q:
-            node = q.pop()
-            
-            for i in range(node + 1, len(s) + 1):
-                if i not in visited and s[node:i] in wordDict:
-                    if i == len(s):
-                        return True
-                    visited.add(i)
-                    q.append(i)
-        return False
- 
-    
-    # DP bottom-up
-​
-    def wordBreakDP(self, s: str, wordDict) -> bool:
-        
-        l = len(s)
-        dp = [None] * (l + 1)
-        dp[-1] = True
-        
-        for i in range(len(s) - 1, -1, -1):
-            temp = False
-            for j in range(i + 1, len(s) + 1):
-                if s[i:j] in wordDict and dp[j]:
-                    temp = True
-                    break
-            dp[i] = temp
- 
-        return dp[0]
-​
+    def wordBreak(self, s: str, wordDict) -> bool:
+        return self.sol2(s, wordDict)
+    
+    # backtrack + LRU 
+    def sol1(self, s: str, wordDict):
+        self.res = False
+        
+        @lru_cache(None)
+        def backtrack(word, path):
+            
+            if not word:
+                self.res = True
+                return
+            
+            for i in range(len(word)):
+                if word[:i + 1] in wordDict:
+                    backtrack(word[i + 1:], path + word[:i + 1])
+            
+        backtrack(s, "")
+            
+        return self.res
+    
+    # backtrack + memo
+    def sol2(self, s: str, wordDict):
+        
+        memo = {} 
+        wordDict = set(wordDict)
+    
+        # if the word s[idx:] can be break against wordDict
+        def backtrack(idx):
+            nonlocal s
+            nonlocal wordDict
+            
+            if idx not in memo:
+                memo[idx] = False
+                
+                if idx == len(s):
+                    memo[idx] = True
+                
+                else:
+                    for i in range(idx + 1, len(s) + 1):
+                        if s[idx:i] in wordDict and backtrack(i):
+                            memo[idx] = True
+                            break
+            return memo[idx]
+        
+        return backtrack(0)
+    
+    # dp
+    def sol3(self, s: str, wordDict):
+    
+        # state: dp[i] 是s[i:]是否可以满足条件
+        # base: dp[-1] = True
+        # dp[i] = any[if s[i:i + len(word)] match and dp[i + len(word)]]
+        
+        # bottom up DP
+        
+        dp = [False] * (len(s) + 1)
+        dp[-1] = True
+        
+        for i in range(len(s) - 1, -1, -1):
+            
+            for j in range(i + 1, len(s) + 1):
+                if s[i:j] in wordDict and dp[j]:
+                    dp[i] = True
+                    break    
+            
+        return dp[0]
+    
+    # another dp, but more like BFS
+    def sol4(self, s: str, wordDict):
+
+        visited = set()
+        q = collections.deque([len(s) - 1])
+        visited.add(len(s) - 1)
+        wordDict = set(wordDict)
+        
+        while q:
+            curr_idx = q.pop()
+            
+            for i in range(curr_idx, -1, -1):
+                if i not in visited and s[i:curr_idx + 1] in wordDict:
+                    if i == 0:
+                        return True
+                    visited.add(i)
+                    q.append(i)
+        return False
