@@ -3,6 +3,21 @@ class Solution:
         
         c1, c2 = collections.Counter(s), collections.Counter(t)
         
+        res = 0
+        
+        for k, v in c1.items():
+            if k in c2:
+                res += abs(c2[k] - v)
+                del c2[k]
+            else:
+                res += v
+        
+        return res + sum(c2.values())
+ 
+​
+    def sol1(self, s: str, t: str):
+        c1, c2 = collections.Counter(s), collections.Counter(t)
+        
         r1, r2 = 0, 0
         
         for k, v in c1.items():
