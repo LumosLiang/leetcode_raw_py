@@ -428,7 +428,7 @@
 |2171|[ Removing Minimum Number of Magic Beans](https://leetcode.com/problems/removing-minimum-number-of-magic-beans/)|[Python3](./solutions/2171.%20Removing%20Minimum%20Number%20of%20Magic%20Beans.py)|1453 ms|
 |2180|[ Count Integers With Even Digit Sum](https://leetcode.com/problems/count-integers-with-even-digit-sum/)|[Python3](./solutions/2180.%20Count%20Integers%20With%20Even%20Digit%20Sum.py)|56 ms|
 |2185|[ Counting Words With a Given Prefix](https://leetcode.com/problems/counting-words-with-a-given-prefix/)|[Python3](./solutions/2185.%20Counting%20Words%20With%20a%20Given%20Prefix.py)|60 ms|
-|2186|[ Minimum Number of Steps to Make Two Strings Anagram II](https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram-ii/)|[Python3](./solutions/2186.%20Minimum%20Number%20of%20Steps%20to%20Make%20Two%20Strings%20Anagram%20II.py)|275 ms|
+|2186|[ Minimum Number of Steps to Make Two Strings Anagram II](https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram-ii/)|[Python3](./solutions/2186.%20Minimum%20Number%20of%20Steps%20to%20Make%20Two%20Strings%20Anagram%20II.py)|279 ms|
 |2187|[ Minimum Time to Complete Trips](https://leetcode.com/problems/minimum-time-to-complete-trips/)|[Python3](./solutions/2187.%20Minimum%20Time%20to%20Complete%20Trips.py)|2836 ms|
 |2194|[ Cells in a Range on an Excel Sheet](https://leetcode.com/problems/cells-in-a-range-on-an-excel-sheet/)|[Python3](./solutions/2194.%20Cells%20in%20a%20Range%20on%20an%20Excel%20Sheet.py)|67 ms|
 |2195|[ Append K Integers With Minimal Sum](https://leetcode.com/problems/append-k-integers-with-minimal-sum/)|[Python3](./solutions/2195.%20Append%20K%20Integers%20With%20Minimal%20Sum.py)|1254 ms|
