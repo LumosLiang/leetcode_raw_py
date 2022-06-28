@@ -4,10 +4,10 @@ class Solution:
     # anagrams: keys are same, values are same
     
     # 明确这是一个sliding window问题
-    # 单调性体现在：一旦这些字母能够被囊括，那么剩下的事情就是我要在这个区间进行搜索。搜到可以一个区间，
+    # 单调性体现在：一旦这些字母能够被囊括，那么剩下的事情就是我要在这个区间进行搜索。缩小到一个区间，
     # 在这个区间中，字母一样，频率一样。这就是答案，然后left + 1
     # 我们需要什么
-    # p的key，和freq。window的key和frequ，进入和跳出区间的条件
+        # p的key，和freq。window的key和frequ，进入和跳出区间的条件
     
         window = collections.Counter()
         need = collections.Counter(p)
