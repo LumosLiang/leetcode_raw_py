@@ -1,21 +1,64 @@
 class Solution:
     def partition(self, s: str) -> List[List[str]]:
-        res = []
-        
-        def backtrack(choices, path, s, p):
-            if p == len(s):
-                temp =True
-                for p in path:
-                    temp *= p[::] == p[::-1]
-                if temp: res.append(path)
-                return
-            
-            for c in choices:
-                temp = path[::]
-                if not c:temp.append(s[p])
-                else: temp[-1] += s[p]
-                backtrack(choices, temp, s, p + 1)
-                    
-        backtrack([0,1], [s[0]], s, 1)
+       
+        return self.sol2(s)
+         
+    def sol1(self, s):
+        def isPalindrome(s):
+            if not s: return False
+            l, r = 0, len(s) - 1
+            while l < r:
+                if s[l] == s[r]:
+                    l += 1
+                    r -= 1
+                else:
+                    return False
                 
-        return res                                                                                                                              
+            return True
+        
+        self.res = []
+        # no return
+        def backtrack(idx, path):
+            nonlocal s
+            
+            if idx == len(s):
+                self.res.append(path)
+                return
+​
+            for i in range(idx + 1, len(s) + 1):
+                if isPalindrome(s[idx:i]):
+                    backtrack(i, path + [s[idx:i]])
+        
+        backtrack(0, [])
+        
+        return self.res
+    
+    # dp
+    def sol2(self, s):
+        
+        # dp[i] -> s[i:] 可以得到的所有palindrome
+        # dp[i - 1] -> [[s[i - 1:i]] + item for item in dp[i]] if s[i - 1:i] is a palindrome 
+        
+        def isPalindrome(s):
+            if not s: return False
+            l, r = 0, len(s) - 1
+            while l < r:
+                if s[l] == s[r]:
+                    l += 1
+                    r -= 1
+                else:
+                    return False
+            return True
+        
+        dp = [[]] * (len(s) + 1)
+        dp[-1] = [[]]
+​
+        for i in range(len(s) - 1, -1, -1):
+            temp = []
+            for j in range(i + 1, len(s) + 1):
+                if isPalindrome(s[i:j]):
+                    for item in dp[j]:
+                        temp.append([s[i:j]] + item)        
+            dp[i] = temp
+        
+        return dp[0]
