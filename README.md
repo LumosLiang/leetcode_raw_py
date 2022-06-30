@@ -352,6 +352,7 @@
 |1110|[ Delete Nodes And Return Forest](https://leetcode.com/problems/delete-nodes-and-return-forest/)|[Python3](./solutions/1110.%20Delete%20Nodes%20And%20Return%20Forest.py)|76 ms|
 |1123|[ Lowest Common Ancestor of Deepest Leaves](https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves/)|[Python3](./solutions/1123.%20Lowest%20Common%20Ancestor%20of%20Deepest%20Leaves.py)|36 ms|
 |1137|[ N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/)|[Python3](./solutions/1137.%20N-th%20Tribonacci%20Number.py)|28 ms|
+|1143|[ Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)|[Python3](./solutions/1143.%20Longest%20Common%20Subsequence.py)|569 ms|
 |1161|[ Maximum Level Sum of a Binary Tree](https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree/)|[Python3](./solutions/1161.%20Maximum%20Level%20Sum%20of%20a%20Binary%20Tree.py)|300 ms|
 |1171|[ Remove Zero Sum Consecutive Nodes from Linked List](https://leetcode.com/problems/remove-zero-sum-consecutive-nodes-from-linked-list/)|[Python3](./solutions/1171.%20Remove%20Zero%20Sum%20Consecutive%20Nodes%20from%20Linked%20List.py)|44 ms|
 |1201|[ Ugly Number III](https://leetcode.com/problems/ugly-number-iii/)|[Python3](./solutions/1201.%20Ugly%20Number%20III.py)|32 ms|
