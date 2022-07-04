@@ -249,6 +249,7 @@
 |509|[ Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)|[Python3](./solutions/509.%20Fibonacci%20Number.py)|1220 ms|
 |513|[ Find Bottom Left Tree Value](https://leetcode.com/problems/find-bottom-left-tree-value/)|[Python3](./solutions/513.%20Find%20Bottom%20Left%20Tree%20Value.py)|54 ms|
 |515|[ Find Largest Value in Each Tree Row](https://leetcode.com/problems/find-largest-value-in-each-tree-row/)|[Python3](./solutions/515.%20Find%20Largest%20Value%20in%20Each%20Tree%20Row.py)|40 ms|
+|516|[ Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/)|[Python3](./solutions/516.%20Longest%20Palindromic%20Subsequence.py)|5244 ms|
 |523|[ Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum/)|[Python3](./solutions/523.%20Continuous%20Subarray%20Sum.py)|923 ms|
 |525|[ Contiguous Array](https://leetcode.com/problems/contiguous-array/)|[Python3](./solutions/525.%20Contiguous%20Array.py)|1554 ms|
 |530|[ Minimum Absolute Difference in BST](https://leetcode.com/problems/minimum-absolute-difference-in-bst/)|[Python3](./solutions/530.%20Minimum%20Absolute%20Difference%20in%20BST.py)|52 ms|
