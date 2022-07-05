@@ -22,11 +22,11 @@ class Solution:
             # 要去提高的地方在哪一侧
             
             if min_height == height[l]:
-                while l + 1 <= r and height[l + 1] < height[l]:
+                while l + 1 <= r and height[l + 1] <= height[l]:
                     l += 1
                 l += 1
             else:
-                while l <= r - 1 and height[r - 1] < height[r]:
+                while l <= r - 1 and height[r - 1] <= height[r]:
                     r -= 1
                 r -= 1
             
