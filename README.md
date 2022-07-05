@@ -141,7 +141,7 @@
 |162|[ Find Peak Element](https://leetcode.com/problems/find-peak-element/)|[Python3](./solutions/162.%20Find%20Peak%20Element.py)|53 ms|
 |165|[ Compare Version Numbers](https://leetcode.com/problems/compare-version-numbers/)|[Python3](./solutions/165.%20Compare%20Version%20Numbers.py)|61 ms|
 |167|[ Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)|[Python3](./solutions/167.%20Two%20Sum%20II%20-%20Input%20Array%20Is%20Sorted.py)|190 ms|
-|169|[ Majority Element](https://leetcode.com/problems/majority-element/)|[Python3](./solutions/169.%20Majority%20Element.py)|168 ms|
+|169|[ Majority Element](https://leetcode.com/problems/majority-element/)|[Python3](./solutions/169.%20Majority%20Element.py)|190 ms|
 |172|[ Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/)|[Python3](./solutions/172.%20Factorial%20Trailing%20Zeroes.py)|64 ms|
 |173|[ Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/)|[Python3](./solutions/173.%20Binary%20Search%20Tree%20Iterator.py)|72 ms|
 |179|[ Largest Number](https://leetcode.com/problems/largest-number/)|[Python3](./solutions/179.%20Largest%20Number.py)|52 ms|
