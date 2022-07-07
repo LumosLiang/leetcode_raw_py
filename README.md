@@ -235,6 +235,7 @@
 |449|[ Serialize and Deserialize BST](https://leetcode.com/problems/serialize-and-deserialize-bst/)|[Python3](./solutions/449.%20Serialize%20and%20Deserialize%20BST.py)|72 ms|
 |450|[ Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst/)|[Python3](./solutions/450.%20Delete%20Node%20in%20a%20BST.py)|88 ms|
 |451|[ Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/)|[Python3](./solutions/451.%20Sort%20Characters%20By%20Frequency.py)|60 ms|
+|452|[ Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/)|[Python3](./solutions/452.%20Minimum%20Number%20of%20Arrows%20to%20Burst%20Balloons.py)|3250 ms|
 |454|[ 4Sum II](https://leetcode.com/problems/4sum-ii/)|[Python3](./solutions/454.%204Sum%20II.py)|928 ms|
 |456|[ 132 Pattern](https://leetcode.com/problems/132-pattern/)|[Python3](./solutions/456.%20132%20Pattern.py)|88 ms|
 |459|[ Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern/)|[Python3](./solutions/459.%20Repeated%20Substring%20Pattern.py)|111 ms|
