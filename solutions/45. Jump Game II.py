@@ -1,5 +1,26 @@
 class Solution:
-    def jump1(self, nums: List[int]) -> int:
+    def jump(self, nums: List[int]) -> int:
+        
+        # nums[idx:] minimum number of jumps
+        
+    def DFS(self, nums):
+        @lru_cache(None)
+        def backtrack(idx):
+            
+            if idx == len(nums) - 1:
+                return 0
+            
+            options = [backtrack(i) for i in range(idx + 1, min(idx + nums[idx] + 1, len(nums)))]
+                
+            if not options:
+                return float('inf')
+            else:
+                return 1 + min(options)
+            
+        return backtrack(0)
+    
+    
+    def DP(self, nums: List[int]) -> int:
         
         dp = [0] * len(nums)
         
@@ -12,7 +33,7 @@ class Solution:
             dp[i] = temp
         return dp[-1]
     
-    def jump(self, nums: List[int]) -> int:
+    def greedy(self, nums: List[int]) -> int:
         
         start, end, step = 0, 0, 0
         
@@ -27,4 +48,3 @@ class Solution:
         
         return step
             
- 
