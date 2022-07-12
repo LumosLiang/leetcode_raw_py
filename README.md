@@ -261,7 +261,7 @@
 |541|[ Reverse String II](https://leetcode.com/problems/reverse-string-ii/)|[Python3](./solutions/541.%20Reverse%20String%20II.py)|67 ms|
 |542|[ 01 Matrix](https://leetcode.com/problems/01-matrix/)|[Python3](./solutions/542.%2001%20Matrix.py)|801 ms|
 |543|[ Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)|[Python3](./solutions/543.%20Diameter%20of%20Binary%20Tree.py)|48 ms|
-|547|[ Number of Provinces](https://leetcode.com/problems/number-of-provinces/)|[Python3](./solutions/547.%20Number%20of%20Provinces.py)|258 ms|
+|547|[ Number of Provinces](https://leetcode.com/problems/number-of-provinces/)|[Python3](./solutions/547.%20Number%20of%20Provinces.py)|347 ms|
 |556|[ Next Greater Element III](https://leetcode.com/problems/next-greater-element-iii/)|[Python3](./solutions/556.%20Next%20Greater%20Element%20III.py)|20 ms|
 |557|[ Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/)|[Python3](./solutions/557.%20Reverse%20Words%20in%20a%20String%20III.py)|44 ms|
 |559|[ Maximum Depth of N-ary Tree](https://leetcode.com/problems/maximum-depth-of-n-ary-tree/)|[Python3](./solutions/559.%20Maximum%20Depth%20of%20N-ary%20Tree.py)|44 ms|
