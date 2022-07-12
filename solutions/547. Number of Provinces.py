@@ -1,12 +1,3 @@
-class UnionFind:↔​
-    
-class UnionFind1:
-    def __init__(self, cnt):
-        self.root = [i for i in range(cnt)]
-        self.rank = [1 for i in range(cnt)]
-        self.cnt = cnt
-        
-    def union(self, x, y):
         rootX = self.find(x)
         rootY = self.find(y)
         if rootX != rootY:
@@ -35,9 +26,55 @@ class Solution:
         
         return self.unionfind(isConnected)
         
-    def BFS(self, isConnected):↔​
+    def BFS(self, isConnected):
+        # for i in range(n):
+        # BFS dq:for every poped node, add all connections itself of this node to dq, mark itself as 0, set the other connection, and 
+        # its mirror one to 0
+        # cnt + 1 
+​
+        l = len(isConnected)
+        cnt = 0
+        
+        for i in range(l):
+            if isConnected[i][i]:
+                q = collections.deque([(i, i)])
+                cnt += 1
+                
+                while q:
+                    x, y = q.popleft()
+                    for ny in range(y, l):
+                        
+                        if isConnected[x][ny] == 1:
+                            isConnected[x][ny] = 0
+                            isConnected[ny][x] = 0
+                            isConnected[ny][ny] = 0
+                            q.append((ny, x))
+        
+        return cnt
             
-    def DFS(self, isConnected):↔​
+    def DFS(self, isConnected):
+        l = len(isConnected)
+        cnt = 0
+        
+        def helper(i, j):
+            nonlocal isConnected
+            nonlocal l
+            
+            isConnected[i][j] = 0
+            isConnected[j][i] = 0
+            isConnected[j][j] = 0
+            
+            for ny in range(0, l):
+                if isConnected[i][ny] == 1:
+                    helper(ny, i)
+                    
+        for i in range(l):
+            if isConnected[i][i]:
+                cnt += 1
+                
+                helper(i, i)
+        
+        return cnt
         
     def unionfind(self, isConnected):
         
