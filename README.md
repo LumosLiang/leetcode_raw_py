@@ -310,7 +310,7 @@
 |771|[ Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/)|[Python3](./solutions/771.%20Jewels%20and%20Stones.py)|24 ms|
 |783|[ Minimum Distance Between BST Nodes](https://leetcode.com/problems/minimum-distance-between-bst-nodes/)|[Python3](./solutions/783.%20Minimum%20Distance%20Between%20BST%20Nodes.py)|32 ms|
 |784|[ Letter Case Permutation](https://leetcode.com/problems/letter-case-permutation/)|[Python3](./solutions/784.%20Letter%20Case%20Permutation.py)|88 ms|
-|797|[ All Paths From Source to Target](https://leetcode.com/problems/all-paths-from-source-to-target/)|[Python3](./solutions/797.%20All%20Paths%20From%20Source%20to%20Target.py)|100 ms|
+|797|[ All Paths From Source to Target](https://leetcode.com/problems/all-paths-from-source-to-target/)|[Python3](./solutions/797.%20All%20Paths%20From%20Source%20to%20Target.py)|173 ms|
 |804|[ Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words/)|[Python3](./solutions/804.%20Unique%20Morse%20Code%20Words.py)|20 ms|
 |807|[ Max Increase to Keep City Skyline](https://leetcode.com/problems/max-increase-to-keep-city-skyline/)|[Python3](./solutions/807.%20Max%20Increase%20to%20Keep%20City%20Skyline.py)|68 ms|
 |814|[ Binary Tree Pruning](https://leetcode.com/problems/binary-tree-pruning/)|[Python3](./solutions/814.%20Binary%20Tree%20Pruning.py)|36 ms|
