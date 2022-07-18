@@ -1,58 +1,60 @@
 class Solution:
-    def maxProduct(self, nums):
-        
-        # answer:
-#         prev_min = prev_max = global_max = nums[0]
-       
-#         for num in nums[1:]:
-#             minn, maxx = min(num, prev_max*num, prev_min*num), max(num, prev_max*num, prev_min*num)
-#             prev_min, prev_max, global_max = minn, maxx, max(global_max, maxx)
-#         return global_max
-​
-        # my dp, nearly correct.
-#         l = len(nums)
-#         curr_highest, curr_lowest, highest = nums[-1], nums[-1], nums[-1]
-        
-#         for i in range(l - 2, -1, -1):
-#             temp = [nums[i], nums[i] * curr_highest, nums[i] * curr_lowest]
-#             curr_highest, curr_lowest, highest =  max(temp), min(temp), max(max(temp), highest)
-            
-#         return highest
-            
-        # memo + backtrack
-        
-        l = len(nums)
-        if l <= 1: return nums[0]
-        
-        res = float('-inf')
-        memo = {}
-        
-        def multp(nums, start, end):
-            
-            if start == end: return nums[start]
-            
-            res = 1
-            for i in range(start, end + 1):
-                res *= nums[i]
+    def maxProduct(self, nums: List[int]) -> int:
     
-            return res
+        return self.dp1(nums)
+    
+    def prefix(self, A):
+        
+        # 为什么结果一定在前缀积里面？
+        
+        # https://leetcode.com/problems/maximum-product-subarray/discuss/183483/JavaC++Python-it-can-be-more-simple/330117
+        
+        # 如果 subarry A[i:j] 是我们现在的状态，他们的积是P，存在以下情况：
+#         1. P > 0, 
+#             a. 如果i，j同号，我们就扩充到i，j.
+#             b. 如果i，j异号，那我们就扩充到其中一个。
+#         2. P < 0:
+#             a. 如果i，j异号，那我们就扩充到其中一个。
+            
+#         3. P = 0:
+#             reset P = 1 继续向前向后。
+        
+        B = A[::-1]
+        for i in range(1, len(A)):
+            A[i] *= A[i - 1] or 1
+            B[i] *= B[i - 1] or 1
 ​
-        for i in range(l):
-            for j in range(i, l):
-                tk = str(i) + str(j)
-                if tk in memo:
-                    res = max(res, memo[tk])
-                else:
-                    tv = multp(nums, i, j)
-                    memo[tk] = tv
-                    res = max(res, tv)
+        return max(A + B)
+    
+    
+    # 有点像maximum subarray， 但是注意这是乘法。乘法意味着两个负数，可以得到一个更大的数字
+    
+    def dp1(self, nums):
+                  
+        # i - 1    获取最大值  获取最小值
+        # i        获取最大值  获取最小值
+        
+        dp = [[0 for i in range(2)] for j in range(len(nums))]
+        dp[0][0], dp[0][1] = nums[0], nums[0]
+        
+        for i in range(1, len(nums)):
+            dp[i][0] = max(nums[i], nums[i] * dp[i - 1][0], nums[i] * dp[i - 1][1])
+            dp[i][1] = min(nums[i], nums[i] * dp[i - 1][1], nums[i] * dp[i - 1][0])
+        
+        return max([item[0] for item in dp])
+​
+    
+    # state compression
+    def dp2(self, nums):
+        
+        # dp[0][0], dp[0][1] = nums[0], nums[0]
+        
+        res, currmax, currmin = nums[0], nums[0], nums[0]
+        
+        for i in range(1, len(nums)):
+            currmax, currmin = max(nums[i], nums[i] * currmax, nums[i] * currmin), min(nums[i], nums[i] * currmin, nums[i] * currmax)
+            
+            res = max(res, currmax, currmin)
+            
         return res
-                 
-                
-                
-        
-                
-                
-                
-        
         
