@@ -22,6 +22,8 @@ class Solution:
     # 如果想优化这个过程，就是直接要有return，
     
     def DP(self, nums):
+        
+        # 令score[left,right]表示我们想消除[left,right]中所有元素能够得到的分数.消除所有元素的话,肯定有最后一枪:假设最后一枪是k,那么在打灭k之前,一定已经打灭了[left,k-1]和[k+1,right],这两部分的得分可以提前算出来,即score[left,k-1]和score[k+1,right]
     
         nums = [1] + nums + [1]
         
