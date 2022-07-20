@@ -1,7 +1,8 @@
 class Solution:
     def allPathsSourceTarget(self, graph: List[List[int]]) -> List[List[int]]:
         
-#         dfs/bfs 都可以
+#         dfs/bfs 都可
+​
 #         0 
         
 #         0,4   0,3,   0,1
@@ -14,7 +15,24 @@ class Solution:
 ​
         return self.bfs(graph)
 ​
-    def dfs(self, graph):↔​
+    def dfs(self, graph):
+        
+        res = []
+        
+        def helper(v, path):
+            nonlocal graph
+            nonlocal res
+            
+            if v == len(graph) - 1:
+                res.append(path)
+                return
+            
+            for node in graph[v]:
+                helper(node, path + [node])
+            
+        helper(0, [0])
+        
+        return res
     
     def bfs(self, graph):
         
