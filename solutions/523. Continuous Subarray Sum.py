@@ -1,5 +1,22 @@
 class Solution:
     def checkSubarraySum(self, nums: List[int], k: int) -> bool:
+        l = len(nums)
+        prefx = [0] * (l + 1)
+        
+        for i in range(len(nums)):
+            prefx[i + 1] = prefx[i] + nums[i]
+        
+        hash = {}
+        for i, val in enumerate(prefx):
+            r = val % k
+            if r in hash and i - hash[r] >= 2:
+                return True
+            if r not in hash:
+                hash[r] = i
+            
+        return False
+​
+    def checkSubarraySum(self, nums: List[int], k: int) -> bool:
     
         # [23,2,4,6,7]
         
