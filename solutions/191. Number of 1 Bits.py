@@ -1,10 +1,12 @@
 class Solution:
     def hammingWeight(self, n: int) -> int:
         
-        res = 0
+        # 用移位的方法算
+        
+        ans = 0
         
         while n:
-            n = n & (n - 1)
-            res += 1
+            ans += n & 1
+            n = n >> 1
         
-        return res
+        return ans
