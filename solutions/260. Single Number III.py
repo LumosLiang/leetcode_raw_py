@@ -1,15 +1,19 @@
-# hash
-import collections
 class Solution:
     def singleNumber(self, nums: List[int]) -> List[int]:
         
-        hash = collections.Counter(nums)
-        res = []
-        for k,v in hash.items():
-            if v == 1:
-                res.append(k)
+        # 分组异或的思想
         
+        diff = 0
+        for num in nums:
+            diff ^= num
+        
+        diff = diff & (-diff)
+        
+        res = [0, 0]
+        for num in nums:
+            if num & diff:
+                res[0] ^= num
+            else:
+                res[1] ^= num
+                
         return res
-        
-        
-        
