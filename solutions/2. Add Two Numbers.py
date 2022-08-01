@@ -1,60 +1,61 @@
-# Definition for singly-linked list.
-# class ListNode:
-#     def __init__(self, val=0, next=None):
-#         self.val = val
-#         self.next = next
 ​
-​
-class Solution:
-    def addTwoNumbers(self, l1: ListNode, l2: ListNode) -> ListNode:
+class Solution(object):
+    def addTwoNumbers(self, l1, l2):
+        """
+        :type l1: ListNode
+        :type l2: ListNode
+        :rtype: ListNode
+        """
+        return self.sol2(l1, l2)
+    
+    # two pointers,
+    # if > 10, take one-digit, record ten-digit
+    
+    # merge
+    # O(N + M), O(N + M)
+    def sol1(self, l1, l2):
         
-        len1, len2 = 0, 0
-        curr1, curr2 = l1, l2
+        p1, p2 = l1, l2
+        dummy = ListNode()
+        p3 = dummy
+        carry = 0
         
-        while curr1:
-            curr1 = curr1.next
-            len1 += 1
+        while p1 or p2:
+            temp_sum = carry
+            if p1:
+                temp_sum += p1.val
+                p1 = p1.next
+            if p2:
+                temp_sum += p2.val
+                p2 = p2.next
+            p3.next = ListNode(temp_sum % 10)
+            carry = temp_sum // 10
+            p3 = p3.next
+           
+        p3.next = ListNode(carry) if carry else None
         
-        while curr2:
-            curr2 = curr2.next
-            len2 += 1
+        return dummy.next
+    
+    # recursion
+    # O(N + M), O(N + M)
+    def sol2(self, l1, l2):
         
+        dummy = ListNode(-1)
+        p3 = dummy
         
-        def helper(l1, l2, len1):
-            # assume len(l1) > len(l2)
-            ans, curr1, curr2 = l1, l1, l2
-            end, pre, nxt = 0, 0, 0
-​
-            while curr1:
-                end += 1
-​
-                if curr2:
-                    val = curr1.val + curr2.val + pre
-                    curr2 = curr2.next
-                else:
-                    val = curr1.val + pre
-​
-                if val >= 10:
-                    l1.val = val - 10
-                    nxt = 1 
-                else:
-                    l1.val = val
-                    nxt = 0
-​
-                pre = nxt
-                curr1 = curr1.next
-​
-                if end != len1:
-                    l1 = l1.next
-​
-            if pre == 1:
-                l1.next = ListNode(pre)
-​
-            return ans     
-                
-        if len1 >= len2:
-            return helper(l1, l2, len1)
-        else:
-            return helper(l2, l1, len2)
-              
+        def helper(l1, l2, ten_digt, p3):
+            if not l1 and not l2 and not ten_digt: return
+            
+            temp_sum = (l1.val if l1 else 0) + (l2.val if l2 else 0) + ten_digt
+            p3.next = ListNode(temp_sum % 10)
+            
+            if l1 and l2:    
+                helper(l1.next, l2.next, temp_sum // 10, p3.next)
+            elif l1:
+                helper(l1.next, None, temp_sum // 10, p3.next)
+            elif l2:
+                helper(None, l2.next, temp_sum // 10, p3.next)
         
+        helper(l1, l2, 0, p3)
+        return dummy.next
+    
