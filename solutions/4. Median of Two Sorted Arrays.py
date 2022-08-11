@@ -1,30 +1,52 @@
-## not done by myself
-​
 class Solution:
     def findMedianSortedArrays(self, nums1: List[int], nums2: List[int]) -> float:
         
-        m, n = len(nums1), len(nums2)
-        if m > n: nums1, nums2, m, n = nums2, nums1, n, m
-            
-        imin, imax, half_len = 0, m, (m + n + 1) // 2
+        # 本质上binary search还是在穷举。。
+        # binary search,
+        # binary search doing on two
         
-        while imin <= imax:
-            i = (imin + imax) // 2
-            j = half_len - i
+        # O(log(m + n)) -> binary search
+        # real binary search
+        
+        l1, l2 = len(nums1), len(nums2)
+        lsum = l1 + l2
+        if lsum % 2:
+            return self.findkth(nums1, nums2, lsum // 2)
+        else:
+            return (self.findkth(nums1, nums2, lsum // 2) + self.findkth(nums1, nums2, lsum // 2 - 1)) / 2
+    
+    # the function that can give the kth element from nums1, nums2
+    def findkth(self, nums1, nums2, k):
+        
+        # base
+        if not nums1: return nums2[k]
+        if not nums2: return nums1[k]
+        
+        # shrink logic
+        
+        m1, m2 = len(nums1) // 2, len(nums2) // 2
+        
+        if m1 + m2 >= k:
             
-            if i < m and nums2[j - 1] > nums1[i]: imin = i + 1
-            elif i > 0 and nums1[i - 1] > nums2[j]: imax = i - 1
-            
+            # return self.findkth(self, nums1[], nums2[], k - m1//2 - m2//2)
+            if nums1[m1] > nums2[m2]:
+                return self.findkth(nums1[:m1], nums2, k)
             else:
-                if i == 0: max_of_left = nums2[j-1]
-                elif j == 0: max_of_left = nums1[i-1]
-                else: max_of_left = max(nums1[i-1], nums2[j-1])
+                return self.findkth(nums1, nums2[:m2], k)
+        
+        else:
+            
+            if nums1[m1] > nums2[m2]:
+                return self.findkth(nums1, nums2[m2 + 1:], k - m2 - 1)
+            else:
+                return self.findkth(nums1[m1 + 1:], nums2, k - m1 - 1)
+        
+    
+            # 因为你不知道数据的分布情况。如何判断数据的分布情况？
+            # 所以利用中位数的情况来判断，k会落在四个区域的哪个部分？
+            # 为什么不是反过来呢？
 ​
-                if (m + n) % 2 == 1:
-                    return max_of_left
+            
 ​
-                if i == m: min_of_right = nums2[j]
-                elif j == n: min_of_right = nums1[i]
-                else: min_of_right = min(nums1[i], nums2[j])
-​
-                return (max_of_left + min_of_right) / 2.0
+        
+        
