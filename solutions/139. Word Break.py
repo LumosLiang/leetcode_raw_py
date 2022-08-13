@@ -4,49 +4,34 @@ class Solution:
     
     # backtrack + LRU 
     def sol1(self, s: str, wordDict):
-        self.res = False
+        
+        wordDict, l = set(wordDict), len(s)
         
         @lru_cache(None)
-        def backtrack(word, path):
+        def dfs(idx):
             
-            if not word:
-                self.res = True
-                return
+            if idx == len(s): return True
             
-            for i in range(len(word)):
-                if word[:i + 1] in wordDict:
-                    backtrack(word[i + 1:], path + word[:i + 1])
+            return any([dfs(i) for i in range(idx + 1, l + 1) if s[idx:i] in wordDict])
             
-        backtrack(s, "")
-            
-        return self.res
+        return dfs(0)
     
-    # backtrack + memo
+    
     def sol2(self, s: str, wordDict):
         
-        memo = {} 
-        wordDict = set(wordDict)
-    
-        # if the word s[idx:] can be break against wordDict
-        def backtrack(idx):
-            nonlocal s
-            nonlocal wordDict
+        wordDict, l = set(wordDict), len(s)
+        memo = {l: True}
+        
+        def dfs(idx):
             
             if idx not in memo:
-                memo[idx] = False
                 
-                if idx == len(s):
-                    memo[idx] = True
-                
-                else:
-                    for i in range(idx + 1, len(s) + 1):
-                        if s[idx:i] in wordDict and backtrack(i):
-                            memo[idx] = True
-                            break
+                memo[idx] = any([dfs(i) for i in range(idx + 1, l + 1) if s[idx:i] in wordDict])
+            
             return memo[idx]
-        
-        return backtrack(0)
-    
+            
+        return dfs(0)
+  
     # dp
     def sol3(self, s: str, wordDict):
     
