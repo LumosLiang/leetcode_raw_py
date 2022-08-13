@@ -8,7 +8,7 @@ class Solution:
         #     start
         #     / | 
         # cat  cats     
-​
+
         res = []
         
         @lru_cache(None)
@@ -23,6 +23,29 @@ class Solution:
         
         backtrack(0, "")
         return res
+       
+    def memo(self, s: str, wordDict):
+        
+        wordDict, l = set(wordDict), len(s)
+        
+        # idx, all possible paths
+        memo = collections.defaultdict(list)
+        memo[l] = [""]
+        
+        def dfs(idx):
+            
+            if idx not in memo:
+                
+                for i in range(idx + 1, l + 1):
+                    temp = s[idx:i]
+                    if temp in wordDict:
+                        for item in dfs(i):
+                            ans = (temp + " " + item).rstrip(" ")
+                            memo[idx].append(ans)
+                            
+            return memo[idx]
+            
+        return dfs(0)
     
     # DP
     def DP(self, s, wordDict):
