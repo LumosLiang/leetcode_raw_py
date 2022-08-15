@@ -18,7 +18,7 @@ class Solution:
         for r, val in enumerate(s):
             if r < right_bound:
                 right_bound = max(right_bound, latest_seen[val])
-            elif r == right_bound:
+            else:
                 res.append(r - l + 1)
                 l = r + 1
                 if l < len(s):
