@@ -3,42 +3,29 @@ class Solution:
         """
         Do not return anything, modify nums in-place instead.
         """
-        return self.sol2(nums)
         
-    # Greedy + two pointers
-    # Wrong! not consider equal.
-    def sol1(self, nums):
-        new_nums = sorted(nums)
+        1122334
+        
+        2,4,2,3,1,3,1
+        
+        s = copy.deepcopy(nums)
+        s.sort()
+        
         length = len(nums)
-        mid = (length - 1) // 2 
-        l, r = mid - 1, mid + 1
-        sign = 1
+        l, r, p = length // 2 if length % 2 else length // 2 - 1, length - 1, 0
         
-        nums[0] = new_nums[mid]
-        for i in range(1, length):
+        sign = True
+        
+        while p < length:
+​
             if sign:
-                nums[i] == new_nums[r]
-                r += 1
-            else:
-                nums[i] == new_nums[l]
+                nums[p] = s[l]
                 l -= 1
-        
-            sign = 1 - sign
-        
-    def sol2(self, nums):
-       
-        l = len(nums)
-        new_nums = sorted(nums)
-        
-        mid, r = (l - 1) // 2, l - 1
-        
-        sign = 1
-        for i in range(l):
-            if sign:
-                nums[i] = new_nums[mid]
-                mid -= 1
             else:
-                nums[i] = new_nums[r]
+                nums[p] = s[r]
                 r -= 1
-            sign = 1 - sign
-        
+            sign = not sign
+            p += 1
+            
+                
+        # 2,4.1.3.1,3 
