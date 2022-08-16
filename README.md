@@ -200,7 +200,7 @@
 |309|[ Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/)|[Python3](./solutions/309.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20with%20Cooldown.py)|85 ms|
 |312|[ Burst Balloons](https://leetcode.com/problems/burst-balloons/)|[Python3](./solutions/312.%20Burst%20Balloons.py)|13055 ms|
 |322|[ Coin Change](https://leetcode.com/problems/coin-change/)|[Python3](./solutions/322.%20Coin%20Change.py)|1428 ms|
-|324|[ Wiggle Sort II](https://leetcode.com/problems/wiggle-sort-ii/)|[Python3](./solutions/324.%20Wiggle%20Sort%20II.py)|N/A|
+|324|[ Wiggle Sort II](https://leetcode.com/problems/wiggle-sort-ii/)|[Python3](./solutions/324.%20Wiggle%20Sort%20II.py)|335 ms|
 |326|[ Power of Three](https://leetcode.com/problems/power-of-three/)|[Python3](./solutions/326.%20Power%20of%20Three.py)|84 ms|
 |328|[ Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/)|[Python3](./solutions/328.%20Odd%20Even%20Linked%20List.py)|51 ms|
 |329|[ Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/)|[Python3](./solutions/329.%20Longest%20Increasing%20Path%20in%20a%20Matrix.py)|764 ms|
