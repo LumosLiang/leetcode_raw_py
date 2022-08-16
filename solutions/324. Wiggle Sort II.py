@@ -4,9 +4,8 @@ class Solution:
         Do not return anything, modify nums in-place instead.
         """
         
-        1122334
-        
-        2,4,2,3,1,3,1
+        # Can you do it in O(n) time and/or in-place with O(1) extra space?
+        # quick select based on median, and then swap? 
         
         s = copy.deepcopy(nums)
         s.sort()
