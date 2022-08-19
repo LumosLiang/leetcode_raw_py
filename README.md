@@ -307,6 +307,7 @@
 |733|[ Flood Fill](https://leetcode.com/problems/flood-fill/)|[Python3](./solutions/733.%20Flood%20Fill.py)|140 ms|
 |739|[ Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)|[Python3](./solutions/739.%20Daily%20Temperatures.py)|528 ms|
 |740|[ Delete and Earn](https://leetcode.com/problems/delete-and-earn/)|[Python3](./solutions/740.%20Delete%20and%20Earn.py)|156 ms|
+|743|[ Network Delay Time](https://leetcode.com/problems/network-delay-time/)|[Python3](./solutions/743.%20Network%20Delay%20Time.py)|843 ms|
 |746|[ Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/)|[Python3](./solutions/746.%20Min%20Cost%20Climbing%20Stairs.py)|56 ms|
 |752|[ Open the Lock](https://leetcode.com/problems/open-the-lock/)|[Python3](./solutions/752.%20Open%20the%20Lock.py)|659 ms|
 |763|[ Partition Labels](https://leetcode.com/problems/partition-labels/)|[Python3](./solutions/763.%20Partition%20Labels.py)|38 ms|
