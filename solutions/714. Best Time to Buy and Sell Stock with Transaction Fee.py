@@ -1,12 +1,8 @@
 class Solution:
     def maxProfit(self, prices: List[int], fee: int) -> int:
+        return self.sol2(prices, fee)
         
-        # DP 答案要什么，我的状态就是什么
-        
-        # i - 1  hold, sell  
-        
-        # i      hold, sell 
-        
+    def sol1(self, prices, fee):
         dp = [[0 for _ in range(2)] for _ in range(len(prices))]
         dp[0][0], dp[0][1] = -prices[0], 0
         
@@ -16,3 +12,6 @@ class Solution:
         
         
         return max(dp[-1])
+    
+        #  greedy ?
+    
