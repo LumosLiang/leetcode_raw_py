@@ -451,3 +451,4 @@
 |2200|[ Find All K-Distant Indices in an Array](https://leetcode.com/problems/find-all-k-distant-indices-in-an-array/)|[Python3](./solutions/2200.%20Find%20All%20K-Distant%20Indices%20in%20an%20Array.py)|984 ms|
 |2201|[ Count Artifacts That Can Be Extracted](https://leetcode.com/problems/count-artifacts-that-can-be-extracted/)|[Python3](./solutions/2201.%20Count%20Artifacts%20That%20Can%20Be%20Extracted.py)|3732 ms|
 |2202|[ Maximize the Topmost Element After K Moves](https://leetcode.com/problems/maximize-the-topmost-element-after-k-moves/)|[Python3](./solutions/2202.%20Maximize%20the%20Topmost%20Element%20After%20K%20Moves.py)|711 ms|
+|2210|[ Count Hills and Valleys in an Array](https://leetcode.com/problems/count-hills-and-valleys-in-an-array/)|[Python3](./solutions/2210.%20Count%20Hills%20and%20Valleys%20in%20an%20Array.py)|44 ms|
