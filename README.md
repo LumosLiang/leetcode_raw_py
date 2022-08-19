@@ -442,6 +442,7 @@
 |2150|[ Find All Lonely Numbers in the Array](https://leetcode.com/problems/find-all-lonely-numbers-in-the-array/)|[Python](./solutions/2150.%20Find%20All%20Lonely%20Numbers%20in%20the%20Array.python)|2059 ms|
 |2154|[ Keep Multiplying Found Values by Two](https://leetcode.com/problems/keep-multiplying-found-values-by-two/)|[Python](./solutions/2154.%20Keep%20Multiplying%20Found%20Values%20by%20Two.python)|48 ms|
 |2155|[ All Divisions With the Highest Score of a Binary Array](https://leetcode.com/problems/all-divisions-with-the-highest-score-of-a-binary-array/)|[Python3](./solutions/2155.%20All%20Divisions%20With%20the%20Highest%20Score%20of%20a%20Binary%20Array.py)|6299 ms|
+|2156|[ Find Substring With Given Hash Value](https://leetcode.com/problems/find-substring-with-given-hash-value/)|[Python3](./solutions/2156.%20Find%20Substring%20With%20Given%20Hash%20Value.py)|554 ms|
 |2164|[ Sort Even and Odd Indices Independently](https://leetcode.com/problems/sort-even-and-odd-indices-independently/)|[Python3](./solutions/2164.%20Sort%20Even%20and%20Odd%20Indices%20Independently.py)|82 ms|
 |2169|[ Count Operations to Obtain Zero](https://leetcode.com/problems/count-operations-to-obtain-zero/)|[Python3](./solutions/2169.%20Count%20Operations%20to%20Obtain%20Zero.py)|239 ms|
 |2170|[ Minimum Operations to Make the Array Alternating](https://leetcode.com/problems/minimum-operations-to-make-the-array-alternating/)|[Python3](./solutions/2170.%20Minimum%20Operations%20to%20Make%20the%20Array%20Alternating.py)|1997 ms|
