@@ -454,3 +454,4 @@
 |2210|[ Count Hills and Valleys in an Array](https://leetcode.com/problems/count-hills-and-valleys-in-an-array/)|[Python3](./solutions/2210.%20Count%20Hills%20and%20Valleys%20in%20an%20Array.py)|44 ms|
 |2211|[ Count Collisions on a Road](https://leetcode.com/problems/count-collisions-on-a-road/)|[Python3](./solutions/2211.%20Count%20Collisions%20on%20a%20Road.py)|880 ms|
 |2215|[ Find the Difference of Two Arrays](https://leetcode.com/problems/find-the-difference-of-two-arrays/)|[Python3](./solutions/2215.%20Find%20the%20Difference%20of%20Two%20Arrays.py)|288 ms|
+|2216|[ Minimum Deletions to Make Array Beautiful](https://leetcode.com/problems/minimum-deletions-to-make-array-beautiful/)|[Python3](./solutions/2216.%20Minimum%20Deletions%20to%20Make%20Array%20Beautiful.py)|2834 ms|
