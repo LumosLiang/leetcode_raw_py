@@ -1,0 +1,49 @@
+class Solution:
+    def countCollisions(self, directions: str) -> int:
+        
+        return self.sol2(directions)
+        
+        # BFS
+    def sol1(self, directions):  
+        c = {"R":{"L":2,"S":1}, "S":{"L":1}}
+        
+        res = 0
+         
+        directions += " "
+        iscol = True
+        
+        while iscol:
+            temp, iscol, i = [], False, 0 
+            while i < len(directions) - 1:
+                curr, nxt = directions[i], directions[i + 1]
+                if curr in c and nxt in c[curr]:
+                        res += c[curr][nxt]
+                        temp.append("S")
+                        iscol = True
+                        i += 2
+                else:
+                    temp.append(curr)
+                    i += 1
+            
+            directions = temp + [" "]
+                
+        return res
+    
+        
+    def sol2(self, directions):  
+        c = {"R":{"L":2,"S":1}, "S":{"L":1}}
+        stack = []
+        res = 0
+        i = 0
+​
+        while i < len(directions):
+            curr = directions[i]
+            while stack and stack[-1] in c and curr in c[stack[-1]]:
+                res += c[stack[-1]][curr]
+                stack.pop()
+                curr = "S"
+            else:
+                stack.append(curr)
+            i += 1
+        
+        return res
