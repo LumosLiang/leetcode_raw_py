@@ -456,3 +456,4 @@
 |2215|[ Find the Difference of Two Arrays](https://leetcode.com/problems/find-the-difference-of-two-arrays/)|[Python3](./solutions/2215.%20Find%20the%20Difference%20of%20Two%20Arrays.py)|288 ms|
 |2216|[ Minimum Deletions to Make Array Beautiful](https://leetcode.com/problems/minimum-deletions-to-make-array-beautiful/)|[Python3](./solutions/2216.%20Minimum%20Deletions%20to%20Make%20Array%20Beautiful.py)|2834 ms|
 |2357|[ Make Array Zero by Subtracting Equal Amounts](https://leetcode.com/problems/make-array-zero-by-subtracting-equal-amounts/)|[Python3](./solutions/2357.%20Make%20Array%20Zero%20by%20Subtracting%20Equal%20Amounts.py)|84 ms|
+|2358|[ Maximum Number of Groups Entering a Competition](https://leetcode.com/problems/maximum-number-of-groups-entering-a-competition/)|[Python3](./solutions/2358.%20Maximum%20Number%20of%20Groups%20Entering%20a%20Competition.py)|532 ms|
