@@ -274,6 +274,7 @@
 |561|[ Array Partition I](https://leetcode.com/problems/array-partition-i/)|[Python3](./solutions/561.%20Array%20Partition%20I.py)|80 ms|
 |566|[ Reshape the Matrix](https://leetcode.com/problems/reshape-the-matrix/)|[Python3](./solutions/566.%20Reshape%20the%20Matrix.py)|176 ms|
 |567|[ Permutation in String](https://leetcode.com/problems/permutation-in-string/)|[Python3](./solutions/567.%20Permutation%20in%20String.py)|188 ms|
+|572|[ Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/)|[Python3](./solutions/572.%20Subtree%20of%20Another%20Tree.py)|160 ms|
 |581|[ Shortest Unsorted Continuous Subarray](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/)|[Python3](./solutions/581.%20Shortest%20Unsorted%20Continuous%20Subarray.py)|256 ms|
 |583|[ Delete Operation for Two Strings](https://leetcode.com/problems/delete-operation-for-two-strings/)|[Python3](./solutions/583.%20Delete%20Operation%20for%20Two%20Strings.py)|264 ms|
 |589|[ N-ary Tree Preorder Traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal/)|[Python3](./solutions/589.%20N-ary%20Tree%20Preorder%20Traversal.py)|44 ms|
