@@ -364,6 +364,7 @@
 |1089|[ Duplicate Zeros](https://leetcode.com/problems/duplicate-zeros/)|[Python3](./solutions/1089.%20Duplicate%20Zeros.py)|64 ms|
 |1091|[ Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix/)|[Python3](./solutions/1091.%20Shortest%20Path%20in%20Binary%20Matrix.py)|620 ms|
 |1094|[ Car Pooling](https://leetcode.com/problems/car-pooling/)|[Python3](./solutions/1094.%20Car%20Pooling.py)|124 ms|
+|1105|[ Filling Bookcase Shelves](https://leetcode.com/problems/filling-bookcase-shelves/)|[Python3](./solutions/1105.%20Filling%20Bookcase%20Shelves.py)|78 ms|
 |1108|[ Defanging an IP Address](https://leetcode.com/problems/defanging-an-ip-address/)|[Python3](./solutions/1108.%20Defanging%20an%20IP%20Address.py)|28 ms|
 |1110|[ Delete Nodes And Return Forest](https://leetcode.com/problems/delete-nodes-and-return-forest/)|[Python3](./solutions/1110.%20Delete%20Nodes%20And%20Return%20Forest.py)|76 ms|
 |1123|[ Lowest Common Ancestor of Deepest Leaves](https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves/)|[Python3](./solutions/1123.%20Lowest%20Common%20Ancestor%20of%20Deepest%20Leaves.py)|36 ms|
