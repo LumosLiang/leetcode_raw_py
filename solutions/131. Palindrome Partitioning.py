@@ -24,7 +24,7 @@ class Solution:
             if idx == len(s):
                 self.res.append(path)
                 return
-​
+
             for i in range(idx + 1, len(s) + 1):
                 if isPalindrome(s[idx:i]):
                     backtrack(i, path + [s[idx:i]])
@@ -52,7 +52,7 @@ class Solution:
         
         dp = [[]] * (len(s) + 1)
         dp[-1] = [[]]
-​
+
         for i in range(len(s) - 1, -1, -1):
             temp = []
             for j in range(i + 1, len(s) + 1):
@@ -62,3 +62,25 @@ class Solution:
             dp[i] = temp
         
         return dp[0]
+
+class Solution:
+    def partition(self, s: str) -> List[List[str]]:
+        
+        res, l = [], len(s)
+        
+        def backtrack(i, path):
+            nonlocal s
+            
+            if i == len(s):
+                res.append(path)
+                return
+
+            for j in range(i + 1, l + 1):
+                temp = s[i:j]
+                if temp == temp[::-1]:
+                    backtrack(j, path + [temp])
+        
+        backtrack(0, [])
+        
+        return res
+    
