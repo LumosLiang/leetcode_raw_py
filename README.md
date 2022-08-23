@@ -383,6 +383,7 @@
 |1299|[ Replace Elements with Greatest Element on Right Side](https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side/)|[Python3](./solutions/1299.%20Replace%20Elements%20with%20Greatest%20Element%20on%20Right%20Side.py)|200 ms|
 |1302|[ Deepest Leaves Sum](https://leetcode.com/problems/deepest-leaves-sum/)|[Python3](./solutions/1302.%20Deepest%20Leaves%20Sum.py)|84 ms|
 |1305|[ All Elements in Two Binary Search Trees](https://leetcode.com/problems/all-elements-in-two-binary-search-trees/)|[Python3](./solutions/1305.%20All%20Elements%20in%20Two%20Binary%20Search%20Trees.py)|332 ms|
+|1312|[ Minimum Insertion Steps to Make a String Palindrome](https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/)|[Python3](./solutions/1312.%20Minimum%20Insertion%20Steps%20to%20Make%20a%20String%20Palindrome.py)|1300 ms|
 |1314|[ Matrix Block Sum](https://leetcode.com/problems/matrix-block-sum/)|[Python3](./solutions/1314.%20Matrix%20Block%20Sum.py)|108 ms|
 |1315|[ Sum of Nodes with Even-Valued Grandparent](https://leetcode.com/problems/sum-of-nodes-with-even-valued-grandparent/)|[Python3](./solutions/1315.%20Sum%20of%20Nodes%20with%20Even-Valued%20Grandparent.py)|108 ms|
 |1325|[ Delete Leaves With a Given Value](https://leetcode.com/problems/delete-leaves-with-a-given-value/)|[Python3](./solutions/1325.%20Delete%20Leaves%20With%20a%20Given%20Value.py)|72 ms|
