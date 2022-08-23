@@ -16,7 +16,7 @@ class Solution:
                 else:
                 
                     return dfs(i + 1, j)
-            return 0
             
+            return 0
             
         return dfs(0, 0)
