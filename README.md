@@ -380,7 +380,7 @@
 |1288|[ Remove Covered Intervals](https://leetcode.com/problems/remove-covered-intervals/)|[Python3](./solutions/1288.%20Remove%20Covered%20Intervals.py)|96 ms|
 |1290|[ Convert Binary Number in a Linked List to Integer](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/)|[Python3](./solutions/1290.%20Convert%20Binary%20Number%20in%20a%20Linked%20List%20to%20Integer.py)|20 ms|
 |1296|[ Divide Array in Sets of K Consecutive Numbers](https://leetcode.com/problems/divide-array-in-sets-of-k-consecutive-numbers/)|[Python3](./solutions/1296.%20Divide%20Array%20in%20Sets%20of%20K%20Consecutive%20Numbers.py)|484 ms|
-|1299|[ Replace Elements with Greatest Element on Right Side](https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side/)|[Python3](./solutions/1299.%20Replace%20Elements%20with%20Greatest%20Element%20on%20Right%20Side.py)|200 ms|
+|1299|[ Replace Elements with Greatest Element on Right Side](https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side/)|[Python3](./solutions/1299.%20Replace%20Elements%20with%20Greatest%20Element%20on%20Right%20Side.py)|158 ms|
 |1302|[ Deepest Leaves Sum](https://leetcode.com/problems/deepest-leaves-sum/)|[Python3](./solutions/1302.%20Deepest%20Leaves%20Sum.py)|84 ms|
 |1305|[ All Elements in Two Binary Search Trees](https://leetcode.com/problems/all-elements-in-two-binary-search-trees/)|[Python3](./solutions/1305.%20All%20Elements%20in%20Two%20Binary%20Search%20Trees.py)|332 ms|
 |1312|[ Minimum Insertion Steps to Make a String Palindrome](https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/)|[Python3](./solutions/1312.%20Minimum%20Insertion%20Steps%20to%20Make%20a%20String%20Palindrome.py)|1300 ms|
