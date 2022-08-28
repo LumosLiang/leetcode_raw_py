@@ -1,21 +1,13 @@
 class Solution:
     def removeDuplicates(self, nums: List[int]) -> int:
         
-        slow, fast = 0, 0
-        count = 1
+        l, hash = 0, collections.Counter()
+        hash[nums[0]] = 1
         
-        while fast < len(nums) - 1:
-            if nums[fast] == nums[fast + 1]:
-                if count < 2:
-                    slow += 1
-                    nums[slow] = nums[fast + 1]
-                count += 1
-            else:
-                slow += 1
-                nums[slow] = nums[fast + 1]
-                count = 1
-                          
-            fast += 1
-        
-        return len(nums[:slow + 1])
-         
+        for r in range(1, len(nums)):
+            if nums[r] != nums[l] or hash[nums[l]] < 2:
+                l += 1
+                nums[l] = nums[r]
+                hash[nums[l]] += 1
+            
+        return l + 1
