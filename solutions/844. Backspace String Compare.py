@@ -1,21 +1,18 @@
 class Solution:
     def backspaceCompare1(self, s: str, t: str) -> bool:
          
-        def helper(string):
-            
-            ls = list(string)
-            stack = []
-            
-            while ls:
-                temp = ls.pop()
-                if stack and stack[-1] == "#" and temp != "#":
-                    stack.pop()
-                else:
-                    stack.append(temp)
-            
-            return "".join([i if i != "#" else  "" for i in stack]) if stack else ""
-        
-        return helper(s) == helper(t)
+        def helper(s):
+            stack = []
+            
+            for c in s:
+                if c == "#":
+                    if stack: stack.pop()
+                else:
+                    stack.append(c)
+        
+            return stack
+        
+        return helper(s) == helper(t)
     
     
 #     1. two pointers
