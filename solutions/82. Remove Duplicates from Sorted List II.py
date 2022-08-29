@@ -4,35 +4,22 @@
 #         self.val = val
 #         self.next = next
 class Solution:
-    def deleteDuplicates(self, head: ListNode) -> ListNode:
+    def deleteDuplicates(self, head: Optional[ListNode]) -> Optional[ListNode]:
         
-        if not head: return head
+        if not head or not head.next: return head
+        
+        dummy = ListNode(-102)
         
         pre, curr, nxt = None, head, None
+        p = dummy
         
-        while curr.next:
+        while curr:
             nxt = curr.next
-            if curr.val != nxt.val:
-                pre = curr
-                curr = nxt
-            else:
-                while nxt.val == curr.val: 
-                    if nxt.next:
-                        nxt = nxt.next
-                    else:
-                        nxt = None
-                        break
-                        
-                if pre and nxt:       
-                    pre.next = nxt
-                    curr = nxt
-                elif not pre and not nxt:
-                    return None
-                elif not pre and nxt:
-                    head = nxt
-                    curr = nxt
-                elif pre and not nxt:
-                    pre.next = nxt
-                    return head
-        return head
-                  
+            if (not pre and nxt and curr.val != nxt.val) or (not nxt and pre and curr.val != pre.val) or (nxt and pre and curr.val != nxt.val and curr.val != pre.val):
+                p.next = ListNode(curr.val)
+                p = p.next
+                
+            pre = curr
+            curr = curr.next
+            
+        return dummy.next
