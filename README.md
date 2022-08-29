@@ -74,7 +74,7 @@
 |79|[ Word Search](https://leetcode.com/problems/word-search/)|[Python3](./solutions/79.%20Word%20Search.py)|4748 ms|
 |80|[ Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/)|[Python3](./solutions/80.%20Remove%20Duplicates%20from%20Sorted%20Array%20II.py)|85 ms|
 |81|[ Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/)|[Python3](./solutions/81.%20Search%20in%20Rotated%20Sorted%20Array%20II.py)|103 ms|
-|82|[ Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)|[Python3](./solutions/82.%20Remove%20Duplicates%20from%20Sorted%20List%20II.py)|44 ms|
+|82|[ Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)|[Python3](./solutions/82.%20Remove%20Duplicates%20from%20Sorted%20List%20II.py)|87 ms|
 |83|[ Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)|[Python3](./solutions/83.%20Remove%20Duplicates%20from%20Sorted%20List.py)|38 ms|
 |84|[ Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)|[Python3](./solutions/84.%20Largest%20Rectangle%20in%20Histogram.py)|1535 ms|
 |85|[ Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/)|[Python3](./solutions/85.%20Maximal%20Rectangle.py)|449 ms|
