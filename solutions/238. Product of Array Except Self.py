@@ -45,3 +45,26 @@ class Solution:
         # [24, 12, 4, 1]
         return res
             
+
+
+    def sol3(self, nums: List[int]) -> List[int]:
+
+        #         [1,2,3,4]
+
+        #     --> [_,1,2,6]
+        #     --> [24,12,4,_]
+
+    
+        res, pre, l = [], 1, len(nums)
+        
+        for i in range(l):
+            res.append(pre)
+            pre = pre * nums[i]
+        
+        pre = 1
+        
+        for i in range(l - 1, -1, -1):
+            res[i] *= pre
+            pre = pre * nums[i]
+        
+        return res
