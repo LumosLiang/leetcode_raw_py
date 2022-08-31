@@ -59,6 +59,17 @@ class Solution:
                 ans +=  1 << (31 - i)
                 # ans += 1 * 2 ** (31 - i)
         return ans
-    
-​
+       
+    def sol5(self, nums):
+        res = 0
+        for i in range(32):
+            temp = 0
+            for num in nums:
+                if num >> (31 - i) & 1:
+                    temp += 1
+                    
+            if temp > (len(nums) // 2):
+                res += 1 << (31 - i) 
+        
+        return res
         
