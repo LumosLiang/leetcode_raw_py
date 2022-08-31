@@ -1,24 +1,23 @@
 class Solution:
     def singleNumber(self, nums: List[int]) -> int:
         
-        # sort, hash
-        # bit
-        bit = [0] * 32
+#         2     0010
+#         2     0010
+#         3     0011
+#         2     0010
         
-        for num in nums:
-            for i in range(32):
-                if num >> i & 1:
-                    bit[31 - i] += 1
-        
+        #
+        res = 0
         for i in range(32):
-            if bit[i] % 3:
-                bit[i] = 1
-            else:
-                bit[i] = 0
-        
-        ans = 0
-        if bit[0]: ans = -1 << 31
-        for i in range(1, 32):
-            ans += bit[i] * 1 << (31 - i)
+            temp = 0
+            for num in nums:
+                if num >> (31 - i) & 1:
+                    temp += 1
             
-        return ans
+            if i == 0 and temp % 3:
+                res = -1 << 31
+            
+            elif temp % 3:
+                res += 1 << (31 - i) 
+        
+        return res
