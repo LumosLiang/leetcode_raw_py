@@ -58,7 +58,7 @@
 |56|[ Merge Intervals](https://leetcode.com/problems/merge-intervals/)|[Python3](./solutions/56.%20Merge%20Intervals.py)|253 ms|
 |57|[ Insert Interval](https://leetcode.com/problems/insert-interval/)|[Python3](./solutions/57.%20Insert%20Interval.py)|141 ms|
 |58|[ Length of Last Word](https://leetcode.com/problems/length-of-last-word/)|[Python3](./solutions/58.%20Length%20of%20Last%20Word.py)|24 ms|
-|59|[ Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/)|[Python3](./solutions/59.%20Spiral%20Matrix%20II.py)|65 ms|
+|59|[ Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/)|[Python3](./solutions/59.%20Spiral%20Matrix%20II.py)|36 ms|
 |61|[ Rotate List](https://leetcode.com/problems/rotate-list/)|[Python3](./solutions/61.%20Rotate%20List.py)|46 ms|
 |64|[ Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/)|[Python3](./solutions/64.%20Minimum%20Path%20Sum.py)|267 ms|
 |66|[ Plus One](https://leetcode.com/problems/plus-one/)|[Python3](./solutions/66.%20Plus%20One.py)|54 ms|
