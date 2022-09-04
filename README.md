@@ -62,7 +62,7 @@
 |64|[ Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/)|[Python3](./solutions/64.%20Minimum%20Path%20Sum.py)|267 ms|
 |66|[ Plus One](https://leetcode.com/problems/plus-one/)|[Python3](./solutions/66.%20Plus%20One.py)|54 ms|
 |67|[ Add Binary](https://leetcode.com/problems/add-binary/)|[Python3](./solutions/67.%20Add%20Binary.py)|57 ms|
-|69|[ Sqrt(x)](https://leetcode.com/problems/sqrtx/)|[Python3](./solutions/69.%20Sqrt(x).py)|44 ms|
+|69|[ Sqrt(x)](https://leetcode.com/problems/sqrtx/)|[Python3](./solutions/69.%20Sqrt(x).py)|39 ms|
 |70|[ Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)|[Python3](./solutions/70.%20Climbing%20Stairs.py)|32 ms|
 |72|[ Edit Distance](https://leetcode.com/problems/edit-distance/)|[Python3](./solutions/72.%20Edit%20Distance.py)|92 ms|
 |73|[ Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)|[Python](./solutions/73.%20Set%20Matrix%20Zeroes.python)|116 ms|
