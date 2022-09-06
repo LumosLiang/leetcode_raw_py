@@ -1,18 +1,25 @@
 class Solution:
     def reverse(self, x: int) -> int:
         
-        if x == 0: return 0
-        
-        ispos = True if x > 0 else False
-        
-        res = 0
+        ans = 0
+        sign = 1 if x > 0 else -1
         x = abs(x)
+        if x == 2 ** 31: return 0
+        
+        MAX = 2 ** 31 - 1
+        
         while x:
-            temp = res * 10 + x % 10
-            if temp > 2 ** 31 - 1 or  temp < - 2 ** 31 - 1 : return 0
-            res = temp
-            x = x // 10
+            r = x % 10
             
-        return res if ispos else res * -1
-            
+            if ans <= MAX // 10 and ans * 10 <= MAX - r:
+                
+                ans = ans * 10 + r
+                # if (temp - r) // 10 != ans: return 0
 ​
+                x = x // 10
+            else: return 0
+            
+        return ans * sign
+    
+    # 1, negative
+    # 2, overflow
