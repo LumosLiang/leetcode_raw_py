@@ -4,33 +4,51 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
-​
-​
 class Solution:
     def isValidBST(self, root: Optional[TreeNode]) -> bool:
-​
-        # recursive的做
         
-        # 点，BST，真正应该比较的并不是相邻的节点，而是左边，最靠右的，和右边最靠左的。
         return self.sol2(root)
     
-    # O(N), O(h)
     def sol1(self, root):
+        if not root: return False
         
-        def helper(root, smaller, larger):
-            
+        def helper(root, left_bound, right_bound):
+        
             if not root: return True
-            
-            if smaller < root.val < larger:
-                return helper(root.left, smaller, root.val) and helper(root.right, root.val, larger)
-            
+​
+            if left_bound < root.val < right_bound:
+​
+                return helper(root.left, left_bound, root.val) and helper(root.right, root.val, right_bound)
+​
             return False
         
         return helper(root, float('-inf'), float('inf'))
-            
-    # iterative的做 才是真正的难点
-    def sol2(self, root):
         
+    
+    
+    def sol2(self, root):
+        # iterative1
+        if not root: return False
+        
+        res, stack, pre = [], [], float('-inf')
+        
+        while stack or root:
+            if root:
+                stack.append(root)
+                root = root.left
+            else:
+                root = stack.pop()
+                if root.val > pre:
+                    pre = root.val
+                    root = root.right
+                else:
+                    return False
+        
+        return True
+    
+    
+    def sol3(self, root):
+        # iterative2 
         stack = [(root, float('-inf'), float('inf'))]
         
         while stack:
@@ -45,8 +63,7 @@ class Solution:
                 return False
         
         return True
-            
-            
-            
+    
+        
         
         
