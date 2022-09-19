@@ -4,42 +4,46 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
-​
 class Solution:
-    def zigzagLevelOrder(self, root: TreeNode) -> List[List[int]]:
+    def zigzagLevelOrder(self, root: Optional[TreeNode]) -> List[List[int]]:
         
-        if root is None: return 
         
-        res = [[root.val]]
-        stack = [root]
-        flip = True # left to right
+        if not root: return None
         
-        while stack:
-            temp, temp_val = [], []
-            while stack:
-                node = stack.pop()
-                if flip:
-                    if node.right:
-                        temp.append(node.right)
-                        temp_val.append(node.right.val)
-                    if node.left:
-                        temp.append(node.left)
-                        temp_val.append(node.left.val)
+        res = []
+        
+        flag = True
+        
+        dq = collections.deque([root])
+        
+        while dq:
+            temp = collections.deque()
+            thisLevel = []
+            while dq:
+            
+                if flag:
+                    curr = dq.pop()
+                    thisLevel.append(curr.val)
+                    if curr.right:
+                        temp.appendleft(curr.right)                
+                    if curr.left:
+                        temp.appendleft(curr.left)
+​
                 else:
-                    if node.left:
-                        temp.append(node.left)
-                        temp_val.append(node.left.val)
-                    if node.right:
-                        temp.append(node.right)
-                        temp_val.append(node.right.val)
-            if temp_val != []:
-                res.append(temp_val)    
-            stack = temp
-            flip = not flip
+                    curr = dq.popleft()
+                    thisLevel.append(curr.val)
+                    if curr.left:
+                        temp.append(curr.left)                
+                    if curr.right:
+                        temp.append(curr.right)
+                
+​
+            res.append(thisLevel)
+                
+            dq = temp
+            flag = not flag
+​
+        
         return res
-            
-            
-        
-        
-        
-        
+    
+​
