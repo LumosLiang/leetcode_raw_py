@@ -5,49 +5,22 @@
 #         self.left = left
 #         self.right = right
 ​
-# iteratively
-​
 class Solution:
-    def isSymmetric(self, root: TreeNode) -> bool:
+    def isSymmetric(self, root: Optional[TreeNode]) -> bool:
+    
+    
+        # BFS 不说了
+        # DFS
         
-        stack = [root]
-        ans = True
+        if not root: return None
         
-        while stack:
-            temp = []
+        def helper(node1, node2):
             
-            while stack:
-                temp_node = stack.pop()
-                if temp_node:
-                    if temp_node.left and temp_node.right:
-                        temp.append(temp_node.left)
-                        temp.append(temp_node.right)
+            if not node1 and not node2: return True
+            
+            if node1 and node2 and node1.val == node2.val:
+                return helper(node1.left, node2.right) and helper(node1.right, node2.left)
 ​
-                    if not temp_node.left and temp_node.right:
-                        temp.append(None)
-                        temp.append(temp_node.right)
-​
-                    if temp_node.left and not temp_node.right:
-                        temp.append(temp_node.left)
-                        temp.append(None)
-                    
-                    if not temp_node.left and not temp_node.right:
-                        temp.append(None)
-                        temp.append(None)
-​
-            temp_bool = True
+            return False
         
-            for dumy_i in range(0, int(len(temp)/2)):
-                if temp[dumy_i] is not None:
-                    if temp[len(temp) - 1 - dumy_i] is not None:
-                        if temp[dumy_i].val != temp[len(temp) - 1 - dumy_i].val:
-                            return False
-                    else:
-                        return False
-                else:
-                    if temp[len(temp) - 1 - dumy_i] is not None:
-                        return False
-                    
-            stack = temp
-        
-        return ans
+        return helper(root.left, root.right)
