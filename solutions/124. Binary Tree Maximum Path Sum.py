@@ -4,39 +4,25 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
-​
 class Solution:
+    def __init__(self):
+        self.res = float('-inf')
     
-    @lru_cache(None)
     def maxPathSum(self, root: Optional[TreeNode]) -> int:
         
-        # think about how you compute maximum subarray in a array
+        if not root: return 0
         
-        # the key here is how you compute the maximum path sum through the root.
-​
-        # print(self.helper(root.left))
+        self.get_sum(root)
         
-        if not root: return float('-inf')
+        return self.res
         
-        left_ps = self.maxPathSum(root.left)
-        right_ps = self.maxPathSum(root.right)
+    def get_sum(self, root):
         
-        lr_ps = self.helper(root.left)
-        rr_ps = self.helper(root.right)
+        if not root: return 0
         
-        return max(root.val, root.val + lr_ps, root.val + rr_ps, root.val + lr_ps + rr_ps, left_ps, right_ps)
-    
-    # the maximum path sum through the root to one side
-    @lru_cache(None)
-    def helper(self, root):
+        ls = self.get_sum(root.left)
+        rs = self.get_sum(root.right)
         
-        if not root: return float('-inf')
+        self.res = max(self.res, root.val, root.val + ls, root.val + rs, root.val + ls + rs)
         
-        left = self.helper(root.left)
-        right = self.helper(root.right)
-        
-        return max(root.val, root.val + left, root.val + right)
-        
-    
-    
-​
+        return max(root.val, root.val + ls, root.val + rs)
