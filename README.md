@@ -254,6 +254,7 @@
 |461|[ Hamming Distance](https://leetcode.com/problems/hamming-distance/)|[Python3](./solutions/461.%20Hamming%20Distance.py)|16 ms|
 |462|[ Minimum Moves to Equal Array Elements II](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii/)|[Python3](./solutions/462.%20Minimum%20Moves%20to%20Equal%20Array%20Elements%20II.py)|105 ms|
 |463|[ Island Perimeter](https://leetcode.com/problems/island-perimeter/)|[Python3](./solutions/463.%20Island%20Perimeter.py)|777 ms|
+|470|[ Implement Rand10() Using Rand7()](https://leetcode.com/problems/implement-rand10-using-rand7/)|[Python3](./solutions/470.%20Implement%20Rand10()%20Using%20Rand7().py)|316 ms|
 |485|[ Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/)|[Python3](./solutions/485.%20Max%20Consecutive%20Ones.py)|670 ms|
 |494|[ Target Sum](https://leetcode.com/problems/target-sum/)|[Python3](./solutions/494.%20Target%20Sum.py)|390 ms|
 |496|[ Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/)|[Python3](./solutions/496.%20Next%20Greater%20Element%20I.py)|62 ms|
