@@ -201,7 +201,7 @@
 |289|[ Game of Life](https://leetcode.com/problems/game-of-life/)|[Python3](./solutions/289.%20Game%20of%20Life.py)|73 ms|
 |292|[ Nim Game](https://leetcode.com/problems/nim-game/)|[Java](./solutions/292.%20Nim%20Game.java)|0 ms|
 |295|[ Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)|[Python3](./solutions/295.%20Find%20Median%20from%20Data%20Stream.py)|528 ms|
-|297|[ Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)|[Python3](./solutions/297.%20Serialize%20and%20Deserialize%20Binary%20Tree.py)|292 ms|
+|297|[ Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)|[C#](./solutions/297.%20Serialize%20and%20Deserialize%20Binary%20Tree.cs)|605 ms|
 |300|[ Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)|[Python3](./solutions/300.%20Longest%20Increasing%20Subsequence.py)|6821 ms|
 |309|[ Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/)|[Python3](./solutions/309.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20with%20Cooldown.py)|85 ms|
 |312|[ Burst Balloons](https://leetcode.com/problems/burst-balloons/)|[Python3](./solutions/312.%20Burst%20Balloons.py)|13055 ms|
