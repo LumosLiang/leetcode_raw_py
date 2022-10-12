@@ -22,7 +22,7 @@ class Solution:
                 # child value for the parent as the key and vice versa
                 conn[parent.val].append(child.val)
                 conn[child.val].append(parent.val)
-            # in-order traversal
+            # pre-order traversal
             if child.left: connect(child, child.left)
             if child.right: connect(child, child.right)
                 
